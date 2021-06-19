@@ -53,56 +53,56 @@ df1 <- df1 %>%
   group_by(venue_city) %>%
   summarise(Events_freq=n())
 df1 <- df1[complete.cases(df1), ]
-df1 <- df1[order(df1$Events_freq, decreasing = TRUE), ]
+df1 <- df1[order(df1$Events_freq, decreasing = FALSE), ]
 
 df2 <- temp_df_region[temp_df_region$group_region==name[2],]
 df2 <- df2 %>%
   group_by(venue_city) %>%
   summarise(Events_freq=n())
 df2 <- df2[complete.cases(df2), ]
-df2 <- df2[order(df2$Events_freq, decreasing = TRUE), ]
+df2 <- df2[order(df2$Events_freq, decreasing = FALSE), ]
 
 df3 <- temp_df_region[temp_df_region$group_region==name[3],]
 df3 <- df3 %>%
   group_by(venue_city) %>%
   summarise(Events_freq=n())
 df3 <- df3[complete.cases(df3), ]
-df3 <- df3[order(df3$Events_freq, decreasing = TRUE), ]
+df3 <- df3[order(df3$Events_freq, decreasing = FALSE), ]
 
 df4 <- temp_df_region[temp_df_region$group_region==name[4],]
 df4 <- df4 %>%
   group_by(venue_city) %>%
   summarise(Events_freq=n())
 df4 <- df4[complete.cases(df4), ]
-df4 <- df4[order(df4$Events_freq, decreasing = TRUE), ]
+df4 <- df4[order(df4$Events_freq, decreasing = FALSE), ]
 
 df5 <- temp_df_region[temp_df_region$group_region==name[5],]
 df5 <- df5 %>%
   group_by(venue_city) %>%
   summarise(Events_freq=n())
 df5 <- df5[complete.cases(df5), ]
-df5 <- df5[order(df5$Events_freq, decreasing = TRUE), ]
+df5 <- df5[order(df5$Events_freq, decreasing = FALSE), ]
 
 df6 <- temp_df_region[temp_df_region$group_region==name[6],]
 df6 <- df6 %>%
   group_by(venue_city) %>%
   summarise(Events_freq=n())
 df6 <- df6[complete.cases(df6), ]
-df6 <- df6[order(df6$Events_freq, decreasing = TRUE), ]
+df6 <- df6[order(df6$Events_freq, decreasing = FALSE), ]
 
 df7 <- temp_df_region[temp_df_region$group_region==name[7],]
 df7 <- df7 %>%
   group_by(venue_city) %>%
   summarise(Events_freq=n())
 df7 <- df7[complete.cases(df7), ]
-df7 <- df7[order(df7$Events_freq, decreasing = TRUE), ]
+df7 <- df7[order(df7$Events_freq, decreasing = FALSE), ]
 
 df8 <- temp_df_region[temp_df_region$group_region==name[8],]
 df8 <- df8 %>%
   group_by(venue_city) %>%
   summarise(Events_freq=n())
 df8 <- df8[complete.cases(df8), ]
-df8 <- df8[order(df8$Events_freq, decreasing = TRUE), ]
+df8 <- df8[order(df8$Events_freq, decreasing = FALSE), ]
 
 
 # Top Destinations for Event Attendance by rsvp by country
