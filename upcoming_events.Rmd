@@ -1,36 +1,226 @@
 ---
-title: "Untitled"
+title: "Upcoming R Events Dashboard"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
+    orientation: rows
+    vertical_layout: scroll
+    self_contained: false
+    includes:
+      after_body: "afterInit.html"
+      #beforeInit: "afterInit.html"
+      
+    css: css/custom.css
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(dplyr)
+library(DT)
+library(countrycode)
+options(DT.options = list(scrollY="300px",scrollX="50px", pageLength = 10, autoWidth = TRUE))
+library(echarts4r)
+source("upcoming_events.R")
 ```
 
-Column {data-width=650}
+Sidebar {.sidebar data-width=200}
+=====================================
+
+<div class="sidebar-pages">
+<a class="navlink" href="#home" data-toggle="tab" aria-expanded="false"><i class="fa fa-home"></i> Upcoming R Events</a>
+</div>
+
+
+Upcoming R Events
+=====================================
+
+Row
+-------------------------------------
+
+### Upcoming Events
+
+```{r}
+
+valueBox(total_events, icon = "fa-calendar", color = "#1F51FF")
+
+```
+
+### Registered Attendees - Till Now
+
+```{r}
+
+valueBox(total_rsvp, icon = "fa-users", color = "#1F51FF")
+
+```
+
+### Events - Cities
+
+```{r}
+valueBox(total_cities, icon = "fa-building", color = "#1F51FF")
+```
+
+### Events - Countries
+
+```{r}
+valueBox(total_countries, icon = "fa-globe", color = "#1F51FF")
+```
+
+Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Chart A
+### Events by Countries
 
 ```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
+events_by_country %>% 
+  e_charts(venue_country_name) %>%
+  e_bar(serie = Events_freq) %>% 
+  e_title(text = "R events distribution country wise", 
+          subtext = "Frequency of Events", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
-Column {data-width=350}
+Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Chart B
+### Events across Regions
 
 ```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
+event_by_region %>% 
+  e_charts(group_region) %>%
+  e_bar(serie = Events_freq) %>% 
+  e_title(text = "R events distribution region wise", 
+          subtext = "Frequency of Events", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
-### Chart C
+Row {data-height=590}
+-----------------------------------------------------------------------
+
+### Top R events by attendance
 
 ```{r}
-
+datatable(top_events, filter = "top",
+          extensions = c(
+            "Buttons",
+            "Scroller"),
+          rownames = FALSE,
+          style = "bootstrap",
+          class = "compact",
+          width = "auto",
+          options = list(
+            dom = "Blrtip",
+            deferRender = TRUE,
+            buttons = list(
+              "csv",
+              "excel")),
+          colnames = c(
+            "Event Name" = "name",
+            "Frequency of Participations" = "attendees"
+          )
+          )
 ```
 
+### Types of Events 
+
+```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+
+event_type %>% 
+  e_charts(EventType) %>%
+  e_bar(serie = Count) %>% 
+  e_title(text = "Online Vs In-person Events", 
+          subtext = "Frequency of Events", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
+```
+
+Row {data-height=550}
+-----------------------------------------------------------------------
+
+### Data-table
+
+```{r}
+datatable(display_df, filter = "top",
+          extensions = c(
+            "Buttons",
+            "Scroller"),
+          rownames = FALSE,
+          style = "bootstrap",
+          class = "compact",
+          width = "auto",
+          options = list(
+            dom = "Blrtip",
+            deferRender = TRUE,
+            buttons = list(
+              "csv",
+              "excel"))
+          )
+```
