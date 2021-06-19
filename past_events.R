@@ -111,18 +111,19 @@ temp_df_country$venue_country_name <- countrycode(temp_df_country$group_country,
 td_by_country <- temp_df_country %>%
   group_by(venue_country_name) %>%
   summarise(attendees = sum(yes_rsvp_count))
-td_by_country <- td_by_country[order(td_by_country$attendees, decreasing = TRUE), ]
-top_dest_country <- head(td_by_country, 40)
+td_by_country <- td_by_country[order(td_by_country$attendees, decreasing = FALSE), ]
+top_dest_country <- tail(td_by_country, 20)
 
 
 # Events by Country
 events_by_country <- temp_df_country %>%
   group_by(venue_country_name) %>%
   summarise(Events_freq = n())
-events_by_country <- events_by_country[order(events_by_country$Events_freq, decreasing = TRUE), ]
+events_by_country <- events_by_country[order(events_by_country$Events_freq, decreasing = FALSE), ]
+events_by_country <- tail(events_by_country, 20)
 
 
-# Datatable
+# Data-table
 past_event$venue_country_name <- countrycode(past_event$group_country, "iso2c", "country.name")
 past_event <- past_event %>%
   arrange(local_date)
