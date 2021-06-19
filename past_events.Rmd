@@ -16,20 +16,22 @@ output:
 library(flexdashboard)
 library(dplyr)
 library(DT)
+library(countrycode)
+library(lubridate)
 options(DT.options = list(scrollY="250px",scrollX="50px", pageLength = 10, autoWidth = TRUE))
 library(echarts4r)
-source("satRdays.R")
+source("past_events.R")
 ```
 
 Sidebar {.sidebar data-width=200}
 =====================================
 
 <div class="sidebar-pages">
-<a class="navlink" href="#home" data-toggle="tab" aria-expanded="false"><i class="fa fa-home"></i> SatRdays</a>
+<a class="navlink" href="#home" data-toggle="tab" aria-expanded="false"><i class="fa fa-home"></i> Past R Events</a>
 </div>
 
 
-SatRdays
+Past R Events
 =====================================
 
 Row
@@ -39,52 +41,78 @@ Row
 
 ```{r}
 
-valueBox(total_events, icon = "fa-calendar", color = "darkblue")
+valueBox(total_events, icon = "fa-calendar", color = "#1F51FF")
 
 ```
 
-### Total Speakers
+### Total Attendees
 
 ```{r}
 
-valueBox(number_of_speakers, icon = "fa-users", color = "darkblue")
+valueBox(total_rsvp, icon = "fa-users", color = "#1F51FF")
 
-```
-
-### Sponsors Gained
-
-```{r}
-valueBox(number_of_sponsors, icon = "fa-hand-holding-usd", color = "darkblue")
 ```
 
 ### Events - Cities
 
 ```{r}
-valueBox(length(satrday_city$City), icon = "fa-city", color = "darkblue")
+valueBox(total_cities, icon = "fa-city", color = "#1F51FF")
 ```
 
 ### Events - Countries
 
 ```{r}
-valueBox(length(satrday_country$Country), icon = "fa-globe", color = "darkblue")
+valueBox(total_countries, icon = "fa-globe", color = "#1F51FF")
 ```
 
 Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Timeline of Events Per Year
+### Number of R Events held accross Regions of Globe
 
 ```{r}
-mycolor <- c("#00008B","#003636","#a9a9a9", "#91c8c8")
-rownames(satrday_year) <- satrday_year$Year
-satrday_year %>% 
-  mutate(
-    Year = row.names(.)
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+
+event_by_region %>% 
+  e_charts(group_region) %>%
+  e_bar(serie = n) %>% 
+  e_title(text = "R Events Across Regions", 
+          subtext = "Frequency of Events", 
+          sublink = "#",
+          left = "left", top = 4
   ) %>%
-  e_charts(Year) %>%
-  e_bar(serie = count) %>% 
-  e_title(text = "satRdays Events", 
-          subtext = "Timeline", 
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
+```
+
+### Attendance in R Events across Regions
+
+```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+
+attendee_event_by_region %>% 
+  e_charts(group_region) %>%
+  e_bar(serie = attendees) %>% 
+  e_title(text = "R Event Attendance Across Regions", 
+          subtext = "RSVP Count", 
           sublink = "#",
           left = "left", top = 4
   ) %>%
@@ -113,17 +141,19 @@ satrday_year %>%
 Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Continent-wise Events Distribution
+### Top 40 City destinations for R events
 
 ```{r}
-satrday_continent <- satrday_continent[with(satrday_continent, order(count)), ]
-mycolor <- c("#00008B","#003636","#a9a9a9", "#91c8c8")
-satrday_continent %>%
-  e_charts(x = Continent) %>%
-  e_bar(count, legend = FALSE, name = "Events Count") %>% 
+top_dest_city <- top_dest_city %>%
+  arrange(Events_freq)
+
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+top_dest_city %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
   e_tooltip() %>% 
-  e_title("satRdays Events from 2016-2020", "Continents") %>% 
+  e_title("Top Cities for R Events", "City") %>% 
   e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
   e_x_axis(show = FALSE) %>% 
@@ -134,28 +164,179 @@ satrday_continent %>%
   ) %>% e_color(mycolor)
 ```
 
+### Timeline for Cumulative Growth of R events
+
+```{r}
+cumm_event_count %>%
+  e_charts(local_date) %>%
+  e_area(csum, name = "Cumulative Event Count", legend = FALSE) %>%
+  e_datazoom(type = "slider") %>%
+  e_zoom(dataZoomIndex = 0,
+         start = 50,
+         end = 100) %>% 
+  e_tooltip(trigger = "axis") %>%
+  e_toolbox_feature("saveAsImage") %>% 
+  e_color("#1F51FF")
+
+```
+
+Row {data-height=1500}
+-----------------------------------------------------------------------
+
+### Top Destinations for R events | <small> Event count per city per region </small>
+
+```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+plot1 <- tail(df1, 10) %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("Africa Region", "City") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  ) %>% e_color(mycolor)
+
+
+plot2 <- tail(df2, 10) %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("America Region", "City") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  ) %>% e_color(mycolor)
+
+plot3 <- tail(df3, 10) %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("Asia Region", "City") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  ) %>% e_color(mycolor)
+
+plot4 <- tail(df4, 10) %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("Australia Region", "City") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  ) %>% e_color(mycolor)
+
+plot5 <- tail(df5, 10) %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("Canada Region", "City") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  ) %>% e_color(mycolor)
+
+plot6 <- tail(df6, 10) %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("Europe Region", "City") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  ) %>% e_color(mycolor)
+
+plot7 <- tail(df7, 10) %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("Pacific Region", "City") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  ) %>% e_color(mycolor)
+
+plot8 <- tail(df8, 10) %>%
+  e_charts(x = venue_city) %>%
+  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("US Region", "City") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  ) %>% e_color(mycolor)
+
+e_arrange(plot1, plot2, plot3, plot4, plot5, plot6, plot7, plot8, rows = 3, cols = 3)
+```
+
+
 Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Quarterwise Events Distribution
+### Top Destinations for Event Attendance by RSVP per country
 
 ```{r}
-mycolor <- c("#00008B","#003636","#a9a9a9", "#91c8c8")
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
-satrday_quarter %>%
-  e_charts(Quarter) %>%
-  e_line(serie = count) %>%
-  e_title(text = "Quarter-wise satRdays Events from 2016-2020", 
-          subtext = "Q1: Jan-Mar || Q2: Apr-Jun || Q3: Jul-Sep || Q4: Oct-Dec", 
+top_dest_country %>% 
+  e_charts(venue_country_name) %>%
+  e_bar(serie = attendees) %>% 
+  e_title(text = "Top Event Destinations", 
+          subtext = "RSVP Count", 
           sublink = "#",
-          left = "left", top = 4) %>%
+          left = "left", top = 4
+  ) %>%
   e_y_axis(
     splitArea = list(show = TRUE),
-    axisPointer = list( show = FALSE, 
-                        lineStyle = list(
-                          color = "#999999",
-                          width = 0.75,
-                          type = "dotted"))) %>%
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
   e_x_axis(splitArea = list(show = TRUE),
            splitLine = list(show = TRUE),
            axisLabel= list(rotate = 30,interval = 0)) %>%
@@ -167,67 +348,53 @@ satrday_quarter %>%
   e_toolbox_feature("saveAsImage") %>%
   e_animation(duration = 1000) %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
-
 ```
 
-
-Row {data-height=500}
+Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Top Cities for satRdays Events
+### Top Events Organizing Country
 
 ```{r}
-satrday_city <- satrday_city[with(satrday_city, order(-count)), ]
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
-datatable(satrday_city, filter = "top",
-          extensions = c(
-            "Buttons","Scroller"),
-          rownames = FALSE,
-          style = "bootstrap",
-          class = "compact",
-          width = "auto",
-          options = list(
-            dom = "Blrtip",
-            deferRender = TRUE,
-            buttons = list(
-              "csv",
-              "excel")),
-          colnames = c(
-            "Frequency" = "count"
-          ))
-```
-
-### Top Countries for satRdays Events
-
-```{r}
-satrday_country <- satrday_country[with(satrday_country, order(-count)), ]
-
-datatable(satrday_country, filter = "top",
-          extensions = c(
-            "Buttons",
-            "Scroller"),
-          rownames = FALSE,
-          style = "bootstrap",
-          class = "compact",
-          width = "auto",
-          options = list(
-            dom = "Blrtip",
-            deferRender = TRUE,
-            buttons = list(
-              "csv",
-              "excel")),
-          colnames = c(
-            "Frequency" = "count"
-          ))
+events_by_country %>% 
+  e_charts(venue_country_name) %>%
+  e_bar(serie = Events_freq) %>% 
+  e_title(text = "Top Event destinations", 
+          subtext = "Frequency of Events", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
 Row {data-height=500}
 -----------------------------------------------------------------------
 
-### Top Most Active Sponsors
+### Data Table
 
 ```{r}
-datatable(sponsordf, filter = "top",
+datatable(display_df, filter = "top",
           extensions = c(
             "Buttons",
             "Scroller"),
@@ -244,27 +411,5 @@ datatable(sponsordf, filter = "top",
           colnames = c(
             "Sponsors" = "sponsor_name",
             "Frequency of Sponsorship" = "Freq"
-          ))
-```
-
-### Top Events Speakers
-
-```{r}
-datatable(speakerdf, filter = "top",
-          extensions = c(
-            "Buttons",
-            "Scroller"),
-          rownames = FALSE,
-          style = "bootstrap",
-          class = "compact",
-          width = "auto",
-          options = list(
-            dom = "Blrtip",
-            deferRender = TRUE,
-            buttons = list(
-              "csv",
-              "excel")),
-          colnames = c(
-            "Frequency of Participations" = "Freq"
           ))
 ```

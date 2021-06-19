@@ -105,6 +105,10 @@
   color: #2780e3;
 }
 
+#Total-Attendees .inner {
+  color: #2780e3;
+}
+
 .navlink:hover {
   text-decoration: none;
   background: #003c7e;
