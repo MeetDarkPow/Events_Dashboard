@@ -1,10 +1,5 @@
-#general events
-past_events_df <- readRDS(file = "Data/all_past_R_events.rds")
-
-
 #satRdays events 
-library(dplyr)
-library(ggplot2)
+
 satrday <- read.csv("Data/pastsatrdays.csv", encoding = "UTF-8")
 total_events <- length(satrday)
 
@@ -25,10 +20,3 @@ number_of_sponsors <- length(sponsordf$sponsor_name)
 sponsordf <- sponsordf[order(sponsordf$Freq, decreasing = TRUE), ]
 most_active_sponsors <- head(sponsordf,4)
 
-satrday_year.vis <- ggplot(satrday_year,mapping=aes(x=factor(Year,levels=Year),y=count))+
-  geom_col(colour = '#AAAAAA', fill = '#0099FF')+
-  geom_text(aes(label=count), vjust=-0.1, color="steelblue", size=5) +
-  xlab("Year") +
-  ylab("Number of Events") +
-  ggtitle("Yearly SatRday Events") + theme_classic()
-plot(satrday_year.vis)
