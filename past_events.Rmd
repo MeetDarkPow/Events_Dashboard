@@ -1,5 +1,5 @@
 ---
-title: "SatRdays Dashboard"
+title: "Past R Rvents Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -60,7 +60,7 @@ valueBox(number_of_sponsors, icon = "fa-hand-holding-usd", color = "darkblue")
 ### Events - Cities
 
 ```{r}
-valueBox(length(satrday_city$City), icon = "fa-building", color = "darkblue")
+valueBox(length(satrday_city$City), icon = "fa-city", color = "darkblue")
 ```
 
 ### Events - Countries
