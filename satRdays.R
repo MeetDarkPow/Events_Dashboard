@@ -20,3 +20,11 @@ number_of_sponsors <- length(sponsordf$sponsor_name)
 sponsordf <- sponsordf[order(sponsordf$Freq, decreasing = TRUE), ]
 most_active_sponsors <- head(sponsordf,4)
 
+satrday_speakers <- satrday$Invited_Speakers[2:nrow(satrday)]
+speakerlist <- paste(satrday_speakers, collapse = ",")
+speakervector <- strsplit(speakerlist, ",")[[1]]
+speakertable <- table(trimws(speakervector))
+speakerdf <- as.data.frame(speakertable)
+colnames(speakerdf) <- c("Speaker", "Freq")
+number_of_speakers <- length(speakerdf$Speaker)
+speakerdf <- speakerdf[order(speakerdf$Freq, decreasing = TRUE), ]

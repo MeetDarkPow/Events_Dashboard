@@ -26,7 +26,6 @@ Sidebar {.sidebar data-width=200}
 
 <div class="sidebar-pages">
 <a class="navlink" href="#home" data-toggle="tab" aria-expanded="false"><i class="fa fa-home"></i> SatRdays</a>
-<a class="navlink" href="#topics" data-toggle="tab" aria-expanded="true"><i class="fa fa-edit"></i> Location Map</a>
 </div>
 
 
@@ -41,6 +40,14 @@ Row
 ```{r}
 
 valueBox(total_events, icon = "fa-calendar", color = "darkblue")
+
+```
+
+### Total Speakers
+
+```{r}
+
+valueBox(number_of_speakers, icon = "fa-users", color = "darkblue")
 
 ```
 
@@ -237,5 +244,27 @@ datatable(sponsordf, filter = "top",
           colnames = c(
             "Sponsors" = "sponsor_name",
             "Frequency of Sponsorship" = "Freq"
+          ))
+```
+
+### Top Events Speakers
+
+```{r}
+datatable(speakerdf, filter = "top",
+          extensions = c(
+            "Buttons",
+            "Scroller"),
+          rownames = FALSE,
+          style = "bootstrap",
+          class = "compact",
+          width = "auto",
+          options = list(
+            dom = "Blrtip",
+            deferRender = TRUE,
+            buttons = list(
+              "csv",
+              "excel")),
+          colnames = c(
+            "Frequency of Participations" = "Freq"
           ))
 ```
