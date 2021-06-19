@@ -16,7 +16,7 @@ temp_df_region <- past_event
 temp_df_region$group_region <- sapply(strsplit(temp_df_region$group_region, "/"), "[", 1)
 event_by_region <- temp_df_region %>%
   group_by(group_region) %>%
-  summarise(n = n())
+  summarise(Events_freq = n())
 
 
 # R Event Attendance Across regions by rsvp

@@ -56,7 +56,7 @@ valueBox(total_rsvp, icon = "fa-users", color = "#1F51FF")
 ### Events - Cities
 
 ```{r}
-valueBox(total_cities, icon = "fa-city", color = "#1F51FF")
+valueBox(total_cities, icon = "fa-building", color = "#1F51FF")
 ```
 
 ### Events - Countries
@@ -68,14 +68,14 @@ valueBox(total_countries, icon = "fa-globe", color = "#1F51FF")
 Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Number of R Events held accross Regions of Globe
+### Number of R Events held across Regions of Globe
 
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
 event_by_region %>% 
   e_charts(group_region) %>%
-  e_bar(serie = n) %>% 
+  e_bar(serie = Events_freq) %>% 
   e_title(text = "R Events Across Regions", 
           subtext = "Frequency of Events", 
           sublink = "#",
@@ -111,7 +111,7 @@ mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 attendee_event_by_region %>% 
   e_charts(group_region) %>%
   e_bar(serie = attendees) %>% 
-  e_title(text = "R Event Attendance Across Regions", 
+  e_title(text = "R Event Attendance", 
           subtext = "RSVP Count", 
           sublink = "#",
           left = "left", top = 4
@@ -138,7 +138,7 @@ attendee_event_by_region %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
-Row {data-height=400}
+Row {data-height=600}
 -----------------------------------------------------------------------
 
 ### Top 40 City destinations for R events
@@ -180,7 +180,7 @@ cumm_event_count %>%
 
 ```
 
-Row {data-height=1500}
+Row {data-height=1700}
 -----------------------------------------------------------------------
 
 ### Top Destinations for R events | <small> Event count per city per region </small>
@@ -191,11 +191,13 @@ plot1 <- tail(df1, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
+  e_tooltip(trigger = "axis") %>% 
   e_title("Africa Region", "City") %>% 
-  e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(type = "category",
+      boundaryGap = TRUE,
+      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_flip_coords() %>%
   e_toolbox_feature("dataView") %>%
   e_toolbox_feature(
     feature = "saveAsImage",
@@ -207,11 +209,13 @@ plot2 <- tail(df2, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
+  e_tooltip(trigger = "axis") %>% 
   e_title("America Region", "City") %>% 
-  e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(type = "category",
+      boundaryGap = TRUE,
+      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_flip_coords() %>%
   e_toolbox_feature("dataView") %>%
   e_toolbox_feature(
     feature = "saveAsImage",
@@ -222,11 +226,13 @@ plot3 <- tail(df3, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
+  e_tooltip(trigger = "axis") %>% 
   e_title("Asia Region", "City") %>% 
-  e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(type = "category",
+      boundaryGap = TRUE,
+      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_flip_coords() %>% 
   e_toolbox_feature("dataView") %>%
   e_toolbox_feature(
     feature = "saveAsImage",
@@ -237,11 +243,13 @@ plot4 <- tail(df4, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
+  e_tooltip(trigger = "axis") %>% 
   e_title("Australia Region", "City") %>% 
-  e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(type = "category",
+      boundaryGap = TRUE,
+      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_flip_coords() %>%
   e_toolbox_feature("dataView") %>%
   e_toolbox_feature(
     feature = "saveAsImage",
@@ -252,11 +260,13 @@ plot5 <- tail(df5, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
+  e_tooltip(trigger = "axis") %>% 
   e_title("Canada Region", "City") %>% 
-  e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(type = "category",
+      boundaryGap = TRUE,
+      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_flip_coords() %>% 
   e_toolbox_feature("dataView") %>%
   e_toolbox_feature(
     feature = "saveAsImage",
@@ -267,11 +277,13 @@ plot6 <- tail(df6, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
+  e_tooltip(trigger = "axis") %>% 
   e_title("Europe Region", "City") %>% 
-  e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(type = "category",
+      boundaryGap = TRUE,
+      axisLabel = list(interval = 0, fontSize = 10)) %>%
+  e_flip_coords() %>% 
   e_toolbox_feature("dataView") %>%
   e_toolbox_feature(
     feature = "saveAsImage",
@@ -282,11 +294,13 @@ plot7 <- tail(df7, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
+  e_tooltip(trigger = "axis") %>% 
   e_title("Pacific Region", "City") %>% 
-  e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(type = "category",
+      boundaryGap = TRUE,
+      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_flip_coords() %>% 
   e_toolbox_feature("dataView") %>%
   e_toolbox_feature(
     feature = "saveAsImage",
@@ -297,11 +311,13 @@ plot8 <- tail(df8, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
+  e_tooltip(trigger = "axis") %>% 
   e_title("US Region", "City") %>% 
-  e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(type = "category",
+      boundaryGap = TRUE,
+      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_flip_coords() %>% 
   e_toolbox_feature("dataView") %>%
   e_toolbox_feature(
     feature = "saveAsImage",
@@ -407,9 +423,6 @@ datatable(display_df, filter = "top",
             deferRender = TRUE,
             buttons = list(
               "csv",
-              "excel")),
-          colnames = c(
-            "Sponsors" = "sponsor_name",
-            "Frequency of Sponsorship" = "Freq"
-          ))
+              "excel"))
+          )
 ```
