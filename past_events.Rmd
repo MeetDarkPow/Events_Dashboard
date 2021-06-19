@@ -1,5 +1,5 @@
 ---
-title: "Past R Rvents Dashboard"
+title: "Past R Events Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
