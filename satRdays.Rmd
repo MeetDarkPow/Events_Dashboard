@@ -122,16 +122,28 @@ satrday_continent %>%
   e_charts(x = Continent) %>%
   e_bar(count, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
   e_title("satRdays Events from 2016-2020", "Continents") %>% 
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
   e_flip_coords() %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
   e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
 Row {data-height=400}
