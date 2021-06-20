@@ -65,7 +65,7 @@ valueBox(total_cities, icon = "fa-building", color = "#1F51FF")
 valueBox(total_countries, icon = "fa-globe", color = "#1F51FF")
 ```
 
-Row {data-height=400}
+Row {data-height=500}
 -----------------------------------------------------------------------
 
 ### Number of R Events held across Regions of Globe
@@ -73,7 +73,8 @@ Row {data-height=400}
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
-event_by_region %>% 
+region_df %>% 
+  arrange(Events_freq) %>%
   e_charts(group_region) %>%
   e_bar(serie = Events_freq) %>% 
   e_title(text = "R Events Across Regions", 
@@ -108,7 +109,8 @@ event_by_region %>%
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
-attendee_event_by_region %>% 
+region_df_rsvp %>% 
+  arrange(attendees) %>%
   e_charts(group_region) %>%
   e_bar(serie = attendees) %>% 
   e_title(text = "R Event Attendance", 
@@ -138,7 +140,7 @@ attendee_event_by_region %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
-Row {data-height=600}
+Row {data-height=800}
 -----------------------------------------------------------------------
 
 ### Top 40 City destinations for R events
@@ -152,35 +154,69 @@ top_dest_city %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip() %>% 
   e_title("Top Cities for R Events", "City") %>% 
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
   e_flip_coords() %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
   e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
 ### Timeline for Cumulative Growth of R events
 
 ```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 cumm_event_count %>%
   e_charts(local_date) %>%
   e_area(csum, name = "Cumulative Event Count", legend = FALSE) %>%
   e_datazoom(type = "slider") %>%
   e_zoom(dataZoomIndex = 0,
-         start = 50,
+         start = 0,
          end = 100) %>% 
-  e_tooltip(trigger = "axis") %>%
-  e_toolbox_feature("saveAsImage") %>% 
-  e_color("#1F51FF")
-
+  e_title(text = "Growth of R Events across years", 
+          subtext = "Frequency of Events", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
-Row {data-height=1700}
+Row {data-height=1500}
 -----------------------------------------------------------------------
 
 ### Top Destinations for R events | <small> Event count per city per region </small>
@@ -191,142 +227,172 @@ plot1 <- tail(df1, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip(trigger = "axis") %>% 
-  e_title("Africa Region", "City") %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(type = "category",
-      boundaryGap = TRUE,
-      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_title(text = "Africa Region", 
+          subtext = "City", 
+          sublink = "#",
+          left = "left", top = 4) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"))) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
   e_flip_coords() %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
   e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
-
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
 plot2 <- tail(df2, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip(trigger = "axis") %>% 
-  e_title("America Region", "City") %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(type = "category",
-      boundaryGap = TRUE,
-      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_title(text = "Latin America Region", 
+          subtext = "City", 
+          sublink = "#",
+          left = "left", top = 4) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"))) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
   e_flip_coords() %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
   e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
 plot3 <- tail(df3, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip(trigger = "axis") %>% 
-  e_title("Asia Region", "City") %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(type = "category",
-      boundaryGap = TRUE,
-      axisLabel = list(interval = 0, fontSize = 10)) %>% 
-  e_flip_coords() %>% 
+  e_title(text = "Asia Region", 
+          subtext = "City", 
+          sublink = "#",
+          left = "left", top = 4) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"))) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_flip_coords() %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
   e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
 plot4 <- tail(df4, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip(trigger = "axis") %>% 
-  e_title("Australia Region", "City") %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(type = "category",
-      boundaryGap = TRUE,
-      axisLabel = list(interval = 0, fontSize = 10)) %>% 
+  e_title(text = "Australia Region", 
+          subtext = "City", 
+          sublink = "#",
+          left = "left", top = 4) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"))) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
   e_flip_coords() %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
   e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
 plot5 <- tail(df5, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip(trigger = "axis") %>% 
-  e_title("Canada Region", "City") %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(type = "category",
-      boundaryGap = TRUE,
-      axisLabel = list(interval = 0, fontSize = 10)) %>% 
-  e_flip_coords() %>% 
+  e_title(text = "US/Canada Region", 
+          subtext = "City", 
+          sublink = "#",
+          left = "left", top = 4) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"))) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_flip_coords() %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
   e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
 plot6 <- tail(df6, 10) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
-  e_tooltip(trigger = "axis") %>% 
-  e_title("Europe Region", "City") %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(type = "category",
-      boundaryGap = TRUE,
-      axisLabel = list(interval = 0, fontSize = 10)) %>%
-  e_flip_coords() %>% 
+  e_title(text = "Europe Region", 
+          subtext = "City", 
+          sublink = "#",
+          left = "left", top = 4) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"))) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_flip_coords() %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
   e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
-plot7 <- tail(df7, 10) %>%
-  e_charts(x = venue_city) %>%
-  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
-  e_labels(position = "right") %>% 
-  e_tooltip(trigger = "axis") %>% 
-  e_title("Pacific Region", "City") %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(type = "category",
-      boundaryGap = TRUE,
-      axisLabel = list(interval = 0, fontSize = 10)) %>% 
-  e_flip_coords() %>% 
-  e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
-
-plot8 <- tail(df8, 10) %>%
-  e_charts(x = venue_city) %>%
-  e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
-  e_labels(position = "right") %>% 
-  e_tooltip(trigger = "axis") %>% 
-  e_title("US Region", "City") %>% 
-  e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(type = "category",
-      boundaryGap = TRUE,
-      axisLabel = list(interval = 0, fontSize = 10)) %>% 
-  e_flip_coords() %>% 
-  e_toolbox_feature("dataView") %>%
-  e_toolbox_feature(
-    feature = "saveAsImage",
-    title = "Save as image"
-  ) %>% e_color(mycolor)
-
-e_arrange(plot1, plot2, plot3, plot4, plot5, plot6, plot7, plot8, rows = 3, cols = 3)
+e_arrange(plot1, plot2, plot3, plot4, plot5, plot6, rows = 3, cols = 2)
 ```
-
 
 Row {data-height=400}
 -----------------------------------------------------------------------
