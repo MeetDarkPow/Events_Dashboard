@@ -110,7 +110,8 @@ Row {data-height=400}
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
-event_by_region %>% 
+region_df %>% 
+  arrange(Events_freq) %>%
   e_charts(group_region) %>%
   e_bar(serie = Events_freq) %>% 
   e_title(text = "R events distribution region wise", 

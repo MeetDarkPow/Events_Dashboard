@@ -23,6 +23,11 @@ temp_df_region$group_region <- sapply(strsplit(temp_df_region$group_region, "/")
 event_by_region <- temp_df_region %>%
   group_by(group_region) %>%
   summarise(Events_freq = n())
+regions <- c("Africa", "Latin America", "Asia", "Australia", "US/Canada", "Europe")
+value1 <- c(event_by_region$Events_freq[1], event_by_region$Events_freq[2], event_by_region$Events_freq[3], 
+            event_by_region$Events_freq[4]+event_by_region$Events_freq[7], event_by_region$Events_freq[5]+event_by_region$Events_freq[8], 
+            event_by_region$Events_freq[6])
+region_df <- data.frame(group_region=regions, Events_freq=value1)
 
 
 # Top R Events by attendance
