@@ -170,3 +170,7 @@
 	float: right;
 	min-width: 70px;
 }
+
+#rugs-map {
+  background: none;
+}
