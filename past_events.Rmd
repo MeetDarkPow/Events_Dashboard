@@ -74,7 +74,7 @@ Row {data-height=500}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
 region_df %>% 
-  arrange(Events_freq) %>%
+  arrange(desc(Events_freq)) %>%
   e_charts(group_region) %>%
   e_bar(serie = Events_freq) %>% 
   e_title(text = "R Events Across Regions", 
@@ -110,7 +110,7 @@ region_df %>%
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
 region_df_rsvp %>% 
-  arrange(attendees) %>%
+  arrange(desc(attendees)) %>%
   e_charts(group_region) %>%
   e_bar(serie = attendees) %>% 
   e_title(text = "R Event Attendance", 
@@ -216,7 +216,7 @@ cumm_event_count %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
 ```
 
-Row {data-height=1500}
+Row {data-height=1000}
 -----------------------------------------------------------------------
 
 ### Top Destinations for R events | <small> Event count per city per region </small>
@@ -228,7 +228,7 @@ plot1 <- tail(df1, 10) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
   e_title(text = "Africa Region", 
-          subtext = "City", 
+          subtext = "Top 10 Cities", 
           sublink = "#",
           left = "left", top = 4) %>%
   e_y_axis(
@@ -251,12 +251,12 @@ plot1 <- tail(df1, 10) %>%
   e_animation(duration = 1000) %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
-plot2 <- tail(df2, 10) %>%
+plot2 <- tail(df2, 20) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
   e_title(text = "Latin America Region", 
-          subtext = "City", 
+          subtext = "Top 20 Cities", 
           sublink = "#",
           left = "left", top = 4) %>%
   e_y_axis(
@@ -279,12 +279,12 @@ plot2 <- tail(df2, 10) %>%
   e_animation(duration = 1000) %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
-plot3 <- tail(df3, 10) %>%
+plot3 <- tail(df3, 20) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
   e_title(text = "Asia Region", 
-          subtext = "City", 
+          subtext = "Top 20 Cities", 
           sublink = "#",
           left = "left", top = 4) %>%
   e_y_axis(
@@ -312,7 +312,7 @@ plot4 <- tail(df4, 10) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
   e_title(text = "Australia Region", 
-          subtext = "City", 
+          subtext = "Top 10 Cities", 
           sublink = "#",
           left = "left", top = 4) %>%
   e_y_axis(
@@ -335,12 +335,12 @@ plot4 <- tail(df4, 10) %>%
   e_animation(duration = 1000) %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
-plot5 <- tail(df5, 10) %>%
+plot5 <- tail(df5, 20) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
   e_title(text = "US/Canada Region", 
-          subtext = "City", 
+          subtext = "Top 20 Cities", 
           sublink = "#",
           left = "left", top = 4) %>%
   e_y_axis(
@@ -363,12 +363,12 @@ plot5 <- tail(df5, 10) %>%
   e_animation(duration = 1000) %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
-plot6 <- tail(df6, 10) %>%
+plot6 <- tail(df6, 20) %>%
   e_charts(x = venue_city) %>%
   e_bar(Events_freq, legend = FALSE, name = "Events Count") %>% 
   e_labels(position = "right") %>% 
   e_title(text = "Europe Region", 
-          subtext = "City", 
+          subtext = "Top 20 Cities", 
           sublink = "#",
           left = "left", top = 4) %>%
   e_y_axis(
@@ -391,22 +391,23 @@ plot6 <- tail(df6, 10) %>%
   e_animation(duration = 1000) %>%
   e_tooltip(trigger = "axis") %>% e_color(mycolor)
 
-e_arrange(plot1, plot2, plot3, plot4, plot5, plot6, rows = 3, cols = 2)
+e_arrange(plot5, plot6, plot3, plot2, plot1, plot4, rows = 3, cols = 3)
 ```
 
 Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Top Destinations for Event Attendance by RSVP per country
+### Top Destinations for R Events | <small> Users per Country
 
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
 top_dest_country %>% 
+  arrange(desc(attendees)) %>%
   e_charts(venue_country_name) %>%
   e_bar(serie = attendees) %>% 
-  e_title(text = "Top Event Destinations", 
-          subtext = "RSVP Count", 
+  e_title(text = "Top R Event Destinations", 
+          subtext = "Attendees Count", 
           sublink = "#",
           left = "left", top = 4
   ) %>%
@@ -435,15 +436,16 @@ top_dest_country %>%
 Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Top Events Organizing Country
+### Top R Events Destinations | <small> Events per Country </small> 
 
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
 events_by_country %>% 
+  arrange(desc(Events_freq)) %>%
   e_charts(venue_country_name) %>%
   e_bar(serie = Events_freq) %>% 
-  e_title(text = "Top Event destinations", 
+  e_title(text = "Top R Events Organizing Countries", 
           subtext = "Frequency of Events", 
           sublink = "#",
           left = "left", top = 4
