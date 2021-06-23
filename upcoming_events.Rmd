@@ -71,7 +71,7 @@ valueBox(total_countries, icon = "fa-globe", color = "#1F51FF")
 Row {data-height=800}
 -------------------------------------
 
-### Mapping of Upcoming Events
+### Mapping of Upcoming Events | <small> Worlwide </small>
 
 ```{r}
 srcURL <- "https://cdn.rawgit.com/turban/Leaflet.Graticule/master/examples/lib/countries-110m.js"
@@ -107,15 +107,16 @@ leaflet(upcoming_event,
 Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Events by Countries
+### Upcoming R Events across Countries
 
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
 events_by_country %>% 
+  arrange(desc(Events_freq)) %>%
   e_charts(venue_country_name) %>%
   e_bar(serie = Events_freq) %>% 
-  e_title(text = "R events distribution country wise", 
+  e_title(text = "R Events Distribution Country Wise", 
           subtext = "Frequency of Events", 
           sublink = "#",
           left = "left", top = 4
@@ -145,16 +146,16 @@ events_by_country %>%
 Row {data-height=400}
 -----------------------------------------------------------------------
 
-### Events across Regions
+### Upcoming R Events across Regions
 
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
 region_df %>% 
-  arrange(Events_freq) %>%
+  arrange(desc(Events_freq)) %>%
   e_charts(group_region) %>%
   e_bar(serie = Events_freq) %>% 
-  e_title(text = "R events distribution region wise", 
+  e_title(text = "R Events Frequencies Region Wise", 
           subtext = "Frequency of Events", 
           sublink = "#",
           left = "left", top = 4
@@ -214,6 +215,7 @@ datatable(top_events, filter = "top",
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 
 event_type %>% 
+  arrange(desc(Count)) %>%
   e_charts(EventType) %>%
   e_bar(serie = Count) %>% 
   e_title(text = "Online Vs In-person Events", 
