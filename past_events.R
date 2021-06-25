@@ -10,6 +10,48 @@ total_rsvp <- sum(past_event$yes_rsvp_count)
 total_cities <- length(unique(past_event$venue_city))
 total_countries <- length(unique(past_event$venue_country_name))
 
+# Count of events per year
+all_events <- past_event
+all_eventsDT <- data.table::as.data.table(all_events)
+all_eventsDT[, `:=`(
+  round_year = lubridate::floor_date(local_date, "year" )) ]
+all_eventsDT[, `:=`(
+  round_year = lubridate::year(round_year))]
+alleventsdf <- data.table::setDF(all_eventsDT)
+event_group_year <- alleventsdf  %>% group_by(round_year) %>% summarise(Events_freq = n())
+
+
+# Attendance (Yes-RSVP) per year
+event_group_rsvp_year <- alleventsdf  %>% group_by(round_year) %>% summarise(attendees = sum(yes_rsvp_count))
+
+
+#  Count of events per month.
+all_events <- past_event
+all_events$month <- months(all_events$local_date,abbreviate = TRUE)
+all_events$month <- toupper(all_events$month)
+month <- c("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG",'SEP','OCT','NOV','DEC');
+tempevent <- all_events%>%group_by(month)%>%summarise(Events_freq = n())
+months.df <- data.frame(
+  n_events = vector(mode = 'numeric', length = 12)
+)
+for(i in 1:12){
+  cur.month <- month[i];
+  months.df$n_events[i] = as.numeric(tempevent[tempevent$month==cur.month,2])
+}
+months.df$month = month
+
+
+# Attendance of events per month.
+tempevent_rsvp <- all_events%>%group_by(month)%>%summarise(attendees = sum(yes_rsvp_count))
+months.rsvpdf <- data.frame(
+  n_attendees = vector(mode = 'numeric', length = 12)
+)
+for(i in 1:12){
+  cur.month <- month[i];
+  months.rsvpdf$n_attendees[i] = as.numeric(tempevent_rsvp[tempevent_rsvp$month==cur.month,2])
+}
+months.rsvpdf$month = month
+
 
 # R Events Across Regions
 temp_df_region <- past_event
@@ -19,8 +61,8 @@ event_by_region <- temp_df_region %>%
   summarise(Events_freq = n())
 regions <- c("Africa", "Latin America", "Asia", "Australia", "US/Canada", "Europe")
 value1 <- c(event_by_region$Events_freq[1], event_by_region$Events_freq[2], event_by_region$Events_freq[3], 
-           event_by_region$Events_freq[4]+event_by_region$Events_freq[7], event_by_region$Events_freq[5]+event_by_region$Events_freq[8], 
-           event_by_region$Events_freq[6])
+            event_by_region$Events_freq[4]+event_by_region$Events_freq[7], event_by_region$Events_freq[5]+event_by_region$Events_freq[8], 
+            event_by_region$Events_freq[6])
 region_df <- data.frame(group_region=regions, Events_freq=value1)
 
 
@@ -43,15 +85,14 @@ top_dest_city <- head(top_dest_city, 40)
 
 
 # Cumulative growth of R events
-past_event$local_date <- ymd(past_event$local_date)
-past_event <- arrange(past_event, local_date)
+past_event <- arrange(past_event, time)
 
 cumm_event_count <- past_event %>%
-  group_by(local_date) %>%
+  group_by(date(time)) %>%
   summarise(Events = n())
 cumm_event_count <- cumm_event_count %>% 
   mutate(csum = cumsum(Events))
-
+colnames(cumm_event_count)[1] <- "Event_date"
 
 # Top Destinations for R events | Event count per city per region 
 name <- event_by_region$group_region

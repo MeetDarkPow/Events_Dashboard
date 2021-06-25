@@ -65,6 +65,159 @@ valueBox(total_cities, icon = "fa-building", color = "#1F51FF")
 valueBox(total_countries, icon = "fa-globe", color = "#1F51FF")
 ```
 
+Row {data-height=400}
+-----------------------------------------------------------------------
+
+### Count of R events per year
+
+```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+rownames(event_group_year) <- event_group_year$round_year
+event_group_year %>% 
+  mutate(
+    Year = row.names(.)
+  ) %>%
+  e_charts(Year) %>%
+  e_bar(serie = Events_freq) %>% 
+  e_title(text = "R Events Yearly Distribution", 
+          subtext = "Frequency of Events", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
+```
+
+### Attendance in R Events per year
+
+```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+
+rownames(event_group_rsvp_year) <- event_group_rsvp_year$round_year
+event_group_rsvp_year %>% 
+  mutate(
+    Year = row.names(.)
+  ) %>%
+  e_charts(Year) %>%
+  e_bar(serie = attendees) %>% 
+  e_title(text = "R Events Yearly Attendance", 
+          subtext = "RSVP Count", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
+```
+
+Row {data-height=400}
+-----------------------------------------------------------------------
+
+### Count of R events per month
+
+```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+
+months.df %>% 
+  e_charts(month) %>%
+  e_bar(serie = n_events) %>% 
+  e_title(text = "R Events Monthly Distribution", 
+          subtext = "Frequency of Events", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
+```
+
+### Attendance in R Events per month
+
+```{r}
+mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
+
+months.rsvpdf %>% 
+  e_charts(month) %>%
+  e_bar(serie = n_attendees) %>% 
+  e_title(text = "R Events Monthly Attendance", 
+          subtext = "RSVP Count", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
+```
+
 Row {data-height=500}
 -----------------------------------------------------------------------
 
@@ -183,7 +336,7 @@ top_dest_city %>%
 ```{r}
 mycolor <- c("#1F51FF","#003636","#a9a9a9", "#91c8c8")
 cumm_event_count %>%
-  e_charts(local_date) %>%
+  e_charts(Event_date) %>%
   e_area(csum, name = "Cumulative Event Count", legend = FALSE) %>%
   e_datazoom(type = "slider") %>%
   e_zoom(dataZoomIndex = 0,
