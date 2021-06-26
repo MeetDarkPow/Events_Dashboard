@@ -53,6 +53,10 @@ for(i in 1:12){
 months.rsvpdf$month = month
 
 
+# Global R Events Distribution
+eventcountry <- past_event %>% group_by(group_country) %>% summarise(values = n())
+
+
 # R Events Across Regions
 temp_df_region <- past_event
 temp_df_region$group_region <- sapply(strsplit(temp_df_region$group_region, "/"), "[", 1)

@@ -65,6 +65,18 @@ valueBox(total_cities, icon = "fa-building", color = "#1F51FF")
 valueBox(total_countries, icon = "fa-globe", color = "#1F51FF")
 ```
 
+Row {data-height=600}
+-----------------------------------------------------------------------
+
+### Global R Events Distribution
+```{r}
+eventcountry %>% e_country_names(group_country) %>% # helper
+  e_charts(group_country) %>%
+  e_map(values) %>%
+  e_visual_map(min =0, max = max(eventcountry$values), color = c("#ba160c","#ce5b54","#bf716c", "#e89993","#f0b5b0","#f2c5c1","#f0d9d7")) %>% e_tooltip() %>%
+  e_title("Global Distribution of Past R Meetup Events", "All-Time")
+```
+
 Row {data-height=400}
 -----------------------------------------------------------------------
 
