@@ -1,6 +1,7 @@
 library(dplyr)
 library(countrycode)
 library(echarts4r)
+library(lubridate)
 
 # reading data
 df <- read.csv("participation_data.csv")
@@ -43,3 +44,51 @@ cum_df %>% e_country_names(country) %>%
                          "#f0d9d7")) %>% 
   e_tooltip() %>%
   e_title("Registrations", "Timeline") 
+
+
+# timeline - line chart format
+temp_df <- df[-c(1)]
+
+temp_df <- temp_df %>%
+  group_by(registration_date) %>%
+  summarise(Registration_Count = n())
+temp_df$Year <- year(temp_df$registration_date)
+
+mycolor <- c("#4ca0c6","#003636","#a9a9a9", "#91c8c8")
+temp_df %>% 
+  group_by(Year) %>%
+  e_charts(registration_date,timeline = TRUE) %>% 
+  e_line(Registration_Count) %>%
+  e_title(text = "Registrations", 
+          subtext = "Timeline", 
+          sublink = "#",
+          left = "left", top = 4
+  ) %>%
+  e_y_axis(
+    splitArea = list(show = TRUE),
+    axisPointer = list(      show = FALSE, 
+                             lineStyle = list(
+                               color = "#999999",
+                               width = 0.75,
+                               type = "dotted"
+                             ))
+  ) %>%
+  e_x_axis(splitArea = list(show = TRUE),
+           splitLine = list(show = TRUE),
+           axisLabel= list(rotate = 30,interval = 0)) %>%
+  e_toolbox_feature(feature = "magicType",
+                    type = list("area", "line", "bar")) %>%
+  e_toolbox_feature("restore") %>%
+  e_toolbox_feature(feature = "reset") %>%
+  e_toolbox_feature("dataView") %>%
+  e_toolbox_feature("saveAsImage") %>%
+  e_animation(duration = 1000) %>%
+  e_datazoom() %>%
+  e_timeline_opts(
+    axis_type = "category",
+    playInterval = 1500,
+    top = 5,
+    right = 50,
+    left = 200
+  ) %>%
+  e_tooltip(trigger = "axis") %>% e_color(mycolor)
