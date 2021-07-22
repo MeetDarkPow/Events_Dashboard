@@ -1,11 +1,11 @@
 useR_event <- read.csv("Data/sponsors_updated_v3.csv")
-kk <- useR_event[-c(2:3, 5:8)]
-kk <- data.frame(lapply(kk, as.character), stringsAsFactors=FALSE)
-kk <- kk[kk$URL != "",]
+df <- useR_event[-c(2:3, 5:8)]
+df <- data.frame(lapply(df, as.character), stringsAsFactors=FALSE)
+df <- df[df$URL != "",]
 
 
 library(dplyr)
-sponsor_df <- kk %>%
+sponsor_df <- df %>%
   group_by(Sponsor, URL) %>%
   summarise(Count = n())
 

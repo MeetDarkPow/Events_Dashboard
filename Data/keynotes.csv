@@ -1,0 +1,39 @@
+id,year,speaker,keynote,category
+1,2021,Paul Murrel,"Expanding the Vocabulary of R Graphics",R Core
+2,2021,Edzer Pebesma,"R Spatial",Statistics
+3,2021,Heidi Seibold,"Research software engineers and academia",Research Software Engineering
+4,2021,Jeroen Ooms,"The R-universe project",R Programming
+5,2021,Meenakshi Kushwawa,"Can we do this in R? - Answering questions about air quality one code at a time",R In Action
+6,2021,"Alberto Cairo, Catherine Gicheru, Katharine Hayhoe","Communication: elevating data analysis to make a real impact",Communication
+7,2021,"Jonathan Godfrey, Kristian Lum, Achim Zeileis, Dorothy Gordon","Towards algorithm fairness and inclusion",Responsible Programming
+8,2021,Paola Corrales,"Enseñando a enseñar sin perder a nadie en el camino - Teaching how to teach without leaving anyone behind",Teaching
+9,2020,Amelia McNamara,"Speaking R",Statistics
+10,2020,Anna Krystalli,"Computational Reproducibility, from theory to practice",Research Software Engineering
+11,2020,Erin LeDell,"Responsible Automation: Towards Interpretable & Fair AutoML",Machine Learning
+12,2020,"Martin Mächler, Luke Tierney","New Developments in R 4.0.0 and Beyond (Part 1 and Part 2)",R Core
+13,2020,Noam Ross,"Peer-Reviewing R Code: Where We’ve Been and Where We’re Going at rOpenSci",Code Review
+14,2020,Przemysław Biecek,"Talk with your model! Towards the language for exploration and explanation of machine learning models",Machine Learning
+15,2019,Joe Cheng,"Shiny's Holy Grail: Interactivity with reproducibility",Visualization
+16,2019,Julien Cornebise,"AI for Good in the R and Python ecosystems",Machine Learning
+17,2019,Bettina Grün,"Tools for Model-Based Clustering in R",Statistics
+18,2019,Julie Josse,"A missing value tour in R",TBD
+19,2019,Martin Morgan,"How Bioconductor advances science while contributing to the R language and community",TBD
+20,2019,Julia Stewart Lowndes,"R for better science in less time",TBD
+21,2018,Jenny Bryan,"Code smells and feels",R Programming
+22,2018,Steph de Silva,"Beyond syntax, towards culture: the potentiality of deep open source communities",TBD
+23,2018,Thomas Lin Pedersen,"The Grammar of Animation",Visualization
+24,2018,Bill Venables,"Adventures with R: Two stories of analyses and a new perspective on data",Data Analysis
+25,2018,Roger Peng,"Teaching R to New Users: From tapply to Tidyverse",Data Analysis
+26,2018,Danielle Navarro,"R for Psychological Science?",TBD
+27,2017,Yves Rosseel,"Structural Equation Modeling: models, software and stories",TBD
+28,2017,Norm Matloff,"Parallel Computation in R:  What We Want, and How We (Might) Get It",TBD
+29,2017,Isabella Gollini,"R tools for the analysis of complex heterogeneous data",Data Analysis
+30,2017,Mine Cetinkaya-Rundel,"Teaching data science to new useRs",Teaching
+31,2017,Ludwig Hothorn,"Dose-response analysis: considering dose both as qualitative factor and quantitative covariate- using R",TBD
+32,2017,Uwe Ligges,"20 years of CRAN",TBD
+33,2016,Rick Becker,"Forty years of S",TBD
+34,2016,Donald Knuth,"Literate Programming",R Programming
+35,2016,Deborah Nolan,"Statistical Thinking in a Data Science Course",Statistics
+36,2016,Simon Urbanek,"RCloud - Collaborative Environment for Visualization and Big Data Analytics",TBD
+37,2016,Hadley Wickham,"Towards a grammar of interactive graphics",TBD
+38,2016,Daniela Witten,"Flexible and Interpretable Regression Using Convex Penalties",TBD
