@@ -1,0 +1,1183 @@
+Year,Speaker,Presentation_Type,Title,Keywords
+2021,Lisa Kulka,Regular talks,R for Non-Programmers: Creating Paradigm Shifts in Reporting for Community-Facing Organizations Using R,Community and Outreach
+2021,Akhila Chowdary Kolla,Regular talks,"RcppDeepState, a simple way to fuzz test R packages.","Interfaces with other programming languages, Other, R in production"
+2021,Stefanie Butland,Regular talks,rOpenSciâ€™s Model for Managing a Federated Open Source Software Community,Community and Outreach
+2021,Doug Kelkhoff,Regular talks,R in Regulated Industries: Assessing Risk with {riskmetric},"Interfaces with other programming languages, Other, R in production"
+2021,Saranjeet Kaur Satnam Singh Bhogal,Regular talks,R Developer's Guide,Community and Outreach
+2021,Nathan Wayne Eastwood,Regular talks,{poorman} - A dependency free recreation of {dplyr},"Interfaces with other programming languages, Other, R in production"
+2021,Lluís Revilla Sancho,Regular talks,Packages submission and reviews; how does it work?,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,Neal Richardson,Regular talks,Solving Big Data Problems with Apache Arrow,Databases / Data management
+2021,"Weronika Schary, Filip Paskali",Regular talks,All-in-one smartphone-based system for quantitative analysis of point-of-care diagnostics,Web Applications (Shiny/Dash)
+2021,Gabriel Becker,Regular talks,respectables and synthetic.cdisc.data: A framework for creating relational data with application,Databases / Data management
+2021,Jonathan Sidi,Regular talks,Unit Testing Shiny App Reactivity,Web Applications (Shiny/Dash)
+2021,Peter Meißner,Regular talks,Going Big and Fast - {kafkaesque} for Kafka Access,Databases / Data management
+2021,Leon Binder,Regular talks,ShinyQuickStarter: Build Shiny apps interactively with Drag & Drop,Web Applications (Shiny/Dash)
+2021,Mark Hornick,Regular talks,Scaling R for Enterprise Data,Databases / Data management
+2021,Tobia De Koninck,Regular talks,The ShinyProxy Good News Show,Web Applications (Shiny/Dash)
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,"Joselyn C. Chávez-Fuentes, Erick Cuevas-Fernández, Alejandro Reyes, Leonardo Collado-Torres",Panels and incubators,Incubator: Five principles to grow up your R community,Community and Outreach
+2021,,Elevator Pitches,Elevator Pitches 1,EP
+2021,Alexander Bernd Hanf,Regular talks,mlr3automl - Automated Machine Learning in R,Data mining / Machine learning / Deep Learning and AI
+2021,Lucas van der Meer,Regular talks,Tidy Geospatial Networks in R,Spatial analysis
+2021,Mark Padgham,Regular talks,autotest: Automatic testing of R packages,"Efficient programming, R in production"
+2021,Katarzyna P?kala,Regular talks,Triplot: model agnostic measures and visualisations for variable importance in predictive models that take into account the hierarchical correlation structure,Data mining / Machine learning / Deep Learning and AI
+2021,"Robin Lovelace, Rosa Félix",Regular talks,"slopes: a package for calculated slopes of roads, rivers and other linear (simple) features",Spatial analysis
+2021,Mark van der Loo,Regular talks,A fresh look at unit testing with tinytest,"Efficient programming, R in production"
+2021,Jonathan Bourne,Regular talks,Getting sprung in R: Introduction to the rsetse package for embedding feature-rich networks,Data mining / Machine learning / Deep Learning and AI
+2021,Timothée Giraud,Regular talks,"mapsf, a New Package for Thematic Mapping",Spatial analysis
+2021,Sébastien Rochette,Regular talks,{fusen}: Create a package from Rmd files,"Efficient programming, R in production"
+2021,Miriam Esteve,Regular talks,An R package for the implementation of Efficiency Analysis Trees and the estimation of technical efficiency,Data mining / Machine learning / Deep Learning and AI
+2021,Andrea Gilardi,Regular talks,"osmextract: An R package to download, convert, and import large OpenStreetMap datasets",Spatial analysis
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,Harald Puhr,Regular talks,Let Me Google That for You â€“ Measuring global trends using Google Trends,"Economics / Finance / Insurance, Social sciences"
+2021,H. Sherry Zhang,Regular talks,Visual Diagnostics for Constrained Optimisation with Application to Guided Tours,"Data visualisation, Spatial analysis"
+2021,"Lorenzo Mazzucchelli, Marco Zanotti",Regular talks,Computing Disposition Effect on Financial Market Data,"Economics / Finance / Insurance, Social sciences"
+2021,Pantelis Karapanagiotis,Regular talks,The R Package diseq: Estimation Methods for Markets in Equilibrium and Disequilibrium,"Economics / Finance / Insurance, Social sciences"
+2021,Markus Kainu,Regular talks,geofi-package: Facilitating the access to key spatial datasets in Finland,"Data visualisation, Spatial analysis"
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,Michael J. Mahoney,Regular talks,Virtual Environments: Using R as a Frontend for 3D Rendering of Digital Landscapes,"Data visualisation, Spatial analysis"
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,,Elevator Pitches,Elevator Pitches 2,EP
+2021,Francesca Vitalini,Panels and incubators,Panel: R User or R Developer? This is the question!,Other
+2021,"Heidi Seibold, Heather Turner, Matt Bannert",Panels and incubators,Incubator: The role of the R community in the RSE movement,Community and Outreach
+2021,Allison Horst,Regular talks,Developing a datasets based R package to teach environmental data science,Teaching R/R in Teaching
+2021,"Riccardo Fogliato, Shamindra Shrotriya",Regular talks,maars: Tidy Inference under misspecified statistical models in R,"Data mining / Machine learning / Deep Learning and AI, Operational research and optimization, Statistical models"
+2021,Zhian N. Kamvar,Regular talks,Using R as a Community Workbench for The Carpentries Lesson Infrastructure,Teaching R/R in Teaching
+2021,Martin Binder,Regular talks,"Mixed Integer Evolutionary Strategies with \\miesmuschel\\","Data mining / Machine learning / Deep Learning and AI, Operational research and optimization, Statistical models"
+2021,Mine Dogucu,Regular talks,Teaching and Learning Bayesian Statistics with {bayesrules},Teaching R/R in Teaching
+2021,Sevvandi Kandanaarachchi,Regular talks,Here is the anomolow-down!,"Data mining / Machine learning / Deep Learning and AI, Operational research and optimization, Statistical models"
+2021,Mine Cetinkaya-Rundel,Regular talks,Building and maintaining OpenIntro using the R ecosystem,Teaching R/R in Teaching
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,"Adithi R. Upadhya, Dr. Janani Ravi",Panels and incubators,Incubator: Strategies to build a strong AsiaR Community,Community and Outreach
+2021,Philippe Heymans Smith,Regular talks,Easy R Markdown reporting with chronicle,Data visualisation
+2021,Frank Berry,Regular talks,Sponsored Talk by MemVerge,R in production
+2021,Stuart Lee,Regular talks,virgo: a layered interactive grammar of graphics in R,Data visualisation
+2021,Maximilian Held,Regular talks,Bridging the Unproductive Valley: Building Data Products Strictly Without Magic,R in production
+2021,Ursula Laa,Regular talks,New displays for the visualization of multivariate data in the tourr package,Data visualisation
+2021,Peter Solymos,Regular talks,Data science serverless-style with R and OpenFaaS,R in production
+2021,Philipp Thomann,Regular talks,plotVR - walk through your data,Data visualisation
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,An-Chi Ho,Regular talks,startR: A tool for large multi-dimensional data processing,"Ecology, Environmental sciences"
+2021,Moritz N. Lang,Regular talks,Probability Distribution Forecasts: Learning with Random Forests and Graphical Assessment,Statistical models
+2021,Vik Gopal,Regular talks,A semi-automatic grader for R scripts,"Reproducibility, Teaching R/R in Teaching"
+2021,Timofey Samsonov,Regular talks,grwat: a new R package for automated separation and analysis of river hydrograph,"Ecology, Environmental sciences"
+2021,François Rousset,Regular talks,"spaMM: an R package to fit generalized, linear, and mixed models allowing for complex covariance structures",Statistical models
+2021,Rhian Davies,Regular talks,Automating bespoke online teaching with R,"Reproducibility, Teaching R/R in Teaching"
+2021,Liam Daniel Bailey,Regular talks,Using R6 object-oriented programming to build agent-based models,"Ecology, Environmental sciences"
+2021,Alexandre Brouste,Regular talks,The one-step estimation procedure in R,Statistical models
+2021,Christophe Dervieux,Regular talks,Extend the functionality of your R Markdown documents,"Reproducibility, Teaching R/R in Teaching"
+2021,Núria Pérez-Zanón,Regular talks,Climate Forecast Analysis Tools Framework: from the storage to the HPC to get reproducible climate research results and services,"Ecology, Environmental sciences"
+2021,Gherardo Varando,Regular talks,The R Package stagedtrees for Structural Learning of Stratified Staged Trees,Statistical models
+2021,Patricia Martinkova,Regular talks,Computational aspects of psychometrics taught with R and Shiny,"Reproducibility, Teaching R/R in Teaching"
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,Janani Ravi,Regular talks,MolEvolvR: Web-app and R-package for characterizing proteins using molecular evolution and phylogeny,"Bioinformatics / Biomedical or health informatics, Biostatistics and Epidemiology, Data visualisation, Web Applications (Shiny/Dash)"
+2021,Marcin Dubel,Regular talks,Shiny PoC to Production Application in 8 steps,R in production
+2021,Jakub Wi?niewski,Regular talks,"fairmodels: A Flexible Tool For Bias Detection, Visualization, And Mitigation","Data mining / Machine learning / Deep Learning and AI, Multivariate analysis"
+2021,Gergely Daroczi,Regular talks,Using R to Empower a Precision Dosing Web Application,"Bioinformatics / Biomedical or health informatics, Biostatistics and Epidemiology, Data visualisation, Web Applications (Shiny/Dash)"
+2021,Alex Kahn Gold,Regular talks,Reliably Reproducible Project Packages,R in production
+2021,"Philipp Bach, Malte S. Kurz",Regular talks,DoubleML - Double Machine Learning in R,"Data mining / Machine learning / Deep Learning and AI, Multivariate analysis"
+2021,Nils Eling,Regular talks,Visualization of highly-multiplexed imaging data with cytomapper,"Bioinformatics / Biomedical or health informatics, Biostatistics and Epidemiology, Data visualisation, Web Applications (Shiny/Dash)"
+2021,Iñaki Ucar,Regular talks,"Binary R Packages for Linux: Past, Present and Future",R in production
+2021,Jian MA,Regular talks,copent: Estimating Copula Entropy and Transfer Entropy in R,"Data mining / Machine learning / Deep Learning and AI, Multivariate analysis"
+2021,Ryan Copping,Regular talks,Sponsored Talk by Roche,"Bioinformatics / Biomedical or health informatics, Biostatistics and Epidemiology, Data visualisation, Web Applications (Shiny/Dash)"
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2021,Batool Almarzouq,Panels and incubators,Incubator: Expanding the R community in the Middle East and North Africa (MENA),Community and Outreach
+2021,"Matthias Bannert, Janani Ravi",Panels and incubators,Incubator: Stop reinventing the wheel: R package(s) for conference and abstract management,R in production
+2021,Aaron Jacobs,Regular talks,Production Metrics for R with the 'openmetrics' Package,"R in production, R in the wild (unusual applications of R)"
+2021,"Virginia A. García Alonso, Paola Corrales, Claudia A. Huaylla, Andrea Gómez Vargas, Joselyn Chávez, Denisse Fierro Arcos",Regular talks,"Using R in Latin America: the great, the good, the bad, and the ugly",Community and Outreach
+2021,Jouni Helske,Regular talks,bssm: Bayesian Inference of Non-linear and Non-Gaussian State Space Models in R,"Bayesian models, Social sciences, Statistical models, Time series"
+2021,Frans van Dunné,Regular talks,Automating business processes with R,"R in production, R in the wild (unusual applications of R)"
+2021,Ben Ubah,Regular talks,r-community.org: a central community infrastructure for R,Community and Outreach
+2021,Rachel Wilkerson,Regular talks,bnmonitor: Checking the Robustness and Sensitivity of Bayesian Networks,"Bayesian models, Social sciences, Statistical models, Time series"
+2021,Patrick Schratz,Regular talks,RStudio Managed Workbench -,"R in production, R in the wild (unusual applications of R)"
+2021,Riccardo Porreca,Regular talks,CovidR and rmdgallery: A streamlined process for collecting community contributions in a gallery website,Community and Outreach
+2021,Vittorio Dominic Orlandi,Regular talks,FLAME: Interpretable Matching for Causal Inference,"Bayesian models, Social sciences, Statistical models, Time series"
+2021,Joseph Rickert,Regular talks,A little bit about RStudio,"R in production, R in the wild (unusual applications of R)"
+2021,Eric Nantz,Regular talks,How open-source and R enable state-of-the-art media production,Community and Outreach
+2021,All presenters in the session,Regular talks,Questions,Community and Outreach
+2020,Karan Bhanot,regular,Mortality Minder,Biostatistics
+2020,Caitlin Simopoulos,regular,pepFunk: peptide-centric functional enrichment for metaproteomic gut microbiome data,Biostatistics
+2020,Marcin Wolski,regular,rejustify AI-enhanced ETL engine,Biostatistics
+2020,Isaac Subirana,lightning,Building descriptive tables with the updated compareGroups package,Biostatistics
+2020,Kaitlyn O’Shea,lightning,MeningiOMICS,Biostatistics
+2020,Alessio Maggiorelli,lightning,Methods of report generation in clinical trials using R and knitr,Biostatistics
+2020,Lubomir Stepanek,lightning,Robust alternatives for comparing time-event survival curves with R,Biostatistics
+2020,Sierra Davis,poster,Comparing the Treatment Regimen of Newly Diagnosed Pediatric Leukemia Patients,Biostatistics
+2020,Lazarus Mramba,poster,MUACz: An R Package for Generating MUAC and BMI z-scores and Percentiles for Children and Adolescents,Biostatistics
+2020,Laura Acion,regular,Communities of practice in Latin America: R and Friends,Community
+2020,"Rick Pack, Ben Ubah",regular,R community explorer: the state of R,Community
+2020,Tom Mock,regular,Tidy Tuesday: Scaffolding for a Community of Practice,Community
+2020,Diego Kozlowski,poster,Improving open data accessibility through package development and community work,Community
+2020,Toshihiro Umehara,regular,DataSailr package enables intuitive row by row data manipulation,Data Management
+2020,Konrad Siek,regular,Larger-than-memory R,Data Management
+2020,Parfait Gasana,regular,PostgreSQL As A Data Science Database,Data Management
+2020,Scott Chamberlain,regular,staypuft: object validation and serialization,Data Management
+2020,Emil Hvitfeldt,regular,themis: dealing with imbalanced data by using synthetic oversampling,Data Management
+2020,Tobias Rockel,lightning,missMethods - An R Package for Creating and Handling Missing Data as well as Evaluating Missing Data Methods,Data Management
+2020,Charlotte Looby,lightning,SynthTools: An R Package to Measure Synthetic Data Utility,Data Management
+2020,Nikolas Kuschnig,regular,BVAR: Bayesian Vector Autoregressions with Hierarchical Prior Selection in R,Economics and Finance
+2020,Alyssa Columbus,regular,R for Data Privacy and Governance,Economics and Finance
+2020,Alexander Lange,regular,svars: An R Package for Data-Driven Identification in Multivariate Time Series Analysis,Economics and Finance
+2020,Dimitri Marinelli,regular,Understanding Machine Learning for Diversified Portfolio Construction by Explainable AI,Economics and Finance
+2020,"Yong Chen, xuanyan cai",lightning,Multi-stage Financial Modeling using Machine Learning in R,Economics and Finance
+2020,Antoine Logean,poster,How green is your portfolio? Tracking CO2 footprint in the insurance sector,Economics and Finance
+2020,Jedrzej Swiezewski,regular,Fast.ai in R preserving wildlife with computer vision,Machine Learning and Statistics
+2020,"B. Charlier, G. Durif",regular,KeOps: Seamless Kernel Operations on GPU without memory overflows,Machine Learning and Statistics
+2020,Bettina Grün,lightning,Extending flexmix to model-based clustering with sparse data,Machine Learning and Statistics
+2020,Anton Antonov,lightning,How to simplify Machine Learning workflows specifications?,Machine Learning and Statistics
+2020,Sebastian Gruber,poster,mlr3hyperband: Multi-Fidelity Hyperparameter Optimization with R,Machine Learning and Statistics
+2020,Helena Kotthaus,poster,Towards Trustworthy Machine Learning: Debugging with Expert Knowledge,Machine Learning and Statistics
+2020,Mark van der Loo,regular,A method for deriving information from running R code,Programming
+2020,"Andy Nicholls, Juliane Manitz",regular,A Risk-based Assessment for R Package Accuracy,Programming
+2020,Max Turgeon,regular,Arbitrary precision linear algebra in R using RcppEigen and BH,Programming
+2020,Els Lommelen,regular,Flexibility in routines by using s4 classes: calculating habitat conservation status as an example,Programming
+2020,Stepan Sindelar,regular,How fastR can help R package developers,Programming
+2020,Tomas Kalibera,regular,The Current State and Future Prospects of Encoding Support in R,Programming
+2020,S Gwynn Sturdevant,lightning,FasteR code: vectorizing computations in R,Programming
+2020,Sebastian Engel-Wolf,lightning,Why continuous integration will save your team and your packages,Programming
+2020,damjan krizmancic,poster,LabVIEW-R interface,Programming
+2020,Marcin Dubel,regular,Be proud of your code!,Reproducible Research
+2020,Matthijs Berends,regular,Rapid & Reproducible Resistance Analysis For All - The AMR package for R,Reproducible Research
+2020,Javier Luraschi,regular,Using Pins to Ensure Reproducibility with Datasets,Reproducible Research
+2020,Claudio Zandonella Callegher,lightning,PRDA package: Enhancing Statistical Inference via Prospective and Retrospective Design Analysis,Reproducible Research
+2020,Emily Riederer,lightning,projmgr: Managing the human dependencies of your project,Reproducible Research
+2020,Herb Susmann,lightning,Reactor: reactive notebooks for R,Reproducible Research
+2020,Malcolm Barrett,lightning,Why Should I use the Here Package When I’m Already Using Projects,Reproducible Research
+2020,Ed Merkle,regular,blavaan: An R package for Bayesian structural equation modeling,Social Science
+2020,Carlos Cinelli,regular,sensemakr Sensitivity Analysis Tools for OLS,Social Science
+2020,Ethan Brown,regular,simpr: concise and readable simulations for the tidyverse,Social Science
+2020,Simon Couch,lightning,Social Categorizations in CRAN data,Social Science
+2020,Gina Griffin,lightning,Why Social Workers Need Data Science,Social Science
+2020,Michael Ghisletti,lightning,Word Embeddings and Geometric Deep Learning for Social Network Analysis,Social Science
+2020,Ottavia Epifania,poster,Scoring the implicit: The implicitMeasures package,Social Science
+2020,Orhun Aydin,regular,arcgisbinding: An R package for integrating R in ArcGIS,Spatial
+2020,Andy Teucher,regular,bcdata: Reproducible spatial data retrieval from a Geoserver Web Service,Spatial
+2020,Jim Kloet,lightning,"Mapping 311 Requests by Community Area in Chicago Using Shiny, Leaflet, and The Tidyverse",Spatial
+2020,Edwin de Jonge,lightning,Privacy protected maps using adaptive kernel density estimation,Spatial
+2020,Daniel Jacobs,regular,Learning R Through Spaced Repetition and the Remembr Package,Teaching
+2020,Aimee Schwab-McCoy,regular,Moving backwards with R,Teaching
+2020,"Alon Friedman, Zachariah Beasley",regular,Teaching R with Peer Review and a New Rubric,Teaching
+2020,Casey Canfield,lightning,Framing transparency as an ethical responsibility in PhD data science,Teaching
+2020,"Maze Ndukum, Dorris Scott, Marcy Vana",lightning,University Libraries for R: Supporting R useR!s,Teaching
+2020,Juniper Simonis,regular,LDATS: Latent Dirichlet Allocation Coupled with Time Series Analyses,Time Series
+2020,Zubin Dowlaty,regular,muHVT: Case based computational geometry modeling toolkit using R,Time Series
+2020,Ícaro Agostino,lightning,An online scheduling approach for distributed additive manufacturing systems,Time Series
+2020,Leonardo Silvestri,lightning,"ztsdb, a time-series DBMS for R users",Time Series
+2020,Benedict Witzenberger,regular,Doing Journalism with R,Visualization
+2020,Gabriel Becker,regular,rtables,Visualization
+2020,Steffen Moritz,lightning,Visualization of missing data and imputations in time series,Visualization
+2020,Gerrick Aden-Buie,lightning,Your slides are so extra!,Visualization
+2020,Christine Chai,poster,Improving accessibility in data visualizations created by ggplot2,Visualization
+2020,Alexander Matrunich,regular,Manage your Shiny app users,Web Applications
+2020,Juan Pablo Marin Diaz,regular,shi18ny: Internationalization for Shiny Apps,Web Applications
+2020,Corey Neskey,lightning,Cybersecurity risk assessment with R,Web Applications
+2020,Bo Wang,lightning,metashiny: build Shiny apps with a Shiny app,Web Applications
+2020,Mohamed El Fodil Ihaddaden,lightning,Very Easy Web Scraping with ralger,Web Applications
+2019,Brent Thorne,lightning,Transitioning between various RMarkdown packages for workflow optimization in academic research; a graduate student's perspective.,Workflow & development
+2019,Paul Stevenson,lightning,An Approach to Project Workflow for Professional Biostatistical Services,Workflow & development
+2019,Ildiko Czeller,lightning,ropsec: a package for easing operations security for the R user,Workflow & development
+2019,Nicoletta Farabullini,lightning,compareWith - user-friendly diff viewing and VCS interaction,Workflow & development
+2019,Hannah Frick,lightning,goodpractice - A Tool for Good Package Development,Workflow & development
+2019,Jakob Richter,lightning,rt - R Tools for the Command Line,Workflow & development
+2019,"Christophe Dervieux, Romain Lesur",lightning,Native Chrome Automation using R,Shiny & web
+2019,"Victor Perrier, Fanny Meyer",lightning,Our journey with Shiny : some packages to enhance your applications,Shiny & web
+2019,Julio Trecenti,lightning,auth0: Secure Authentication in Shiny with Auth0,Shiny & web
+2019,Maxim Nazarov,lightning,Packaging shiny applications,Shiny & web
+2019,Abbas Rizvi,lightning,Photon : Building an electron-shiny app using a simple RStudio add in.,Shiny & web
+2019,Andreas Wittmann,lightning,Visualizing Huge Amounts of Fleet Data using Shiny and Leaflet,Shiny & web
+2019,Dmytro Perepolkin,lightning,{polite} - web etiquette for R users,Text mining
+2019,Samuel Borms,lightning,"The R Package sentometrics to Compute, Aggregate and Predict with Textual Sentiment",Text mining
+2019,"Cécile Sauder, Jean Delmotte",lightning,BibliographeR : a set of tools to help your bibliographic research,Text mining
+2019,Erwan Le Pennec,lightning,ggwordcloud: a word cloud geometry for ggplot2,Text mining
+2019,Chung-Hong Chan,lightning,Die Nutella oder Das Nutella? Grammatical Gender Prediction of German Nouns,Text mining
+2019,Johannes Müller,lightning,Implementing a Classification and Filtering App for Multilingual Facebook Comments  â€“  A Use Case Of Data For Good with R,Text mining
+2019,Nolwenn Le Meur,lightning,queryMed: Linking pharmacological and medical knowledge using semantic Web technologies,Text mining
+2019,Quay Au,lightning,fxtract - Feature Extraction from Grouped Data,Methods & applications
+2019,Megan Beckett,lightning,Spatial Optimisation with OSRM and R,Methods & applications
+2019,Peter Brejcak,lightning,Anomaly detection in trivago,Methods & applications
+2019,Angeline Protacio,lightning,Using R and the Tidyverse to Play Fantasy Baseball,Methods & applications
+2019,Alicja Fras,lightning,Optimizing children sleeping time using regression and machine learning,Methods & applications
+2019,"Enrico Spinielli, Tamara Pejovic",lightning,R in the Air,Spatial & time series
+2019,Piotr Wójcik,lightning,Measuring inequalities from space. Analysis of satellite raster images with R,Spatial & time series
+2019,Florence Carpentier,lightning,SILand: an R package for estimating the spatial influence of landscape,Spatial & time series
+2019,Rodelyn Jaksons,lightning,Spatio-temporal Analysis of Diabrotica Emergence,Spatial & time series
+2019,Annette Scheffer,lightning,Navigating spatial data management and analysis in Sustainable Fisheries using a combined R-Python approach,Spatial & time series
+2019,Kim Antunez,lightning,Dealing with the change of administrative divisions over time,Spatial & time series
+2019,Gregor De Cillia,lightning,"persephone, seasonal adjustment with an object-oriented wrapper for RJDmetra",Spatial & time series
+2019,Caterina Constantinescu,lightning,Adjusting reviewer scores for a fairer assessment via multi-faceted Rasch modelling,Models & methods
+2019,Marie Perrot-Dockès,lightning,Penalized regressions to study multivariate linear models : the VariSel package.,Models & methods
+2019,Christophe Dutang,lightning,"Maximum spacing estimation, a new method in fitdistrplus",Models & methods
+2019,Marc Choisy,lightning,rama: an R interface to the GAMA agent-based modeling platform,Models & methods
+2019,Kaeding Matthias,lightning,RcppGreedySetCover: Scalable Set Cover,Models & methods
+2019,Mickaël Binois,lightning,The GPareto and GPGame packages for multi and many objective Bayesian optimization,Models & methods
+2019,Saras Windecker,lightning,Open-access software for research: beyond data analysis,"Open science, education & community"
+2019,Angela Li,lightning,Teaching reproducible spatial analysis in R,"Open science, education & community"
+2019,William Chase,lightning,"Use aRt to learn algorithms, math, and R","Open science, education & community"
+2019,Beatriz Milz,lightning,The evolution and importance of the R-Ladies SÃ£o Paulo chapter in Brazil,"Open science, education & community"
+2019,Binod Jung Bogati,lightning,Building Active Community at Your Place,"Open science, education & community"
+2019,Eyitayo Alimi,lightning,Scaling useR Communities with Engagement and Retention Models,"Open science, education & community"
+2019,Balazi Peter,lightning,The transition from conventional tools in banking to R,Switching to R
+2019,Christophe Genolini,lightning,"R++, a new Graphical User Interface for R",Switching to R
+2019,Kieran Martin,lightning,R in Pharma: A tailored approach to converting programmers to R in an industry resistant to change,Switching to R
+2019,Kevin Kuo,lightning,Community Driven Data Science in Insurance,Switching to R
+2019,Alexander Kowarik,lightning,unconfUROS and one of its outputs vornoiTreemap,Switching to R
+2019,Konstantinos Soulanis,lightning,An R implementation of a model-based estimator  â€“  a UK case study,Switching to R
+2019,Roxane Legaie,lightning,Using advanced R packages for the visualisation of clinical data in a cancer hospital setting,Switching to R
+2019,Romane Poinsot,lightning,A Shiny Webapp for nutritional reformulation of food products according to French front-of-pack â€œNutri-Scoreâ€ label.,Biostatistics & epidemiology
+2019,Fiona Grimm,lightning,Using Shiny to track winter pressures in the UK National Health Service (NHS),Biostatistics & epidemiology
+2019,Thomas Petzoldt,lightning,antibioticR: An R package to identify resistant populations in environmental bacteria,Biostatistics & epidemiology
+2019,Daniela Mariosa,lightning,MR studies in R: how to use genetic information for identifying modifiable risk factors,Biostatistics & epidemiology
+2019,Volha Tryputsen,lightning,Streamlining complex analyses of in-vivo data with INVIVOLDA shiny application,Biostatistics & epidemiology
+2019,Aritz Adin,lightning,A shiny web application for disease mapping. Making easy the fit of spatio-temporal models.,Biostatistics & epidemiology
+2019,"Aarón Ayllón-Benítez, Patricia Thebault",lightning,rGSAn: a R package dedicated to the gene set analysis using semantic similarity measures.,Bioinformatics & biostatistics
+2019,"Goknur Giner, Alexandra Garnham",lightning,Pathway-VisualiseR: An Interactive Web Application for Visualising Gene Networks,Bioinformatics & biostatistics
+2019,Víctor Granda,lightning,Compiling a global database of sapflow measurements with R: Workflow and tools for the SAPFLUXNET database,Bioinformatics & biostatistics
+2019,Fabiola La Gamba,lightning,Bayesian sequential integration within a preclinical PK/PD modeling framework using rstan package: Lessons learned,Bioinformatics & biostatistics
+2019,Boris Hejblum,lightning,VICI: a Shiny app for accurate estimation of Vaccine Induced Cellular Immunogenicity with bivariate modeling,Bioinformatics & biostatistics
+2019,Marion Louveaux,lightning,Tools for 3D/4D interactive visualisation of cells and biological tissue,Bioinformatics & biostatistics
+2019,Deniz Topcu,lightning,Analysis of laboratory test requests in a university hospital: A Shiny App for association analysis as a demand management tool,Bioinformatics & biostatistics
+2019,Kamil Wais,full,Logging and Analyzing Events in Complex Shiny Apps,Shiny 1
+2019,Hannah De Los Santos,full,mwshiny: Connecting Shiny Across Multiple Windows,Shiny 1
+2019,"Riccardo Porreca, Roland Schmid",full,Shiny app deployment and integration into a custom website gallery,Shiny 1
+2019,Machteld Varewyck,full,Automated Surveys and Reports for Expert Elicitation with Shiny,Shiny 1
+2019,Eric Lecoutre,full,Machine Learning with R: do it with a framework,Data mining
+2019,Erin LeDell,full,Building and Benchmarking Automatic Machine Learning Systems,Data mining
+2019,Michel Lang,full,mlr3: A new modular framework for machine learning with R,Data mining
+2019,Bernd Bischl,full,mlr3pipelines: Machine Learning Pipelines as Graphs,Data mining
+2019,Savin Goyal,full,Machine Learning Infrastructure at Netflix,Model deployment
+2019,Angus Taylor,full,Deploying machine learning models at scale,Model deployment
+2019,"Christoph Bodner, Thomas Laber",full,Serverless Computing for R,Model deployment
+2019,David Smith,full,A DevOps process for deploying R to production,Model deployment
+2019,Friedrike Preu,full,Authentication and authorization in plumber with the sealr package,Model deployment
+2019,Hadley Wickham,full,Enhancements to data tidying,Data handling
+2019,Romain Francois,full,n() cool #dplyr things,Data handling
+2019,Zhuo Jia Dai,full,You don't need Spark for this - larger-than-RAM data manipulation with disk.frame,Data handling
+2019,Yves Croissant,full,Data frames for grouped data: the gdata.frame package,Data handling
+2019,Thierry Onkelinx,full,git2rdata: storing dataframes in a plain text format suitable for version control,Data handling
+2019,Scott Chamberlain,full,HTTP Requests For R Users and Package Developers,Programming 1
+2019,Colin Gillespie,full,R and security,Programming 1
+2019,Jennifer Bryan,full,DRY out your workflow with the usethis package,Programming 1
+2019,Lionel Henry,full,"Reusing tidyverse code, the easy way",Programming 1
+2019,Davis Vaughan,full,Simple Arrays,Programming 1
+2019,Gábor Csárdi,full,pak: a fresh approach to package installation,Performance
+2019,Arun Srinivasan,full,Summary of developments in R's data.table package,Performance
+2019,Jim Hester,full,Real-time file import with the vroom package,Performance
+2019,Henrik Bengtsson,full,A Future for R: Simplified Parallel and Distributed Processing,Performance
+2019,Stepan Sindelar,full,FastRCluster: running FastR from GNU-R,Performance
+2019,"Georges Monette, John Fox",full,A Generalized Framework for Parametric Regression Splines,Models 1
+2019,Michela Battauz,full,Regularized estimation of the nominal response model,Models 1
+2019,Alessandro Gasparini,full,merlin - mixed effects regression for linear and nonlinear models,Models 1
+2019,Ruggero Bellio,full,Modern likelihood-frequentist inference with the likelihoodAsy package,Models 1
+2019,Genaro Sucarrat,full,General-to-Specific (GETS) Modelling with User-Specified Estimators and Models,Models 1
+2019,"Ghislain Vieilledent, Jeanne Clément",full,Using Rcpp* packages for easy and fast Gibbs sampling MCMC from within R,Models 2
+2019,Elias Krainski,full,A toolbox for fitting non-separable space-time log-Gaussian Cox models using R-INLA,Models 2
+2019,Wei Jiang,full,Adaptive Bayesian SLOPE -- High-dimensional Model Selection with Missing Values,Models 2
+2019,Raluca Gui,full,REndo: An R Package to Address Endogeneity Without External Instrumental Variables,Models 2
+2019,Anne Helby Petersen,full,Discovering the cause: Tools for structure learning in R,Models 2
+2019,"Norman Matloff, Tiffany Jiang, Wenxuan Zhao, Robert Tucker",full,prVis: a Novel Method for Visual Dimension Reduction,Big/high dimensional data
+2019,Benoit Liquet,full,PLS for Big Data: A Unified Parallel Algorithm for Regularized Group PLS,Big/high dimensional data
+2019,Sarah Romanes,full,multiDA and genDA: Discriminant analysis methods for large scale and complex datasets,Big/high dimensional data
+2019,Daniel Schalk,full,compboost: Fast and Flexible Component-Wise Boosting Framework,Big/high dimensional data
+2019,Robin Genuer,full,How to speed-up VSURF (Variable Selection Using Random Forests)?,Big/high dimensional data
+2019,Rezgar Arabzadeh,full,Application of WRSS in Water and Energy Analysis; An object oriented R package for large-scale water resources operation,Applications 1
+2019,Emanuele Cordano,full,An R Package for the Distributed Hydrological Model GEOtop,Applications 1
+2019,Friedrich-Claus Grueber,full,Big data analysis for power plant operational data for optimizing engineering design in R / Shiny,Applications 1
+2019,Priyanga Dilini Talagala,full,Anomaly Detection in R,Applications 1
+2019,Daniel Grose,full,Collective and Point Anomaly Detection in R,Applications 1
+2019,Mitchell O'Hara-Wild,full,Flexible futures for fable functionality,Forecasting
+2019,Thiyanga Talagala,full,Feature-based Time Series Forecasting,Forecasting
+2019,"Benjamin Goehry, Hui Yan",full,Random forests for time series,Forecasting
+2019,Ivan Svetunkov,full,Smooth forecasting in R,Forecasting
+2019,Eran Raviv,full,Forecast Combination in R,Forecasting
+2019,Matthias Bannert,full,"timeseriesdb - Manage, Process and Archive Time Series with R and PostgreSQL",Time series data
+2019,Rob Hyndman,full,A feast of time series tools,Time series data
+2019,Christoph Sax,full,tsbox: Class-Agnostic Time Series,Time series data
+2019,Alain Quartier-La-Tente,full,RJDemetra: an R interface to JDemetra+ seasonal adjustment software,Time series data
+2019,Steffen Moritz,full,Experiences from dealing with missing values in sensor time series data,Time series data
+2019,Kenia Wiedemann,full,Mathematical Modeling with R: Embedding Computational Thinking into High School Math Classes in the United States,Education
+2019,Irene Steves,full,Teaching data science with puzzles,Education
+2019,Alethea Rea,full,Teaching R and statistics to higher degree research students and industry professionals,Education
+2019,Colin Rundel,full,ghclass: an R package for managing classes with GitHub,Education
+2019,Mine Cetinkaya-Rundel,full,Data Science in a Box,Education
+2019,Dennis Irorere,full,R for Data Science Online Community,Communities & conferences
+2019,Laura Acion,full,Insights from the recent R community development and growth in Latin America,Communities & conferences
+2019,"Dennis Irorere, Shel Kariuki",full,AfricaR,Communities & conferences
+2019,"Noa Tamir, Colin Gillespie, Riva Quiroga, Vincent Warmerdam",full,"The truth about satRdays (panel session, part 1)",Communities & conferences
+2019,"Noa Tamir, Colin Gillespie, Riva Quiroga, Vincent Warmerdam",full,"The truth about satRdays (panel session, part 2)",Communities & conferences
+2019,"Jakub Nowosad, Robin Lovelace",full,How to win friends and write an open-source book,Contribution & collaboration
+2019,Ioannis Kosmidis,full,Making sense of CRAN: Package and collaboration networks,Contribution & collaboration
+2019,Patrice Kiener,full,RWsearch: a package for CRAN users and task view maintainers,Contribution & collaboration
+2019,Riva Quiroga,full,"Translating datasets using \datalang\: the development of \datos\ package for the R4DS Spanish translation",Contribution & collaboration
+2019,Joseph Rickert,full,R Consortium Working Groups,Contribution & collaboration
+2019,Fabien Llobell,full,ClustBlock: a package for clustering datasets,Multivariate analysis
+2019,Margot Selosse,full,ordinalClust: an R package for analyzing ordinal data.,Multivariate analysis
+2019,Amandine Schmutz,full,"funHDDC, a R package to cluster univariate and multivariate functional data",Multivariate analysis
+2019,Maikol Solís,full,Using the package `simple features` (sf) for sensitivity analysis,Multivariate analysis
+2019,Michael Friendly,full,Visualizing multivariate linear models in R,Multivariate analysis
+2019,Thibaut Jombart,full,Reproducible data science to support outbreak responses: experience from the North Kivu Ebola outbreak,Biostatistics & epidemiology 1
+2019,Zhian N. Kamvar,full,Advancing data analytics for field epidemiologists using R: the R4epis innovation project,Biostatistics & epidemiology 1
+2019,Vincent Audigier,full,micemd: a smart multiple imputation R package for missing multilevel data,Biostatistics & epidemiology 1
+2019,Iryna Schlackow,full,Facilitating external use with user-friendly interfaces: a health policy model case study,Biostatistics & epidemiology 1
+2019,Torben Tvedebrink,full,genogeographer - a tool for ancestry informative markers,Biostatistics & epidemiology 1
+2019,Alessio Crippa,full,Implementation and analysis design of an adaptive-outcome trial in R,Biostatistics & epidemiology 2
+2019,"Christian Ritz, Jens C. Streibig",full,Advances in dose-response analysis,Biostatistics & epidemiology 2
+2019,Terry Therneau,full,The next generation of the survival package,Biostatistics & epidemiology 2
+2019,Jesse Islam,full,A flexible approach to time-to-event data analysis using case-base sampling,Biostatistics & epidemiology 2
+2019,Antonio Gasparrini,full,The R package mixmeta: an extended mixed-effects framework for meta-analysis,Biostatistics & epidemiology 2
+2019,Vincent Guyader,full,Golem : A Framework for Building Robust & Production Ready Shiny Apps,Shiny 2
+2019,Kelly Obriant,full,Art of the Feature Toggle: Patterns for maintaining and improving Shiny applications over time,Shiny 2
+2019,"Alexandra Turcan, Ruan Pearce-Authers",full,Data for all: Empowering teams with scalable Shiny applications,Shiny 2
+2019,Filip Stachura,full,Best practices for building Shiny enterprise applications,Shiny 2
+2019,Francois Michonneau,full,How a non-profit uses R for its daily operations,Operations & data products
+2019,Daan Seynaeve,full,rjenkins and rrundeck: Coordinating Continuous Integration and Delivery with R,Operations & data products
+2019,Kelly Obriant,full,Advanced Git Integrations for Automating the Delivery of Reproducible Data Products in R,Operations & data products
+2019,"Verena Held, Max Held",full,GitHub actions for R,Operations & data products
+2019,Peter Jaksons,full,Using AI and R to help improve the quality and health of your personalised food basket.,Applications 2
+2019,Sarah N. Musy,full,Variation of patient turnover on a 30-minutes basis for 3 years: analysis of routine data of a Swiss University Hospital,Applications 2
+2019,Hyesop Shin,full,Bridging agent-based modelling and R with nlrx: simulating pedestrian's long-term exposure to air pollution,Applications 2
+2019,Hae-Yoon Jung,full,Simulation of the physical movement for Machine Learning with R: Simulation of Robot gait Optimization Using GA,Applications 2
+2019,Tomas Kalibera,full,Sustainable Package Development,Programming 2
+2019,Elie Canonici Merle,full,Typing R,Programming 2
+2019,Perry De Valpine,full,nCompiler: C++ code-generation from R code,Programming 2
+2019,Zbynek Slajchrt,full,Mixed interactive debugging of R and native code with FastR and Vistual Studio Code,Programming 2
+2019,Frédéric Vanwindekens,full,Visualisation of open-ended interviews through qualitative coding and cognitive mapping,"Social science, marketing & business"
+2019,Chris Chapman,full,choicetools: a package for conjoint analysis and best-worst surveys,"Social science, marketing & business"
+2019,Andreas Alfons,full,Robust mediation analysis using the R package robmed,"Social science, marketing & business"
+2019,Gert Janssenswillen,full,propro: Enhancing Discovered Process Models using Bayesian Inference and MCMC,"Social science, marketing & business"
+2019,Alessandro Gasparini,full,Analysing results from Monte Carlo simulation studies using the rsimsum package and the INTEREST shiny app,Numerical methods
+2019,Robert Crouchley,full,Algorithmic Differentiation in R using the RcppEigenAD package,Numerical methods
+2019,Richard Fitzjohn,full,"Describing and solving differential equations with a new domain specific language, odin",Numerical methods
+2019,Rocio Joo,full,Navigating through the R packages for movement,Movement & transport
+2019,Mohammad Mehdi Moradi,full,"Classes, methods and data analysis for trajectories",Movement & transport
+2019,Christine Thomas-Agnan,full,Modelling spatial flows with R,Movement & transport
+2019,Robin Lovelace,full,R for Transport Planning,Movement & transport
+2019,Emmanuel Blondel,full,Strengthening of R in support of spatial data infrastructures management: geometa and ows4R packages,Spatial data & maps
+2019,Ege Rubak,full,Resample-smoothing of Voronoi intensity estimators,Spatial data & maps
+2019,Timothée Giraud,full,"Thematic mapping with \cartography\",Spatial data & maps
+2019,Edwin de Jonge,full,Creating privacy protecting density maps: sdcSpatial,Spatial data & maps
+2019,Quentin Fazilleau,full,Package flextable: a grammar to produce tabular reporting from R,Reproducibility
+2019,Leah Welty,full,Connecting R/R Markdown and Microsoft Word using StatTag for Collaborative Reproducibility,Reproducibility
+2019,Sébastien Rochette,full,"The \Rmd first\ method: when projects start with the documentation",Reproducibility
+2019,Peter Baker,full,R gnumaker: easy Makefile construction for enhancing reproducible research,Reproducibility
+2019,Achim Zeileis,full,colorspace: A Toolbox for Manipulating and Assessing Color Palettes,Visualisation
+2019,Ian Lyttle,full,Vegawidget: Composing and Rendering Interactive Vega(-Lite) Charts,Visualisation
+2019,Ursula Laa,full,Visualising high-dimensional data: new developments of the tourr package using Shiny and plotly,Visualisation
+2019,Jim Harner,full,xstatR: an Environment for Running R and XLISP-STAT in Docker Containers,Visualisation
+2019,Marijke Van Moerbeke,full,Multi-data learning with M-ABC: extending your ABC's,Bioinformatics 1
+2019,Toby Hocking,full,Fast and Optimal Peak Detection in Large Genomic Data via the PeakSegDisk Package,Bioinformatics 1
+2019,Guillaume Devailly,full,PEREpigenomics: a shiny app to visualize Roadmap Epigenomics data,Bioinformatics 1
+2019,Vahid Nassiri,full,clustDRM: an R package and Shiny app for modeling high- throughput dose-response data,Bioinformatics 1
+2019,Michael Lawrence,full,"Interfacing R/Bioconductor with Hail, a Spark-based platform for genomics",Bioinformatics 2
+2019,Federico Marini,full,iSEE: interactive and reproducible exploration and visualization of genomics data,Bioinformatics 2
+2019,Pol Castellano-Escuder,full,POMA: Shiny tool for targeted metabolomic data statistical analysis and visualization,Bioinformatics 2
+2018,Jono Tuke,Lightning talk,Pachinko prediction,"models, data mining"
+2018,Elvina Viennet,Lightning talk,Uncertainty and sensitivity analyses: application to modelling the reproduction number of an infectious disease,"models, performance"
+2018,Mark Wohlers,Lightning talk,Deep Learning with Keras R to model Spectral Data,"algorithms, models"
+2018,Saras Windecker,Lightning talk,The zoon R package for reproducible and shareable species distribution modelling,"models, reproducibility, community/education"
+2018,Stephanie Kobakian,Lightning talk,taipan: Woman faces machine,image analysis
+2018,Saskia Freytag,Lightning talk,Can interactive shiny tools transform biological research?,"web app, bioinformatics, interfaces"
+2018,Roberts Jessie,Lightning talk,Visualising Uncertainty for Decision Makers,"web app, bioinformatics, interfaces"
+2018,Chen Amy Tzu-Yu,Lightning talk,Shiny - New York Pre-Kindergarten Explorer,NA
+2018,Yan Holtz,Lightning talk,Getting rich quick with R & Cryptocurrencies?,"applications, streaming data"
+2018,Ozan Cinar,Lightning talk,poolR: Combining Dependent p-values,bioinformatics
+2018,Tamal Kumar De,Lightning talk,Handling Missing Data in Single-Case Experiments,"community/education, simulation, single-case, missing data"
+2018,Dennis Wollersheim,Lightning talk,What can you do with drugs?  Exploring Pharmaceutical Benefit Scheme prescription drug usage using R,"visualisation, algorithms, models, databases, big data"
+2018,Laurent Thibault,Lightning talk,npbr: A Package for Nonparametric Boundary Regression in R,nonparametric statistics
+2018,Robert King,Lightning talk,R's early growth: easy dissemination of new stats,history
+2018,Pearse Alan Ryou,Lightning talk,Exploiting the natural structure of a large spatial dataset to cut down on processing time: an example from the Great Barrier Reef,history
+2018,Maschette Dale,Lightning talk,Round peg in a square hole: making Southern Ocean maps,NA
+2018,Sparks Adam H.,Lightning talk,Establishing a community for supporting and fostering adoption of reproducible research using R,NA
+2018,Shinichi Takayanagi,Poster lightning,How LINE Corp Use R to Compete in a Data-Driven World,"applications, reproducibility, Practical use of R language in business"
+2018,Mahmoud Ahmed,Poster lightning,"pcr: an R package for quality assessment, analysis and testing of qPCR data","bioinformatics, data-access"
+2018,Miles McBain,Poster lightning,An R pipeline for creating and hosting collaborative Web VR environments.,"visualisation, space/time"
+2018,Kim Ki-Yeol,Poster lightning,Squamous cell carcinoma analysis with R,bioinformatics
+2018,Erika Siregar,Poster lightning,AnalevR: An Interactive R-Based Analysis Environment for Utilizing BPS-Statistics Indonesia Data,"visualisation, web app, community/education, networks, big data, analysis, collaboration, cloud computing, analysis as a service, bps, statistics Indonesia, analysis environment, remote data analysis"
+2018,Yan Holtz,Poster lightning,From Data to Viz,"visualisation, community/education"
+2018,Goknur Giner,Poster lightning,Pathway-VisualiseR,"visualisation, web app, community/education, bioinformatics, networks, Bioconductor"
+2018,Edgar Santos-Fernandez,Poster lightning,ActisoftR: a toolbox for processing and visualizing scored actigraphy data.,"visualisation, applications, space/time"
+2018,Hannah Coughlan,Poster lightning,Integration and visualisation of high throughput genomics data with R,"visualisation, bioinformatics"
+2018,Vipavee Trivittayasil,Poster lightning,MovingBubbles : Animated d3 bubble chart,visualisation
+2018,Nicholas Spyrison,Poster lightning,spinifex: visulizing local structure of higher dimensions,"visualisation, community/education"
+2018,Motoyuki Oki,Poster lightning,Time Series Digger : Automatic time series analysis for data science in R,"visualisation, data mining, space/time"
+2018,Volha Tryputsen,Poster lightning,Antibody characterization with next generation sequencing using Group My Abs shiny app,"visualisation, algorithms, models, data mining, applications, web app, reproducibility, bioinformatics"
+2018,Gabriel Domingo,Poster lightning,Use of R in Antitrust: The case of the Philippine Competition Commission,"visualisation, models, applications, reproducibility, community/education, Antitrust"
+2018,Adam Gruer,Poster lightning,Using R and Process Control Charts to Help Hospital Management See The Woods For The Trees,visualisation
+2018,Sharon Lee,Poster lightning,Shiny EMMIXskew for symmetric and asymmetric mixture modelling,"visualisation, algorithms, models, data mining, applications, web app, multivariate"
+2018,Alan Pearse,Poster lightning,SSNDesign -- An R Package for Optimal Designs on Spatial Stream Networks,"models, experimental design; optimal design; spatial stream networks"
+2018,Tatiana Marci,Poster lightning,Using Factor Mixture Analysis in Developmental Psychology: An Application to Research on Parent-child Attachment,"applications, Factor Mixture Analysis, heterogeneous populations"
+2018,Gi-Seop Lee,Poster lightning,Evaluations of the machine learning models in the coastal habitat classification,"applications, multivariate, performance"
+2018,Koji Makiyama,Poster lightning,Magic Functions to Obtain Results from 'for' Loops in R,interfaces
+2018,Yuya Matsumura,Poster lightning,Easy Writing of Bayesian Optimizaion for Macine Learning,"models, performance, big data"
+2018,Jeremy Forbes,Poster lightning,Using Australian census data to describe electorates' socio-economic profiles at the time of a federal election.,"models, reproducibility, community/education"
+2018,Jessica Bagnall,Poster lightning,Analysing the voting patterns of the Senate of the 45th Australian Parliament via fully-visible Boltzmann machines,"algorithms, models, applications, networks"
+2018,Florian Schwendinger,Poster lightning,Readability Prediction in R,"models, applications, text analysis/NLP"
+2018,Aswi Aswi,Poster lightning,Comparison of different Bayesian spatio-temporal models using R packages,"models, applications, space/time, CARBayesST"
+2018,Janek Thomas,Poster lightning,Automatic gradient boosting,"algorithms, models, data mining, Automatic Machine Learning"
+2018,Awdhesh Yadav,Poster lightning,Household and Community factor on under-five mortality in India: An application of multilevel cox proportional hazard model,"multivariate, big data"
+2018,Jean-Michel Perraud,Poster lightning,A suite of R packages for hydrological ensemble forecasting using Rcpp,"space/time, performance, big data, Hydrology, forecast"
+2018,Susanna Cramb,Poster lightning,Bayesian disease mapping in R,"models, space/time"
+2018,Rosemary Putler,Poster lightning,Analysis of EHR Data and Circulating Inflammatory Mediators: Association with Severe Clostridium difficile Infection,"models, applications, bioinformatics"
+2018,Stuart Davie,Poster lightning,A data driven approach to generating and scoring B2B leads,"visualisation, models, applications"
+2018,Shinichi Takayanagi,Poster,How LINE Corp Use R to Compete in a Data-Driven World,"applications, reproducibility, Practical use of R language in business"
+2018,Mahmoud Ahmed,Poster,"pcr: an R package for quality assessment, analysis and testing of qPCR data","bioinformatics, data-access"
+2018,Miles McBain,Poster,An R pipeline for creating and hosting collaborative Web VR environments.,"visualisation, space/time"
+2018,Kim Ki-Yeol,Poster,Squamous cell carcinoma analysis with R,bioinformatics
+2018,Erika Siregar,Poster,AnalevR: An Interactive R-Based Analysis Environment for Utilizing BPS-Statistics Indonesia Data,"visualisation, web app, community/education, networks, big data, analysis, collaboration, cloud computing, analysis as a service, bps, statistics Indonesia, analysis environment, remote data analysis"
+2018,Yan Holtz,Poster,From Data to Viz,"visualisation, community/education"
+2018,Goknur Giner,Poster,Pathway-VisualiseR,"visualisation, web app, community/education, bioinformatics, networks, Bioconductor"
+2018,Edgar Santos-Fernandez,Poster,ActisoftR: a toolbox for processing and visualizing scored actigraphy data.,"visualisation, applications, space/time"
+2018,Hannah Coughlan,Poster,Integration and visualisation of high throughput genomics data with R,"visualisation, bioinformatics"
+2018,Vipavee Trivittayasil,Poster,MovingBubbles : Animated d3 bubble chart,visualisation
+2018,Nicholas Spyrison,Poster,spinifex: visulizing local structure of higher dimensions,"visualisation, community/education"
+2018,Motoyuki Oki,Poster,Time Series Digger : Automatic time series analysis for data science in R,"visualisation, data mining, space/time"
+2018,Volha Tryputsen,Poster,Antibody characterization with next generation sequencing using Group My Abs shiny app,"visualisation, algorithms, models, data mining, applications, web app, reproducibility, bioinformatics"
+2018,Gabriel Domingo,Poster,Use of R in Antitrust: The case of the Philippine Competition Commission,"visualisation, models, applications, reproducibility, community/education, Antitrust"
+2018,Adam Gruer,Poster,Using R and Process Control Charts to Help Hospital Management See The Woods For The Trees,visualisation
+2018,Sharon Lee,Poster,Shiny EMMIXskew for symmetric and asymmetric mixture modelling,"visualisation, algorithms, models, data mining, applications, web app, multivariate"
+2018,Alan Pearse,Poster,SSNDesign -- An R Package for Optimal Designs on Spatial Stream Networks,"models, experimental design; optimal design; spatial stream networks"
+2018,Tatiana Marci,Poster,Using Factor Mixture Analysis in Developmental Psychology: An Application to Research on Parent-child Attachment,"applications, Factor Mixture Analysis, heterogeneous populations"
+2018,Gi-Seop Lee,Poster,Evaluations of the machine learning models in the coastal habitat classification,"applications, multivariate, performance"
+2018,Koji Makiyama,Poster,Magic Functions to Obtain Results from 'for' Loops in R,interfaces
+2018,Yuya Matsumura,Poster,Easy Writing of Bayesian Optimizaion for Macine Learning,"models, performance, big data"
+2018,Jeremy Forbes,Poster,Using Australian census data to describe electorates' socio-economic profiles at the time of a federal election.,"models, reproducibility, community/education"
+2018,Jessica Bagnall,Poster,Analysing the voting patterns of the Senate of the 45th Australian Parliament via fully-visible Boltzmann machines,"algorithms, models, applications, networks"
+2018,Florian Schwendinger,Poster,Readability Prediction in R,"models, applications, text analysis/NLP"
+2018,Aswi Aswi,Poster,Comparison of different Bayesian spatio-temporal models using R packages,"models, applications, space/time, CARBayesST"
+2018,Janek Thomas,Poster,Automatic gradient boosting,"algorithms, models, data mining, Automatic Machine Learning"
+2018,Awdhesh Yadav,Poster,Household and Community factor on under-five mortality in India: An application of multilevel cox proportional hazard model,"multivariate, big data"
+2018,Jean-Michel Perraud,Poster,A suite of R packages for hydrological ensemble forecasting using Rcpp,"space/time, performance, big data, Hydrology, forecast"
+2018,Susanna Cramb,Poster,Bayesian disease mapping in R,"models, space/time"
+2018,Rosemary Putler,Poster,Analysis of EHR Data and Circulating Inflammatory Mediators: Association with Severe Clostridium difficile Infection,"models, applications, bioinformatics"
+2018,Stuart Davie,Poster,A data driven approach to generating and scoring B2B leads,"visualisation, models, applications"
+2018,Richard Layton,Applications in society,"Data, methods, and metrics for studying student persistence","applications, community/education, persistence metrics, intersectionality, longitudinal"
+2018,Maria Holcekova,Applications in society,The dynamic approach to inequality: Using longitudinal trajectories of young women and their parents in determining their socio-economic positions within the contemporary Western society,"visualisation, clustering, imputation, longitudinal data analysis"
+2018,Frank C.S. Liu,Applications in society,The Second Wing of Polls: How Multiple Correspondence Analysis using R Advances Exploring Associated Attitudes in Smaller-Data,applications
+2018,Meryam Krit,Applications in society,Modelling Rift Valley Fever,"models, applications, community/education"
+2018,Miguel Gonzalez-Fierro,Big data,Spark on demand with AZTK,big data
+2018,Benjamin Ortiz Ulloa,Big data,Graphs: Datastructures to Query,"algorithms, models, databases, networks, text analysis/NLP, big data"
+2018,Amy Stringer,Big data,Automated Visualisations for Big Data,"visualisation, reproducibility, big data"
+2018,Snehalata Huzurbazar,Big data,Visualizations to guide dimension reduction for sparse high-dimensional data,visualisation
+2018,Florian Rohart,Stat methods for high-dim biology,mixOmics: An R package for 'omics feature selection and multiple data integration,"data mining, applications, bioinformatics, multivariate, big data"
+2018,Claus Thorn Ekstrøm,Stat methods for high-dim biology,"Using mommix for fast, large-scale genome-studies in the presence of gene-environment and gene-gene interaction","algorithms, models, bioinformatics, big data"
+2018,Jacob Bergstedt,Stat methods for high-dim biology,?Quantifying the immune system with the MMI package,"models, data mining, applications, reproducibility, bioinformatics, interfaces"
+2018,Rudradev Sengupta,Stat methods for high-dim biology,High Performance Computing Using R for High Dimensional Surrogacy Applications in Drug Development,"models, data mining, applications, bioinformatics, performance, big data"
+2018,Kasey Jones,Robust methods,rollmatch: An R Package for Rolling Entry Matching,"algorithms, models"
+2018,Charles T. Gray,Robust methods,varameta': Meta-analysis of medians,"algorithms, models, applications, reproducibility"
+2018,Sevvandi Kandanaarachchi,Robust methods,Does normalizing your data affect outlier detection?,"algorithms, Data pre-processing"
+2018,Priyanga Dilini Talagala,Robust methods,oddstream and stray: Anomaly Detection in Streaming Temporal Data with R,"algorithms, space/time, multivariate, streaming data, outlier detection"
+2018,John Blischak,Reproducibility,The workflowr R package: a framework for reproducible and collaborative data science,reproducibility
+2018,Peter Baker,Reproducibility,Efficient data analysis and reporting: DRY workflows in R,"applications, reproducibility"
+2018,Filip Krikava,Reproducibility,Automated unit test generation using genthat,"reproducibility, testing"
+2018,Dan Wilson,Reproducibility,Practical R Workflows,"reproducibility, workflow"
+2018,Matt Moores,Spatial data and modeling,bayesImageS: an R package for Bayesian image analysis,"algorithms, applications, space/time"
+2018,Jin Li,Spatial data and modeling,A new R package for spatial predictive modelling: spm,"models, data mining, reproducibility, space/time, performance, spatial predictive models; hybrid methods of geostatistics and machine learning; model selection and validation; predictive accuracy"
+2018,Daniel Fryer,Spatial data and modeling,rcosmo: Statistical Analysis of the Cosmic Microwave Background,"visualisation, databases, space/time, big data, new R package"
+2018,Marek Rogala,Spatial data and modeling,Using deep learning on Satellite imagery to get a business edge,"visualisation, algorithms, models, applications, web app, Satellite data"
+2018,Steph de Silva,Keynote,"Beyond syntax, towards culture: the potentiality of deep open source communities",NA
+2018,Thomas Lin Pedersen,Keynote,The Grammar of Animation,NA
+2018,Bill Venables,Keynote,Adventures with R: Two stories of analyses and a new perspective on data,NA
+2018,Mark Padgham,Applications in health and environment,tRansport tools for the World (Health Organization),"applications, reproducibility, community/education, space/time, big data"
+2018,Philip Dyer,Applications in health and environment,"Models of global marine biodiversity: an exercise in mixing R markdown, parallel processing and caching on supercomputers","models, applications, reproducibility, performance, big data"
+2018,Chris Hansen,Applications in health and environment,Enabling Analysts: Embracing R in a National Statistics Office,Official Statistics
+2018,Tracy Huang,Applications in health and environment,Developing an Uncertainty Toolbox for Agriculture: a closer look at Sensitivity Analysis,"visualisation, applications, web app, space/time, big data, R6 and Reference Classes"
+2018,Zachary Foster,Models and methods for biology and beyond,"Taxa and metacoder:  R packages for parsing, visualization, and manipulation of taxonomic data","visualisation, data mining, applications, databases, bioinformatics, Taxonomy"
+2018,Saswati Saha,Models and methods for biology and beyond,Multiple testing approaches for evaluating the effectiveness of a drug combination in a multiple-dose factorial design.,"applications, multivariate, Factorial Design, Drug Combination"
+2018,Bill Lattner,Models and methods for biology and beyond,Modeling Heterogeneous Treatment Effects with R,"models, applications"
+2018,Shian Su,Models and methods for biology and beyond,Glimma: interactive graphics for gene expression analysis,"visualisation, applications, bioinformatics"
+2018,Francois Michonneau,Learning and teaching,Lessons learned from developing R-based curricula across disciplines,community/education
+2018,Matthias Gehrke,Learning and teaching,Student Performance and Acceptance of Technology in a Statistics Course Based on R mosaic - Results from a Pre- and Post-Test Survey,"community/education, teaching"
+2018,Mette Langaas,Learning and teaching,Teaching statistics - with all learning resources written in R Markdown,"community/education, teaching"
+2018,Chester Ismay,Data handling,Statistical Inference: A Tidy Approach using R,"visualisation, community/education, statistical inference, tidyverse community"
+2018,Thomas Lumley,Data handling,Subsampling and one-step polishing for generalised linear models,"algorithms, models, databases, big data"
+2018,James Hester,Data handling,Glue strings to data in R,Package development
+2018,Max Kuhn,Data handling,Data Preprocessing using Recipes,"algorithms, models"
+2018,John Fox,Statistical modeling,New Features in the car and effects Packages,"visualisation, models"
+2018,Rainer Hirk,Statistical modeling,mvord: An R Package for Fitting Multivariate Ordinal Regression Models,"algorithms, models, applications, multivariate"
+2018,Joachim Schwarz,Statistical modeling,Partial Least Squares with formative constructs and a binary target variable,"PLS, pslpm package, formative constructs, binary target variable"
+2018,Murray Cameron,Statistical modeling,Exceeding the designer's expectation,"algorithms, models, applications"
+2018,David Cooley,Better data performance,"Starting with geospatial data in Shiny, and knowing when to stop","visualisation, databases, web app, performance, spatial"
+2018,Jeffrey O. Hanson,Better data performance,prioritizr: Systematic conservation prioritization in R,"reproducibility, space/time, performance, conservation"
+2018,Remy Gavard,Better data performance,Using R to pre-process ultra-high-resolution mass spectrometry data of complex mixtures.,"algorithms, applications"
+2018,Joshua Bon,Better data performance,Semi-infinite programming in R,"algorithms, models"
+2018,Simon Jackson,R in the community,R from academia to commercial business,"applications, community/education, big data, industry, skill development"
+2018,Joseph Rickert,R in the community,"Connecting R to the Good Stuff","algorithms, models, applications, big data, interfaces"
+2018,Lisa Chen,R in the community,Using R to help industry clients – The benefits and Opportunities,"visualisation, algorithms, models, data mining, applications, web app, reproducibility, multivariate, networks, performance, text analysis/NLP, big data"
+2018,Jonathan Carroll,Community and education,Volunteer Vignettes; A Case-Study in Enhancing Documentation,"applications, reproducibility, community/education, documentation"
+2018,Robin Hankin,Community and education,Special and general relativity in R,"visualisation, community/education, space/time"
+2018,Sam Clifford,Community and education,Classes without dependencies,community/education
+2018,Le Zhang,Scalable R,Build scalable Shiny applications for employee attrition prediction on Azure cloud,"visualisation, models, data mining, applications, web app, reproducibility, performance"
+2018,Bryan Galvin,Scalable R,Moving from Prototype to Production in R: A Look Inside the Machine Learning Infrastructure at Netflix,"data mining, reproducibility, performance, big data, interfaces"
+2018,Jason Gasper,Scalable R,Integrating R into a production data environment: A case example of using Oracle database services and R for fisheries management in Alaska.,"applications, databases, reproducibility"
+2018,Paul Murrell,Visualisation,The Minard Paradox,visualisation
+2018,Natalia da Silva,Visualisation,Interactive Graphics for Visually Diagnosing Forest Classifiers in R,"visualisation, data mining, web app"
+2018,Chun Fung (Jackson) Kwok,Visualisation,Rjs: Going hand in hand with Javascript,"visualisation, interfaces, JavaScript"
+2018,Hong Ooi,Complex models and performance,"SAR: a practical, rating-free hybrid recommender for large data","algorithms, models, applications, big data"
+2018,Fang Zhou,Complex models and performance,Jumpstart Machine Learning with Pre-Trained Models,"algorithms, models, reproducibility, interfaces"
+2018,Stepan Sindelar,Complex models and performance,FastR: an alternative R language implementation,"applications, performance, R implementations"
+2018,Momeneh (Sepideh) Foroutan,"Genomics, signatures to single cells",Singscore: a single-sample gene-set scoring method for analysing molecular signatures,"visualisation, applications, bioinformatics"
+2018,Liam Crowhurst,"Genomics, signatures to single cells",scIVA: Single Cell Interactive Visualisation and Analysis,"visualisation, data mining, web app, reproducibility, bioinformatics, big data"
+2018,Sarah Williams,"Genomics, signatures to single cells",Celaref: Annotating single-cell RNAseq clusters by similarity to reference datasets,"applications, bioinformatics"
+2018,Luke Zappia,"Genomics, signatures to single cells",clustree: a package for producing clustering trees using ggraph,"visualisation, algorithms, data mining, bioinformatics"
+2018,Ilia Karmanov,Data mining,Teach yourself deep-learning with R,"visualisation, algorithms, models, Deep Neural Nets, CNNs, MLPs, Machine Learning"
+2018,Angus Taylor,Data mining,Deep learning at scale with Azure Batch AI,"algorithms, models, Deep learning"
+2018,Timothy Wong,Data mining,Modelling Field Operation Capacity using Generalised Additive Model and Random Forest,"algorithms, models, multivariate, big data"
+2018,Bernd Bischl,Data mining,iml: A new Package for Model-Agnostic Interpretable Machine Learning,"algorithms, models, machine learning"
+2018,Bachmann Patrick,Simulation and modeling focus on surv anal,Estimating individual Customer Lifetime Values with R: The CLVTools Package,models
+2018,Sam Brilleman,Simulation and modeling focus on surv anal,simsurv: A Package for Simulating Simple or Complex Survival Data,"models, simulation; survival analysis"
+2018,Raju Rimal,Simulation and modeling focus on surv anal,R-package for simulating linear model data (simrel),"models, applications, web app, multivariate, interfaces, Simulation"
+2018,Andrés Villegas,Simulation and modeling focus on surv anal,StMoMo: An R Package for Stochastic Mortality Modelling,"models, applications"
+2018,Helena Kotthaus,Improving performance,Optimizing Parallel R Programs via Dynamic Scheduling Strategies,"models, performance"
+2018,Stepan Sindelar,Improving performance,Combining R and Python with GraalVM,"applications, performance, programming languages interoperability, debugging"
+2018,David Smith,Improving performance,Speeding up computations in R with parallel programming in the cloud,"models, performance, parallel programming"
+2018,Romain Francois,Improving performance,rrrow: an R front end to Apache Arrow,"algorithms, performance, big data, streaming data, interfaces"
+2018,Robert Nguyen,Sports analytics,Using Australian Rules Football to Broaden the Appeal of R and Statistics Among Youth and Public Without a STEM Background,"visualisation, models, applications, reproducibility, community/education, interfaces"
+2018,Alex Fun,Sports analytics,Using TMB (Template Model Builder) to predict the winner of a ping pong match,"algorithms, models, applications"
+2018,Andrew Simpkin,Sports analytics,A Shiny app used to predict training load in professional sports,"visualisation, algorithms, models, applications, databases, web app, multivariate, performance, streaming data"
+2018,Sayani Gupta,Sports analytics,CricketData: An R package for international cricket data,"visualisation, data mining, applications, web app, reproducibility"
+2018,Katie Sasso,Leveraging web apps,Shiny meets Electron: Turn your Shiny app into a standalone desktop app in no time,"applications, databases, web app, reproducibility, interfaces, Automation"
+2018,Adrian Barnett,Leveraging web apps,Saving time for researchers by creating publication lists using shiny,"applications, databases, web app, open access"
+2018,Gergely Daroczi,Leveraging web apps,Managing database credentials and connections: an easy and secure approach,"applications, databases, web app, interfaces, business"
+2018,Ian Hansel,Leveraging web apps,Large Scale Data Visualisation with Deck.gl and Shiny,"visualisation, web app, space/time"
+2018,Roger Peng,Keynote,Teaching R to New Users: From tapply to Tidyverse,NA
+2018,Anqi Fu,Optimisation for model fitting,Disciplined Convex Optimization with CVXR,"models, data mining, applications, multivariate, big data, interfaces, optimization"
+2018,Giuseppe Bruno,Optimisation for model fitting,Stochastic Gradient Descent: boosting its performances in R,"data mining, big data"
+2018,Melina Ribaud,Optimisation for model fitting,Robustness criterion for the derivative kriging-based optimization,"algorithms, models, applications"
+2018,Andrew Locke,Optimisation for model fitting,Augmented Lagrangian for constrained optimizations in Empirical Likelihood estimations,"algorithms, models"
+2018,Ido Bar,Infrastructure and tools for genomic analysis,Shinotate: an R-based shiny server for annotation and analysis of RNA-Seq transcriptome assemblies,"visualisation, web app, bioinformatics"
+2018,Peter Hickey,Infrastructure and tools for genomic analysis,DelayedArray: A tibble for arrays,"bioinformatics, performance, big data"
+2018,Ramyar Molania,Infrastructure and tools for genomic analysis,improved normalization of the Nanostring nCounter gene expression data,bioinformatics
+2018,Abdul Abdulmonem A. Alsaleh,Infrastructure and tools for genomic analysis,Identifying methylation biomarkers for childhood leukaemia from human 450k DNA methylation array data using ABC.RAP R package,"data mining, bioinformatics, data analysis"
+2018,Christoph Bergmeir,Classification and data mining,ssc: An R Package for Semi-Supervised Classification,"algorithms, models, data mining"
+2018,Przemyslaw Biecek,Classification and data mining,DALEX will help you to understand this complex predictive model,"visualisation, algorithms, models, data mining, bioinformatics"
+2018,Roel Henckaerts,Classification and data mining,Tree-Based Machine Learning for Insurance Pricing,"visualisation, models, Tree-based machine learning"
+2018,Lubomir Stepanek,Classification and data mining,Classification and evaluation of facial attractiveness and emotions for purposes of plastic surgery using machine-learning methods and R,"algorithms, models, multivariate, machine learning"
+2018,Mauricio Sarrias,Modeling and algorithms with a health focus,Comparing Implementations of Logit Models with Individual Heterogeneity,"models, applications, reproducibility, performance"
+2018,Daniel Putler,Modeling and algorithms with a health focus,Optimally Locating Opioid Treatment Centers in Under Served Areas Using R and Alteryx,"applications, web app, Public Health, Optimization"
+2018,Nicholas Tierney,Modeling and algorithms with a health focus,Maxcovr: Find the best locations for facilities using the maximal covering location problem,"visualisation, algorithms, models, applications, space/time, interfaces"
+2018,Brianna Hitt,Modeling and algorithms with a health focus,Optimal group testing algorithms for infectious disease detection with the binGroup package,"algorithms, applications, binary response; infectious disease testing; pooled testing; screening; sensitivity; specificity"
+2018,Aneesha Bakharia,Working with text,Topic Modeling with LDA and NMF from a Qualitative Content Analysis Perspective,"visualisation, text analysis/NLP, interfaces"
+2018,eongMin Kwon,Working with text,From humble data to training data,"data mining, applications, text analysis/NLP"
+2018,Talia Beech,Working with text,Strategic Capability Analysis for CANSOFCOM,"visualisation, text analysis/NLP"
+2018,Thomas Klebel,Working with text,jstor: An R package for Analysing Scientific Articles,"data mining, text analysis/NLP"
+2018,Earo Wang,New dev for temporal data,tsibble: The 15th time series standard,"visualisation, space/time"
+2018,Rob Hyndman,New dev for temporal data,Tidy forecasting in R,space/time
+2018,Mitchell O'Hara-Wild,New dev for temporal data,fasster: Forecasting multiple seasonality with state switching,"algorithms, models, streaming data, timeseries"
+2018,Thiyanga Talagala,New dev for temporal data,seer: R package for feature-based forecast-model selection,"algorithms, models, time series"
+2018,Danielle Navarro,Keynote,R for Psychological Science?,NA
+2018,Ansgar Wenzel,Applications in big data,A closer look at UK MOT results - Why does my car always fail?,applications
+2018,Kevin Kuo,Applications in big data,Claims reserving in general insurance with R and Keras,"algorithms, models, data mining, applications, insurance"
+2018,Sangeeta Bhatia,Applications in big data,Big Brother is Watching - Using Digital Disease Surveillance Tools for Near Real-Time Forecasting,"models, applications, Epidemiology"
+2018,David Smith,R Consortium projects,The voice of the R community,community/education
+2018,Joseph Rickert,R Consortium projects,Sustainable community investment in action - a look at some of the R Consortium Funded Grant Projects and Working Groups.,community/education
+2018,NA Various funded researchers,R Consortium projects,What we are doing with the R Consortium funds,community/education
+2018,Peter Dalgaard,Community development,What's in a name? 20 years of R release management,"community/education, History of R"
+2018,Dennis Irorere,Community development,R labs Africa,community/education
+2018,Joe Kliegman,Community development,nextjournal,"community/education, reproducibility"
+2018,Teck Kiang Tan,Modeling and algorithms,Doubly Classified Models with R,"models, applications, community/education"
+2018,Sourav Das,Modeling and algorithms,A routine for measuring the nonstationarity of a time series,"space/time, streaming data"
+2018,Aya Alwan,Modeling and algorithms,Observation driven Conway-Maxwell Poisson count data models,"algorithms, models"
+2018,Martin Maechler,"Programming, performance and productivity",Helping R to be (even more) accurate,"algorithms, reproducibility, performance, numerical accuracy"
+2018,Tomas Kalibera,"Programming, performance and productivity",Preventing and Detecting Memory Protection Bugs in Packages,"programming packages, finding bugs in packages"
+2018,Kelly Obriant,"Programming, performance and productivity",How to Play with and Integrate DevOps Technologies in an R Data Science Workflow,Cloud computing
+2018,Jenny Bryan,Keynote,Code smells and feels,NA
+2017,Timo Grossenbacher,Talks,The growing popularity of R in data journalism,"Data Journalism, Journalism, Reproducibility, Automation, Reporting"
+2017,Ann Marie Weideman,Poster Session,Shiny as a Medium for Simplifying Disease Rating Scale Computations,
+2017,Tserendorj Davaakhuu,Poster Session,Sustainable development And Sustainable city,"Sustainable city, Environment, Development, Ecology"
+2017,Miguel Carrero,Lightning Talks,Beyond the scale. Building formal approaches for the study of locational patterns in site-scale archaeological distributions. A case study in Galician moundscapes (NW of Iberian Peninsula).,"Megalithism, Galicia, spatial archaeology, point pattern, R, predictive modelling, GIS"
+2017,Marcin Kosinski,Talks,Stochastic Gradient Descent Log-Likelihood Estimation in the Cox Proportional Hazards Model with Applications to The Cancer Genome Atlas Data,"Log-Likelihood Estimation, Stochastic Gradient Descent, Cox PH Model, Survival Analysis"
+2017,Edward S. Lee,Talks,Using the alphabetr package to determine paired T cell receptor sequences,"bioinformatics, sequencing, immunology, T cell receptors"
+2017, Lucy D’Agostino McGowan,Talks,"papr: Tinder for pre-prints, a Shiny Application for collecting gut-reactions to pre-prints from the scientific community","shiny, recommender engine, social network, shinysense"
+2017,Bryon Aragam ,Talks,Collaborative Development in R: A Case Study with the sparsebn package,NA
+2017,Agnieszka Sitko,Talks,factorMerger: a set of tools to support results from post hoc testing,"analysis of variance (ANOVA), hierarchical clustering, likelihood ratio test (LRT), post hoc testing"
+2017,Adéla Drabinová,Talks,difNLR: Detection of potentional gender/minority bias with extensions of logistic regression,NA
+2017,Andrew Redd,Talks,Updates to the Documentation System for R,NA
+2017,Jared Lander,Lightning Talks,R for Everyone,NA
+2017,Francis Nguyen Ngoc Hoang Long,Lightning Talks,R and Tableau Integration: A Case approach,NA
+2017,David Robinson,Talks,We R What We Ask: The Landscape of R Users on Stack Overflow,"r, data science, web traffic, visualization"
+2017,Xinwei Xue,Poster Session,Predict Hospital Length of Stay with R,"Hospital Length of Stay Prediction, R, Microsoft R Server, SQL Server"
+2017,David B. King Jefferson Davis,Poster Session,A Mixture of Multivariate Regressions Package with Applications for Chronic Kidney Disease,NA
+2017,Kylie A. Bemis,Talks,R-based computing with big data on disk,"big data, reproducibility, data aggregation, bioinformatics, imaging"
+2017,Stefan Rödiger,Talks,Integrated analysis of digital PCR experiments in R,"digital PCR, multiple comparison, GUI, reproducible research"
+2017,Leo Lahti,Lightning Talks,rOpenGov: community project for open government data,"Community Project, Infrastructure, Open Data, Open Science, R packages"
+2017,Jim Harner,Talks,Rc$^2$: an Environment for Running R and Spark in Docker Containers,"R, Spark, Docker containers, Kubernetes, Cloud computing"
+2017,Micha? Burdukiewicz,Poster Session,AmyloGram: prediction of amyloid sequences in R,"Amyloids, n-grams, machine learning, random forest"
+2017,Giorgio Maria Di Nunzio,Lightning Talks,Gamifyr: Transforming Machine Learning Tasks into Games with Shiny,"Gamification, Text Classification, R Shiny, Interactive Machine Learning"
+2017,Phoebe Wong,Poster Session,Visualizing Meeting Data in Shiny,"Shiny, D3.js, igraph, plotly, Microsoft Outlook"
+2017,Karim Chine,Talks,"Clouds, Containers and R, towards a global hub for reproducible and collaborative data science","Cloud Computing, Docker, Collaboration, API, Reproducible Research"
+2017,Piotr Sobczyk,Poster Session,biogram: n-gram analysis of biological sequences in R,"Proteins, n-grams, machine learning, feature selection"
+2017,Keven Bluteau,Talks,Markovâ€“Switching GARCH Models in R: The MSGARCH Package,"GARCH, MSGARCH, Markovâ€“switching, conditional volatility, risk management"
+2017,Markus Kainu,Talks,Community-based learning and knowledge sharing,"Teaching, Knowledge Sharing, Best Practices"
+2017,Ian Lyttle,Lightning Talks,bsplus: Using Twitter Bootstrap to extend your Shiny app,"shiny, rmarkdown, HTML, Twitter Bootstrap"
+2017,Daeyoung Kim,Poster Session,"Easy and Stable Deployment of *R*-based Software with *github*, *devtools*, and *docker*","NILM, devtools, deployment, dependency"
+2017,Tobias Verbeke,Talks,ShinyProxy,"Shiny, enterprise computing, open source"
+2017,Kirill Müller,Talks,Improving DBI,"Database, SQLite, specification, test suite"
+2017,Nathaniel Phillips,Talks,"FFTrees: An R package to create, visualise and use fast and frugal decision trees","decision trees, decision making, package, visualization"
+2017,Jim Porzak,Poster Session,"Recency, Frequency, and Monetary Value in the 21st Century","Recency, Frequency, Monetary, RFM, Marketing"
+2017,Gregory Warnes,Talks,"Daff: diff, patch and merge for data.frames","Reproducible research, data versioning"
+2017,Bart Smeets,Poster Session,Predicting Long-Term Functional Outcome after Ankle Fracture,"AO44, Predictive Modelling, Trauma Care, Ankle Fracture"
+2017,Samuel Jenness,Talks,EpiModel: An R Package for Mathematical Modeling of Infectious Disease over Networks,"mathematical model, infectious disease, epidemiology, networks, R"
+2017,Martori Francesc,Poster Session,How students learn Statistics: from tracing student's activity in R Commander to the visualization of their work through a Shiny app,"Teaching Statistics, Shiny, Learning Analytics"
+2017,R. Scott Hacker,Poster Session,DeducerHansel: Econometrics in *R* through a Graphical User Interface,"GUI, Deducer, econometrics, time series, panel data"
+2017,Helen Lindsay,Poster Session,CrispRVariants: visualising gene editing experiments with R and shiny,"Bioinformatics, visualisation"
+2017,Jeremy Miles,Poster Session,Constructing Tests for Ads Quality Raters,"psychometrics, test construction, ability testing"
+2017,Robert Franolic,Lightning Talks,Investigating a novel foreign exchange order flow measure with BigVAR,"Foreign Exchange, Order Flow, Structured Regulariztion Vector Autoregression, Big VAR"
+2017,Chirag Anand,Lightning Talks,**eventstudies**: An *R* package for conducting event studies and a platform for methodological research on event studies,event study methodology
+2017,Florian Detsch,Talks,**MODIS**: Acquisition and Processing of MODIS Products,"MODIS, Remote Sensing, Data Processing, Land Surface"
+2017,Ignacio Alvarez,Poster Session,Poisson hierarchical model to analyze allele specific RNA-seq data,"Fully Bayesian, Hierarchical model, GPU, RNAseq"
+2017,Marc Lavielle,Talks,Statistics in Action with R: an educative platform,"Hypothesis testing, regression model, mixed effects model, mixture model, change point detection"
+2017,Nidhi Aggarwal,Poster Session,The causal impact of algorithmic trading on market quality,"Algorithmic trading, matching, difference-in-difference, flash crashes, market quality"
+2017,Peter Baker,Talks,codebookr: Codebooks in *R*,"code book, data dictionary, data cleaning, validation, automation"
+2017,Magali Berland,Poster Session,When HPC augments reproducible research: The case of biomarkers identification in the human gut microbiota,NA
+2017,Hinda Haned,Poster Session,On the use of R for building a responsible data science workflow in the retail industry,"human resources, machine learning, reproducibility, transparency, interpretability"
+2017,Pawe? Sakowski,Poster Session,Efficient option pricing with R. Practical applications of alternative methods with Shiny.,"option pricing, derivatives, implied volatility, C++, greeks"
+2017,Paulo Bargo,Lightning Talks,TAGS - Table Assorting Guided System: an HTML widget to create multiple tables from Excel spreadsheets,"Excel spreadsheet, htmlwidget, data import"
+2017,Piotr Cwiakowski,Poster Session,Modelling Spatial Point Data in R - sample applications,"spatial econometrics, spatial point, local convergence, real estate valuation"
+2017,Anita Windhorst,Poster Session,Comparison of different variable selection strategies to formulate predictive models in medicine,"Multivariate analysis, sparse partial least squares analysis, predictive analysis of microarrays, stepwise selection"
+2017,Robert Kalcik,Poster Session,Exploring Europe's comparative advantage in low-carbon technology using R,"Low-carbon tech, patents, exports, innovation"
+2017,Christian Thiele,Lightning Talks,The cutpointr package: Improved and tidy estimation of optimal cutpoints,"cutpoints, tidy"
+2017,Vincent Audigier,Poster Session,micemd: a smart multiple imputation R package for missing multilevel data,"Missing data, multiple imputation, multilevel data, individual patient data meta-analysis, systematically missing values"
+2017,Jakob Richter,Talks,mlrHyperopt: Effortless and collaborative hyperparameter optimization experiments,"machine learning, hyperparameter optimization, tuning, classification, networked science"
+2017,Rasmus Bååth,Lightning Talks,The current state of naming conventions in R.,"Naming Conventions, R"
+2017,Alexander Bertram,Talks,The **renjin** package: Painless Just-in-time Compilation for High Performance R,"performance, compliation, Renjin"
+2017,Tobias Gauster,Lightning Talks,smires -- Calculating Hydrological Metrics for Univariate Time Series,"Ecology, Hydrology, Framework, Time Series"
+2017,Malte Grosser,Lightning Talks,Advanced R Solutions -- A Bookdown Project,"Advanced R, bookdown"
+2017,Przemyslaw Biecek,Talks,Show Me Your Model: tools for visualisation of statistical models,"Model visualisation, model exploration, structure visualisation, grammar of model visualisation"
+2017,Shwetanki Lall,Lightning Talks,minimalRSD and FMC: R packages to construct cost efficient experimental designs,"experimental designs, run sequences, cost effective"
+2017,Jouni Helske,Poster Session,Importance sampling type correction of approximate MCMC for faster state space modelling,"Bayesian inference, state space models, time series, Markov chain Monte Carlo, Stan"
+2017,Sebastian Kreutzer,Poster Session,Enlighten the past: five years of luminescence data analysis using R,"Luminescence, Chronology, Geoscience"
+2017,Thomas Petzoldt,Talks,Maximum growth rate estimation with **growthrates**,"population growth, nonlinear models, differential equation"
+2017,Ella Kaye,Talks,Ranking items scalably with the Bradley-Terry model,"Citation data, Directed network, Paired comparisons, Quasi-symmetry, Sparse matrices"
+2017,Tomas Krehlik,Poster Session,Frequency decomposition of connectedness measures,"Connectedness measures, spectral domain, FEVD, multivariate systems"
+2017,Sebastian Krey,Talks,The Revised Sequential Parameter Optimization Toolbox,"optimization, tuning, surrogate model, computer experiments"
+2017,Jens Carl Streibig,Lightning Talks,Working with R when internet is not reliable,"miniCRAN, Agricultural Sciences, Statistics"
+2017,Yoshihiro Shibuo,Poster Session,Development of Data Base Integrated Hydrological- and Hydraulic Modeling for River Flood- and Urban Inundation Forecast,"River flood, Urban inundation, Model forecast, Hydrology, Hydraulics"
+2017,Ian Cook,Talks,**implyr**: A **dplyr** Backend for a Apache Impala,"Tidyverse, dplyr, SQL, Apache Impala, Big Data"
+2017,Nicholas Reich,Poster Session,**densitystackr**: Estimating weighted density ensembles,"Ensemble methods, predictive analytics, biostatistics, epidemiology"
+2017,Benjamin Ortiz Ulloa,Poster Session,Exploring TIMSS at the Question-Level With R,"TIMSS, tidyverse, data wrangling, machine learning, visualization"
+2017,Jonathon Love,Talks,*jamovi*: a spreadsheet for R,"Spreadsheet, User-interface, Learning R"
+2017,Adnan Fiaz,Poster Session,Software Development by the Numbers,NA
+2017,Piotr Wójcik,Poster Session,Modelling distribution dynamics in R. Application to convergence analysis on a local level,"distribution dynamics, transition matrix, conditional kernel density estimation, ergodic distribution"
+2017,Brian Hoang,Poster Session,doAzureParallel - Using Azure as Your Parallel Backend for high performance work,NA
+2017,Ben Goodrich,Talks,How to Use (R)Stan to Estimate Models in External R Packages,"Bayesian, developeRs"
+2017,Marius Pfeuffer,Talks,Estimating the Parameters of a Continuous-Time Markov Chain from Discrete-Time Data with ctmcd,"Embedding Problem, Generator Matrix, Continuous-Time Markov Chain, Discrete-Time Markov Chain"
+2017,Marlene Müller,Lightning Talks,Shiny Apps for Maths and Stats Exercises,"shiny apps, student exercises"
+2017,Ali Zaidi,Talks,Neural Embeddings and NLP with R and Spark,"NLP, Spark, Deep Learning, Network Science"
+2017,Paul Devos,Talks,Urban green spaces and their biophonic soundscape component,"soundscape ecology, urbanization, green space, indicators, soundscape"
+2017,Mirjam Fehling-Kaschek,Poster Session,Error model estimation for dynamic models by maximum-likelihood methods,"dynamic modeling, error modeling, parameter estimation"
+2017,Oscar de León,Poster Session,Estimating health service accessibility in Guatemala,"Health, accessibility, distance, equity, GIS"
+2017,Ágnes Salánki,Poster Session,Plot it to Understand it Better: Creating Visualizations in *R* to Support Students in Interpreting Results of Machine Learning Algorithms,"Visualization, Machine learning, Education"
+2017,Angel Udias,Poster Session,An R Decision Support Framework for the Identification of BMP in Catchments,"R, SWAT, Multi-objective optimization, Best management practices (BMPs), Decision Support System"
+2017,Erdogan Cevher,Poster Session,The Analysis of the Determinants of Exchange Rate via Conditional and Partial Granger Causality Test,"Exchange Rate, Conditional Granger Causality, Partial Granger Causality, causfinder"
+2017,Marcus Rosenblatt,Poster Session,Model-based detection of differences in dynamic systems,"Systems Biology, Parameter Estimation, Regularization"
+2017,Daniel Kaschek,Talks,Dynamic modeling and parameter estimation with dMod,"Parameter Estimation, ODEs, Systems Biology, Maximum-Likelihood, Profile-Likelihood"
+2017,Bart Smeets,Talks,jug: Building Web APIs for R,"REST, API, web, http"
+2017,Bart Smeets,Lightning Talks,simmer: Discrete-Event Simulation for R,Discrete-Event Simulation
+2017,Jim Hester,Talks,odbc - A modern database interface,"ODBC, DBI, databases, dplyr, RStudio"
+2017,Jakub Chromec,Talks,moodler: A new R package to easily fetch data from Moodle,"Moodle, SQL, tidy data"
+2017,Erin LeDell,Lightning Talks,Automatic Machine Learning in *R*,"Machine Learning, Ensemble Learning, Automatic Machine Learning, Black-Box Optimization, Distributed Computing"
+2017,Kai Kammers,Talks,Detecting eQTLs from high-dimensional sequencing data using recount2,"eQTLs, RNA-seq, recount2, Batch Effect, gEUVADIS"
+2017,Davy Sannen,Poster Session,Integration of an *R* forecasting engine in the *.NET* back-end of *c-Quilibrium*'s cash supply chain optimization solution,"Operationalization, Integration of R and .NET, Parallelization"
+2017,Kathy Chenjerai Mutambanengwe,Talks,A restricted composite likelihood approach to modelling Gaussian geostatistical data,"composite likelihood, effective sample size, REML, spatial dependence"
+2017,Ramnath Vaidyanathan,Poster Session,rblocks: A Fun and Visual Way to Learn R,"visualization, education, pedagogy, htmlwidgets"
+2017,Gert Janssenswillen,Talks,The analysis of R learning styles with R,"R in education, Learning patterns, Learning styles"
+2017,Riccardo Porreca,Talks,**rTRNG**: Advanced Parallel Random Number Generation in R,"Random Number Generation, Monte Carlo, Parallel Execution, Reproducibility"
+2017,Jakub Houdek,Poster Session,Automatic generation of item analysis report in ShinyItemAnalysis using Rmarkdown,"Reports, Rmarkdown, shiny, ShinyItemAnalysis, psychometric analysis, item analysis"
+2017,Nataraj Dasgupta,Lightning Talks,Ultra-Fast Data Mining With The R-KDB+ Interface,"kdb+, big data mining, R-KDB+ Interface, business/industry, high-performance computing"
+2017,Andy South,Lightning Talks,map data from **rnaturalearth** : aiming for sustainability through specialisation and **rOpenSci**,"maps, package, sustainability, community"
+2017,Andrie de Vries,Talks,Can you keep a secret?,"Asymmetric encryption, Public key encryption"
+2017,Jeremy Darot,Lightning Talks,R.gov: making R work for government,"Government, Public Sector, Official Statistics"
+2017,Machteld Varewyck,Poster Session,Analyzing digital PCR data in R,"automated analysis, digital PCR, DNA amplification, R-package"
+2017,Ruben Crevits,Talks,Robets: Forecasting with Robust Exponential Smoothing with Trend and Seasonality,"Time Series, Forecasting, Robust Statistics, Exponential Smoothing"
+2017,Amandine Pierrot,Talks,Curve Linear Regression with **clr**,"Dimension reduction, Correlation dimension, Singular value decomposition, Load forecasting"
+2017,Alberto Alvarez-Iglesias,Poster Session,An online translational tool for time to event data,"Survival analysis, mean residual life, generalised Pareto distribution, translational statistics"
+2017,Ege Rubak,Talks,Interfacing Google's spherical geometry library (S2) for spatial data in R,"Spatial statistics, spherical geometry, geospatial index, GIS"
+2017,Francois Michonneau,Talks,Data Carpentry: Teaching Reproducible Data Driven Discovery,"reproducible research, rmarkdown, open science, training, github"
+2017,Florian Schwendinger,Lightning Talks,ROI - R Optimization Infrastructure,"optimization, mathematical programming"
+2017,Oliver Glaß,Talks,*GNU R* on a Programmable Logic Controller (PLC) in an Embedded-Linux Environment,"GNU R, PLC, Embedded, Linux"
+2017,Marlene Silva-Marchena,Talks,Interactive bullwhip effect exploration using SCperf and Shiny,"bullwhip effect, beergame, inventory, SCperf, shiny"
+2017,Alberto Caimo,Talks,Bayesian social network analysis with Bergm,"Bayesian analysis, Exponential random graph models, Monte Carlo methods"
+2017,Stephan Stahlschmidt,Poster Session,Citing R,Citation Analysis
+2017,Angus Taylor,Talks,Deep Learning for Natural Language Processing in R,"Deep Learning, Natural Language Processing"
+2017,Nathan Carroll,Lightning Talks,Fixed Effects in Non-Linear Panel Data Models â€“ Reducing the Bias,NA
+2017,Tvisha Gupta,Poster Session,Use of text analytics for predicting market movements,NA
+2017,T. González-Arteaga,Poster Session,R packages for decision making problems,"Group decision making problems, Multi-Criteria Decision Making Methods, Decision Support, Outranking tools, Aggregation operator"
+2017,Martin Otava,Talks,Ensemble packages with user friendly interface: an added value for the *R* community,"Ensemble package, user-friendly interface, gene expression analysis, biclustering"
+2017,Marvin Steijaert,Talks,Biosignature-Based Drug Design: from high dimensional data to business impact,"biosignatures, machine learning, drug design, data fusion, high-throughput screening"
+2017,Tatsiana Khamiakova,Lightning Talks,Multivariate statistics for PAT data analysis: short overview of existing R packages and methods,"chemoinformatics, multivariate data analysis, time series data"
+2017,Sebastian Meyer,Talks,Social contact data in endemic-epidemic models and probabilistic forecasting with **surveillance**,"age-structured contact matrix, areal count time series, infectious"
+2017,Matthias Kuhn,Poster Session,Censoring in random effects models,"censoring, random effects model"
+2017,Jasmien Lismont,Poster Session,What's in the network? A stepwise overview of working with networked data in *R*,"Featurization, Graphs, Networked Data, Social Network Analytics, Visualization"
+2017,Scott Michael,Talks,Performance Benchmarking of the R Programming Environment on Knight's Landing,"Multicore architectures, benchmarking, scalability, Xeon Phi"
+2017,Tamal Kumar De,Poster Session,One by One: A Shiny Webapp for the Design and Analysis of Single-Case Experiments,"Single-case experiments, randomization test, shiny, GUI"
+2017,Lukas Stadler,Poster Session,Zero-overhead R and C/C++ integration with FastR,"Java, C, C++, performance"
+2017,Reinhold Koch,Lightning Talks,R in a Pharmaceutical Company,NA
+2017,Jan-Willem Lankhaar,Poster Session,"**grintar**: A demonstration of reproducible analysis, visualization and distribution of ergometer exercise data","reproducibility, data provenance, version control, exercise physiology, biomarker discovery"
+2017,Robert Noble-Eddy,Lightning Talks,The dataCompareR package,"packages, finance, data"
+2017,Jirka Lewandowski,Talks,"manifestoR - a tool for data journalists, a source for text miners and a prototype for reproducibility software","political science, reproducibility, corpus, data journalism, text mining"
+2017,Maxim Nazarov,Lightning Talks,**redmineR** and the story of automating *useR!2017* abstract review process,"Redmine, project management, API, automation, useR!"
+2017,Benjamin Høyer,Lightning Talks,Using R for optimal beer recipe selection,"Brewing, beer, yeast, visualisation, summary statistics"
+2017,Helena Kotthaus,Talks,R goes Mobile: Efficient Scheduling for Parallel R Programs on Heterogeneous Embedded Systems,"Parallelization, Resource-Aware Scheduling, Hyperparameter Tuning, Embedded Systems"
+2017,Bart Rogiers,Lightning Talks,Reproducible research in computational subsurface hydrology - First steps in R with RMODFLOW and RMT3DMS,"reproducible research, reproducible reporting, groundwater hydrology, groundwater modelling"
+2017,Lars Ronnegard,Lightning Talks,Data Analysis Using Hierarchical Generalized Linear Models with R,"Hierarchical likelihood, Hierarchical Generalized Linear Models, Statistical Modelling"
+2017,Rainer Hirk,Poster Session,Multivariate ordinal regression models using the R package MultOrd,"Composite likelihood, Multivariate ordered logit, Multivariate ordered probit, R package"
+2017,Mariana Simons,Lightning Talks,Using R to Analyze Healthcare Cost of Older Patients Using Personal Emergency Response Service,"Older patients, Personal Emergency Response Surface (PERS), Healthcare cost analysis"
+2017,Cassandra Mokdad,Poster Session,Using R for an efficient and standard analysis of Design of Experiments.,"Design of experiments, linear modeling, least significant difference, principal component analysis, shiny"
+2017,Nick Ulle,Talks,An LLVM-based Compiler Toolkit for R,"compiler, code analysis, performance"
+2017,Nicholas Tierney,Talks,naniar: Data structures and functions for consistent exploration of missing data,"Missing Data, Exploratory Data analysis, Imputation, Data Visualization, Data Mining, Statistical Graphics"
+2017,Patrícia Martinková,Talks,Teaching psychometrics and analysing educational tests with **ShinyItemAnalysis**,"psychometrics, educational test, item response theory, shiny, R"
+2017,Oliver Bracht,Talks,Beyond Prototyping: Best practices for R in critical enterprise environments,"data science, business, industry, best practice, critical enterprise environments, R"
+2017,Lise Vaudor,Lightning Talks,"graphiT: an interactive, user-friendly tool to produce graphics based on the grammar of graphics' principles","ggplot2, shiny, graphics"
+2017,Ting-Wei Lin,Poster Session,Applying Data Science For Social Good In Nonprofit Organization With Troubled Family Risk Profiling R Dashboard Application,"troubled family risk profiling, data science for social good, shiny dashboard application, integrated analysis"
+2017,Santtu Tikka,Poster Session,causaleffect: An R Package for Causal Inference,"causal model, causal inference, graph, identifiability, causal effect"
+2017,Andreas Prawitt,Talks,The use of R in predictive maintenance: A use case with TRUMPF Laser GmbH,"data science, predictive maintenance, industry 4.0, business, industry, use case"
+2017,Andreja Radovi?,Poster Session,Impact of biased sampling effort and spatial uncertainty of locations on models of plant invasion patterns in Croatia,"Biodiversity databases, Balkans, data quality, regression kriging, spatial analysis"
+2017,Martin Sill,Lightning Talks,DNA methylation-based classification of human central nervous system tumors,"machine learning, bioinformatics, methylation data, brain tumor diagnosis"
+2017,Nicolas Rosewick,Poster Session,Genome-wide retroviral integration mapping in agressive T-cell leukemia,"Bioinformatics, Retrovirus, Genome, Integration, DNA sequencing"
+2017,Yasuto Nakano,Poster Session,DDIR : handling social research data standard with R,"DDI, xml, data format, social research data, reproducible research"
+2017,Ziv Shkedy,Talks,We R a Community-making high quality courses for high education accessible for all; The >eR-Biostat initiative,"Developing countries, master programs, Biostatistucs, E-learning using R"
+2017,Dirk Schumacher,Talks,ompr: an alternative way to model mixed-integer linear programs,"integer programming, linear programming, modelling, optimization"
+2017,Xavier Guardiola,Lightning Talks,Candy Crush R Saga,"big data, packages, shiny, reproducible research, business analytics"
+2017,Martin Hoelbl,Lightning Talks,R in a small-sized bank's risk management,"risk management, shiny, automation, risk modelling, reporting"
+2017,Junyan Lu,Lightning Talks,Application of R and Shiny in multiomics understanding of blood cancer biology and drug response,"multiomics, drug screen, blood cancer, personalized medicine, shiny"
+2017,René Echochard,Talks,kmlShape: clustering longitudinal data according to their shapes,"Clustring, Longitudinal data, k-means, dynamic time warping, Frechet distance"
+2017,Atsushi Hayakawa,Poster Session,Introduction githubinstall package designed in JapanR user group,"github, install, community, Japan, Books"
+2017,Adrian Zetner,Lightning Talks,Plasmid Profiler: Comparative Analysis of Plasmid Content in WGS Data,"R, Plasmids, Visualization, WGS, AMR"
+2017,Alok N Singh,Talks,R4ML: A Scalable R for Machine Learning,"R, Distributed/Scalable, Machine Learning, SparkR, SystemML"
+2017,Sienneh Z Tamba,Lightning Talks,Graduate from plot to ggplot2: Using R to visualize the story of Ebola survivors in the PREVAIL III Ebola Natural History Study,"R, ggplot2, visualization, research, observational study"
+2017,A. Jonathan R. Godfrey,Talks,Interactive graphs for blind and print disabled people,"accessibility, exploration, interactivity"
+2017,Winston Chang,Talks,The R6 Class System,"Classes, Object-oriented programming, R6, Reference classes"
+2017,Nolen Perualila,Poster Session,The E-learning System for Linear Models; The >eR-Biostat Initiative for Developing Countries,"Linear Models, The >eR-BioStat initiative, Developing countries, Master programs, The E-learning system using R"
+2017,Herman Sontrop,Talks,Developing and deploying large scale Shiny applications for non-life insurance,"Shiny modules, HTMLWidgets, HTMLTemplates, openCPU, NoSQL, Docker"
+2017,David Smith,Lightning Talks,Recommendations for coworker collaborators using R and the Office Graph API,"social networks, igraph, Office Graph, Power BI, dashboards"
+2017,Balasubramanian Narasimhan,Talks,Adaptive Subgroup Selection in Sequential Trials,NA
+2017,Pavlo Mozharovskyi,Talks,Depth and depth-based classification with *R*-package **ddalpha**,"Data depth, Supervised classification, DD-plot, Outsiders, Visualization"
+2017,Nicolau Manubens,Poster Session,startR - Retrieving multidimensional distributed data sets in R,"distributed data sets, multi-dimensional, subset, retrieve, homogenize, arrange"
+2017,Steffen Wagner,Talks,Implementing Predictive Analytics projects in corporate environments,"R in production, business applications"
+2017,Pauline Vaissié,Poster Session,BioMAn^TM^: a user-friendly interface for targeted metagenomic data visualization and analysis,"Metagenomics, Data visualization, Statistical analysis, Web platform"
+2017,Ewoud De Troyer,Talks,Extracting Meaningful Noisy Biclusters from a Binary Big-Data Matrix using the BiBitR R Package,"R, package, biclustering, binary data"
+2017,"Hannah Frick, Alice Daish",Talks,R-Ladies Global Community,"R-Ladies, Diversity, R community"
+2017,Sebastian Warnholz,Talks,Modules in R,"programming, functional-programming"
+2017,Nicolas Pröllochs,Talks,ReinforcementLearning: A package for replicating human behavior in *R*,"Reinforcement Learning, Human-Like Learning, Experience Replay, Q-Learning, Decision Analytics"
+2017,Markus Voge,Talks,Morphological Analysis with R,"Shiny, DataTables, analysis methods, problem-solving"
+2017,Dea Rynanda Putri,Poster Session,Modeling cage effects in microbial community in Type 1 Diabetes (T1D) mouse model using mixed effect models,"cage, time, microbiome, mouse model, mixed effect models"
+2017,Michael Kossmeier,Talks,Visual funnel plot inference for meta-analysis,"meta-analysis, funnel plot, visual inference, publication bias, small study effects"
+2017,Torsten Hothorn,Talks,Transformation Forests,"random forest, transformation model, quantile regression forest, conditional distribution, conditional quantiles"
+2017,Rudradev Sengupta,Talks,"IntegratedJM - an R package to Jointly Model the Gene-Expression and Bioassay Data, Taking Care of the Fingerprint Feature effect","Bioactivity, Biomarkers, Chemical Structure, Joint Model, Multi-source"
+2017,Smit Rohan,Poster Session,no title,NA
+2017,Carel Peeters,Talks,**rags2ridges**: A One-Stop-Go for Network Modeling of Precision Matrices,"Data integration, Graphical modeling, High-dimensional precision matrix estimation, Networks"
+2017,Rytis Bagdziunas,Poster Session,Assessing and visualizing drug synergy,"Synergy, Dose-Response, Response surface, Loewe additivity"
+2017,Sengewald Erik,Poster Session,Dynamic Item- and Teststatistics - A shiny GUI for test development,"shiny, psychometrics, test developent, reproducible research"
+2017,Marek Rogala,Talks,shiny.collections: Google Docs-like live collaboration in Shiny,"Shiny, data applications, UX, live collaboration, data persistence"
+2017,Andreas Petutschnig,Poster Session,Routing Along Multiple Paths,"Routing, Graph, Network, Probabilistic Routing"
+2017,Henning Bumann,Lightning Talks,(An Introduction to the r2anki-package),"Speaced Repetition Learning, r2anki, RMarkdown"
+2017,Mark Padgham,Talks,"Maps are data, so why plot data on a map?","data maps, OpenStreetMap, spatial, visualization"
+2017,Iago Mosqueira,Talks,Quantitative fisheries advice using R and FLR,"Quantitative Fisheries Science, Common Fisheries Policy, Management Strategy Evaluation, advice, simulation"
+2017,David Gohel,Talks,Package ggiraph: a ggplot2 Extension for Interactive Graphics,"visualization, interactive"
+2017,Olga Mierzwa-Sulima,Talks,How we built a Shiny App for 700 users?,"Shiny, shiny.semantic, UI, UX, application performance, analytics consulting"
+2017,Marijke Van Moerbeke,Talks,Integrated Cluster Analysis with R in Drug Discovery Experiments using Multi-Source Data,"High dimensional data, Clustering"
+2017,Keon-Woong Moon,Poster Session,Make Interactive Exploratory Plots Using a Shiny App,"exploratory data analysis, ggplot2, interactive plot, HTML5, powerpoint"
+2017,Thomas Levine,Talks,bradio: Add data music widgets to your business intelligence dashboards.,"music, sonification, Shiny"
+2017,Dean Attali,Lightning Talks,Plot Colour Helper - Finally an easy way to pick colours for your R plots!,"ggplot2, visualization, shiny, colours, plotting"
+2017,Brooke Anderson,Poster Session,eesim: Simulating Air Pollution and Health Outcome Data with R,"simulation, power analysis, epidemiology, environmental health"
+2017,Darrin Speegle,Talks,Change Point Detection in Persistence Diagrams,"TDA, Persistence, Wavelets, Change-Point Detection"
+2017,Natalia da Silva,Talks,"metawRite: Review, write and update meta-analysis results","Living systematic review, meta-analysis, shiny, reproducible research"
+2017,Stan Pounds,Poster Session,R2GPU: A Simple *R* Interface for General Purpose Computing on NVIDIA Graphical Processing Units,"graphical processing unit, GPU, parallel computing"
+2017,Edzer Pebesma,Talks,"Scalable, Spatiotemporal Tidy Arrays for R (stars)",NA
+2017,Brooke Anderson,Talks,Hosting Data Packages via `drat`: A Case Study with Hurricane Exposure Data,"drat repositories, package repositories, data packages, reproducible research"
+2017,Giuseppe Bruno,Poster Session,Central Bank Communications: Information extraction and Semantic Analysis,"Text Mining, Semantic Analysis, Pointwise Mutual Information, Web search"
+2017,Bernard Francq,Lightning Talks,"**BivRegBLS**, a new *R* package: Tolerance Intervals and Errors-in-Variables Regressions in Method Comparison Studies","Tolerance Intervals, Method Comparison Studies, Agreement, Errors-in-Variables Regression, Bivariate Least Square"
+2017,Lionel Henry,Talks,Programming with tidyverse grammars,"tidyeval, tidyverse, dplyr, quasiquotation, NSE"
+2017,Eugene Ha,Lightning Talks,Functional Input Validation with valaddin,"input validation, type safety, defensive programming, functional"
+2017,Anne Lund Christophersen,Lightning Talks,Statistics hitting the business front line,"enterprise, collaboration, business, rmarkdown"
+2017,Kamil Simka,Poster Session,Applications of Big Data methods in Finance: Index Tracking,"Index tracking, Passive investment, L1-norm, Least Angle Regression, Quadratic optimization, Warsaw Stock Exchange, WIG, WIG20, mWIG40, sWIG80"
+2017,Martin  Schneider,Poster Session,Design Thinking in data science,"data science, design thinking, projectmanagement"
+2017,Berry Boessenkool,Lightning Talks,rdwd - manage German weather observations,"Weather, Data, Climate, Germany, FTP"
+2017,Grace Meyer,Talks,Too good for your own good: Shiny prototypes out of control,"Shiny, Project Management, Product Management, Best Practice, Stakeholder Management"
+2017,Michael Höhle,Lightning Talks,Better Confidence Intervals for Quantiles,"Coverage, Comparing R packages, Uncertainty, Bootstrap"
+2017,Abdollah Safari,Talks,Efficient conversion probability estimator for display advertising with R,"Display advertising, Conversion probability, Survival, Bias-adjustment"
+2017,Carissa Shafto,Talks,Using Data and R to Improve Nursing Education,education
+2017,Kirsten  Van Hoorde,Lightning Talks,Use of templates within an R package to create a (semi-)automated analysis workflow and/or report,"reporting, reproducibility, automation, Rmarkdown"
+2017,David Selby,Poster Session,Ranking influential communities in networks,"PageRank, Bradley--Terry model, networks, ranking, bibliometrics"
+2017,Michela Battauz,Talks,IRT test equating with the R package equateIRT,"Equating, Item Response Theory, Multiple Forms, Scoring, Testing"
+2017,Yves Brostaux,Lightning Talks,"OpenSpat, spread the spatial world","spatial data, lifelong learning, open source"
+2017,Ehsan Masoudi,Talks,ICAOD: An R Package  to Find Optimal Designs for Nonlinear Models with Imperialist Competitive Algorithm,"Optimal design, Nonlinear models, Optimization, Evolutionary algorithm"
+2017,Boris Vaillant,Talks,Analysis of German Fuel Prices with R,"Analytics, Marketing, tidyverse, purrr, ggplot2, rgdal, sp and more"
+2017,Xavier Lories,Poster Session,Development of R/shiny applications for the biopharmaceutical industry,NA
+2017,Nick Strayer,Talks,Letting R sense the world around it with **shinysense**,"Shiny, JavaScript, Data Collection, User Experience"
+2017,Thibaut Jombart,Poster Session,Who infects whom? Generalised outbreak reconstruction using outbreaker2,NA
+2017,Jorn op den Buijs,Poster Session,Predictive Modeling of Emergency Care in Older Adults: Comparison of Supervised Learning Algorithms in R,"Accountable Care, Philips CareSage, Emergency Department, Medical Alert Service, Predictive Modeling"
+2017,Saulo Delfino Barboza,Poster Session,Using R to protect athletes' health,"epidemiology, surveillance, athletic injuries, sports medicine"
+2017,Christoph Reudenbach,Talks,Link2GI - Easy linking Open Source GIS with R,"Spatial analysis, Setup, GRASS, SAGA, OTB, QGIS"
+2017,Stefan Nikolic,Poster Session,Optimized *R* implementation of collaborative filtering,"recommender systems, collaborative filtering, machine learninig, gradient descent, optimization"
+2017,Florian Privé,Lightning Talks,The R package bigstatsr: Memory- and Computation-Efficient Statistical Tools for Big Matrices,"Statistics, Big Data, Memory-mapping, Parallelism"
+2017,Rianne Schouten,Talks,Generating Missing Values for Simulation Purposes: A Multivariate Amputation Procedure,"R-function `ampute`, Multivariate Amputation, Missing Data Methodology, Simulation Studies"
+2017,M.Lepage,Lightning Talks,"An example of Shiny tool at NestlÃ© R&D, an enabler to guide product developers in designing gluten free biscuits","Shiny, linear modeling, gluten-free, formulation guidance tool"
+2017,Bo Werth,Lightning Talks,nsoAPI - retrieving data from National Statistical Offices with R,"API, CURL, Official Statistics"
+2017,Frans van Dunné,Poster Session,R in support of civil society strengthening in the gender-based violence sector in South Africa,"Social Development, Policy and decision making, custom graphics, Shiny, ggplot2"
+2017,Irene Garcia Mosquera,Poster Session,Bayesian item response modeling: an application to universities admission tests,"item response theory, Bayesian estimation, generalized linear model Gamma with log link, admission tests to Universities"
+2017,Tal Galili,Lightning Talks,**heatmaply**: an *R* package for creating interactive cluster heatmaps,"cluster heatmap, interactive visualization, ggplot2, plotly, shiny"
+2017,Tim Appelhans,Talks,mapedit - interactive manipulation of spatial objects,"Spatial analysis, Interactive, Visualization"
+2017,Steffen Moritz,Talks,How to deal with Missing Data in Time Series and the imputeTS package,"Missing Data, Time Series, Imputation, Visualization, Data Pre-Processing"
+2017,Lisa Schlosser,Talks,Distributional Trees and Forests,"Distributional regression, recursive partitioning, decision trees, random forests"
+2017,Andrea Rau,Talks,Clustering transformed compositional data using *coseq*,"Clustering, compositional data, K-means, mixture model, transformation, co-expression"
+2017,Timothy Wong,Poster Session,Parallelised Time Series Spike Detection using R on the Hadoop Platform,"time series, spike detection, Fourier transformation, MCMC, Hadoop"
+2017,Antony Unwin,Talks,When is an Outlier an Outlier?  The O3 plot.,NA
+2017,Christian Kleiber,Talks,**countreg**: Tools for count data regression,"Count data regression, model diagnostics, rootogram, visualization"
+2017,Marco Blume,Talks,Sports Betting and R: How R is changing the sports betting world,"Sports Betting, Sports Analytics, Vegas, Markets"
+2017,Tiantian Li ,Poster Session,Developing R Tools for Health Risk for Ozone data,"Ozone, Ozone pollution, raster data, zonal statistics, health risk"
+2017,Alex Dolphin,Poster Session,Use of R at trivago,"trivago, poster"
+2017,Federico Marini,Talks,Interactive and Reproducible Research for RNA Sequencing Analysis,"RNA-Seq, Exploratory Data Analysis, Differential Expression, Interactivity, Reproducibility"
+2017,Matthias Gehrke,Talks,A quasi-experiment for the influence of the user interface on the acceptance of R,"Teaching Statistics using R, User Interface, Technology Acceptance Model"
+2017,Edwin de Jonge,Lightning Talks,Data Error! But where?,Error Datacleaning
+2017,Julia Silge,Talks,"Text mining, the tidy way","text mining, natural language processing, tidy data, sentiment analysis"
+2017,Bryan Galvin,Poster Session,Rtraildb: R interface to TrailDB,"big data, high performance computing, operationalizing R, etl"
+2017,Rickey Carter,Lightning Talks,Object-oriented markdown in R to facilitate collaboration,"Reproducible research, statistical output, data analysis pipeline"
+2017,Olivia Grigg,Lightning Talks,A graphical tool for monitoring survival trajectories in real time: the STRAND chart,"model monitoring, EWMA (exponentially weighted moving average), survival data, risk adjustment (RA), CUSUM (cumulative sum) control chart"
+2017,Susanne Berger,Talks,Various Versatile Variances: An Object-Oriented Implementation of Clustered Covariances in *R*,"clustered data, clustered covariance matrix estimators, object-orientation, simulation, R"
+2017,Michael Dewey,Lightning Talks,What is missing from the meta-analysis landscape?,"meta-analysis, CRAN Task View"
+2017,Roger Bivand,Poster Session,The R Journal: status,"Review process, R documentation, article publication, author status"
+2017,Roger Bivand,Poster Session,Alternatives to the **akima** package,"2D interpolation, 2D extrapolation, 2D surface approximation, surface visualization"
+2017,Munshi Imran Hossain,Lightning Talks,Digital Signal Processing with R,"Signal processing, signal segmentation, predictive modeling"
+2017,Joseph Rickert,Lightning Talks,R Blogging with blogdown and GitHub,"R blogging, blogdown, GitHub, R Markdown"
+2017,Joseph Rickert,Talks,How the R Consortium is Supporting the R Community,R Consortium
+2017,Tomas Kalibera,Talks,Taking Advantage of the Byte Code Compiler,"Compiler, Byte-Code, Interpreter, Performance"
+2017,Alexander Kruse,Poster Session,Bike sharing usage with Shiny and Leaflet,"Leaflet, Shiny, Open Data, Spatial Analysis, Maps"
+2017,Brian Piccolo,Talks,Dynamic Assessment of Microbial Ecology (*DAME*): A Shiny App for Analysis and Visualization of Microbial Sequencing Data,"Shiny, microbiome, sequencing, ecology, 16S rRNA"
+2017,Gergely Daroczi,Talks,Stream processing with R in AWS,"stream processing, big data, ETL, scale"
+2017,Sigrid Keydana,Talks,R and Haskell: Combining the best of two worlds,"HaskellR, Haskell, Interoperability"
+2017,Emily Burchfield,Poster Session,Using **R-INLA** to understand institutional moderators of drought,"R-INLA, Drought, Spatio-temporal, Bayesian"
+2017,Nicolas Sauwen,Talks,Differentiation of brain tumor tissue using hierarchical non-negative matrix factorization,"non-negative matrix factorization, magnetic resonance imaging, brain tumor"
+2017,Kelly McConville,Poster Session,"Teaching the Tidyverse in the Second Semester, Undergraduate Statistics Course","statistics education, tidyverse, markdown, glmnet"
+2017,Frédéric M. Vanwindekens,Poster Session,"Using *R* in transdisciplinary approches for visualiazing and analysing people's perceptions, knowledge and practices in complex social-ecological systems","qualitative survey, semi-quantitative approach, cognitive mapping, transdisciplinarity, visualization"
+2017,Edwin Thoen,Lightning Talks,Preparing Datetime Data with Padr,"Data Preparation, Datetime Data, Tidyverse"
+2017,Barbara Borges Ribeiro,Talks,Interacting with databases from Shiny,"databases, shiny, DBI, dplyr, pool"
+2017,José de Jesus Filho,Lightning Talks,Jurimetrics: quantitative analysis of judicial decisions using *R*,"Jurimetrics, Judicial decisions,Webscraping,Text mining, Predictive modeling"
+2017,Renata Yokota,Talks,**addhaz**: Contribution of chronic diseases to the disability burden in *R*,"Disability, Binomial outcome, Multinomial outcome, Additive hazard model, Cross-sectional data"
+2017,Maëlle Salmon,Lightning Talks,Using an *R* package as platform for harmonized cleaning of data from RTI MicroPEM air quality sensors,"package, reproducibility, science, quality control, personal monitoring"
+2017,Julie Aubert,Poster Session,CHMM: an R package for coupled Hidden Markov Models,"Coupled Hidden Markov Models, Variational approximation, Copy Number Variation"
+2017,John Newell,Lightning Talks,Introducing the DynNom package for the generation of dynamic nomograms,"Nomograms, Shiny, Dynamic Nomograms, Translational Statistics"
+2017,Michael Dorman,Talks,`shadow`: R Package for Geometric Shade Calculations in an Urban Environment,"shadow, sun position, geometry, solar radiation, building facades"
+2017,Sammy Deprez,Lightning Talks,The perfect marriage - Microsoft <3 R,"Microsoft, R, Visualizing, Collaboration, PowerBi"
+2017,Carson Sievert,Talks,Linking views on the web from R without shiny,"visualization, linked views, htmlwidgets, plotly, leaflet"
+2017,Qi Zheng,Lightning Talks,R in research on microbial mutation rates,NA
+2017,Martijn Tennekes,Talks,Exploring and presenting maps with **tmap**,"Visualisation, maps, interaction, exploration"
+2017,Julie Josse,Talks,Diversity of the R Community,"R foundation, R community, gender gap, diversity, conferences"
+2017,Christina Knudson,Talks,R Package glmm: Likelihood-Based Inference for Generalized Linear Mixed Models,"generalized linear mixed model, maximum likelihood, statistical inference, Monte Carlo"
+2017,Jan Wijffels,Talks,Computer Vision and Image Recognition algorithms for R users,"Computer Vision, Image recognition, Object detection, Image feature engineering"
+2017,Richard Cotton,Talks,RL10N: Translating Error Messages & Warnings,"package development, localization, translation, errors and warnings, R Consortium"
+2017,Mark Hornick,Talks,Architectural Elements Enabling R for Big Data,"Big Data, Machine Learning, Scalability, High Perforance Computing, Graph Analytics"
+2017,Kenneth Benoit,Talks,Text Analysis and Text Mining Using R,"text analysis, text mining, machine learning, social media"
+2017,Benjamin French,Poster Session,Quantifying radiation health effects in the Life Span Study of atomic bomb survivors,"cancer incidence, generalized non-linear models, regression"
+2017,Beibei Jiang,Lightning Talks,Simulate phenotype(s) with epistatic interactions,"simulation, multiple phenotyes, epistatic interactions"
+2017,Joni Virta,Lightning Talks,ICtest: Estimating the Number of Interesting Components,"Principal component analysis, Independent component analysis, Non-Gaussian component analysis, Sliced inverse regression"
+2017,Szilard Pafka,Talks,A Benchmark of Open Source Tools for Machine Learning from R,"machine learning, predictive modeling, predictive accuracy, scalability, speed"
+2017,Claus Thorn Ekstrøm,Talks,Show me the errors you didn't look for,"Data cleaning, Quality control, Reproducible research, Data validation"
+2017,Victor Aguirre,Poster Session,CONS an R Based Graphical Interface to Perform Consonance Analysis,"Sensory evaluation, Panel performance, PCA"
+2017,Max Humber,Talks,Scraping data with rvest and purrr,"rvest, purrr, webscraping, fantasy, sports"
+2017,Daniel Nüst,Talks,Automatically archiving reproducible studies with Docker,"Docker, Reproducible Research, Open Science"
+2017,Thomas Balmat,Talks,An Efficient Algorithm for Solving Large Fixed Effects OLS Problems with Clustered Standard Error Estimation,"large data least squares, fixed effects estimation, clustered standard error estimation, sparse matrix methods, high performance computing"
+2017,Sean Lopp,Lightning Talks,Strategies for Reproducible Research with Packrat,"Reproducible Research, Packrat, Packages, Version Control"
+2017,Paul Bürkner,Talks,brms: Bayesian Multilevel Models using Stan,"multilevel models, Bayesian inference, Stan"
+2017,Mark van der Loo,Talks,Easy imputation with the simputation package,"imputation, missing values, grammar of data manipulation"
+2017,Dootika Vats,Talks,MCMC Output Analysis Using R package mcmcse,"MCMC, stopping rule, effective sample size"
+2017,Alessio Crippa,Poster Session,Interactive Shiny Applications for Flexible Modeling of Quantitative Predictors in Epidemiology,"Flexible Modeling, Dose-response Analysis, Shiny, Interactive Web Application, Regression Models, Epidemiology"
+2017,Tom Reynkens,Talks,Actuarial and statistical aspects of reinsurance in *R*,"extreme value theory, censoring, splicing, risk measures"
+2017,Michael Dietze,Lightning Talks,eseis â€“ A toolbox to weld seismologic and geomorphic data analysis,"Seismology, Spatial, Time series, Geomorphology"
+2017,Taylor Arnold,Talks,A Tidy Data Model for Natural Language Processing,"text analysis, database normalization, exploratory data analysis, feature extraction, visualization"
+2017,Salvino Salvaggio,Poster Session,Do Presidents Have Sentiments ?,"political science, sentiment analysis, visualization"
+2017,Jannes Muenchow,Talks,**RQGIS** - integrating *R* with QGIS for innovative geocomputing,"GIS interface, QGIS, Python interface"
+2016,Derek Damron,Lightning talk,Empowering Business Users with Shiny,NA
+2016,Douglas Galagate,Lightning talk,Estimating causal dose response functions using the causaldrf R package,NA
+2016,Jeffrey Horner,Lightning talk,Hash Tables in R are Slow,NA
+2016,Miranda Yolanda Mortlock,Lightning talk,Bespoke eStyle Statistical Training for Africa: challenges and opportunities of developing an online course,NA
+2016,Jan-Philipp Kolb,Lightning talk,Tie-ins between R and Openstreetmap data,NA
+2016,William Kyle Hamilton,Lightning talk,MAVIS: Meta Analysis via Shiny,NA
+2016,Gabrielle Jeanne Weinrott,Lightning talk,Visualization of Uncertainty for Longitudinal Data,NA
+2016,Steven Elliot Pav,Lightning talk,madness: multivariate automatic differentiation in R,NA
+2016,Allan Miller,Lightning talk,rempreq: An R package for Estimating the Employment Impact of U.S. Domestic Industry Production and Imports,NA
+2016,Raphaël Nedellec,Lightning talk,Scalable semi-parametric regression with mgcv package and bam procedure,NA
+2016,Robert Krzyzanowski,Lightning talk,Syberia: A Development Framework for R,NA
+2016,Jeff David Allen,Contributed talk,Using Spark with Shiny and R Markdown,Performance
+2016,Wes McKinney,Contributed talk,Advancing In-memory Analytics and Interoperability for R (and Python),R & other languages
+2016,Anthony Goldbloom,Contributed talk,R in machine learning competitions,Kaleidoscope
+2016,Kevin Ushey,Contributed talk,"RcppParallel: A Toolkit for Portable, High-Performance Algorithms",Performance
+2016,Eric Riemer Hare,Contributed talk,Automatic Matching of Bullet Lands in R,Kaleidoscope
+2016,Mark Hornick,Contributed talk,Taking R to new heights for scalability and performance,Performance
+2016,Abdallah Bari,Contributed talk,Capturing and understanding patterns in plant genetic resource data to develop climate change adaptive crops using the R platform,Case study
+2016,Garrett Grolemund,Contributed talk,Shiny Gadgets: Interactive tools for Programming and Data Analysis,Kaleidoscope
+2016,Bhaskar Vishnu Karambelkar,Contributed talk,The options and challenges of spatial analysis in R,Spatial
+2016,Javier Luraschi,Contributed talk,Importing modern data into R,Database
+2016,J.J. Allaire,Contributed talk,Notebooks with R Markdown,Kaleidoscope
+2016,Edward Ma,Contributed talk,"Distributed Computing using parallel, Distributed R, and SparkR",Performance
+2016,Colin Witter Rundel,Contributed talk,Continuous Integration and Teaching Statistical Computing with R,Teaching
+2016,Amelia McNamara,Contributed talk,Integrated R labs for high school students,Teaching
+2016,Benoit Liquet,Contributed talk,Group and Sparse Group Partial Least Square Approaches Applied in Genomics Context,Regression
+2016,Yihui Xie,Contributed talk,Authoring Books with R Markdown,Kaleidoscope
+2016,Yannig Goude,Contributed talk,OPERA: Online Prediction by ExpeRts Aggregation,Statistical Methods & Application
+2016,James F Hester,Contributed talk,Covr: Bringing Code Coverage to R,Miscellaneous
+2016,David Ibarra,Contributed talk,Experiences on the Use of R in the Water Sector,Case study
+2016,Charles Arthur Piercey,Contributed talk,How to keep your R code simple while tackling big datasets,Analytics
+2016,A. Jonathan R. Godfrey,Contributed talk,R markdown: Lifesaver or death trap?,Kaleidoscope
+2016,Joaquin Vanschoren,Contributed talk,Connecting R to the OpenML project for Open Machine Learning,Kaleidoscope
+2016,Rhydwyn McGuire,Contributed talk,"Reusable R for automation, small area estimation and legacy systems",Reproducible research
+2016,Jakob Richter,Contributed talk,mlrMBO: A Toolbox for Model-Based Optimization of Expensive Black-Box Functions,Machine Learning
+2016,Jonathan McPherson,Contributed talk,flexdashboard: Easy interactive dashboards for R,Interactive
+2016,Pablo Emilio Verde,Contributed talk,bamdit: An R Package for Bayesian Meta-Analysis of Diagnostic Test Data,Bayesian
+2016,Joe Cheng,Contributed talk,Linking htmlwidgets with crosstalk and mobservable,Kaleidoscope
+2016,Aaron Seth Horowitz,Contributed talk,New Paradigms In Shiny App Development: Designer + Data Scientist Pairing,Interactive
+2016,Matteo Fasiolo,Contributed talk,Fast additive quantile regression in R,Regression
+2016,Oleg Sofrygin,Contributed talk,Estimation of causal effects in network-dependent data,Kaleidoscope
+2016,Winston Chang,Contributed talk,Profvis: Profiling tools for faster R code,Performance
+2016,Zhe Sha,Lightning talk,Maximum Monte Carlo likelihood estimation of conditional auto-regression models,NA
+2016,Alexander Meyer,Lightning talk,Automated risk calculation in clinical practice and research - the riskscorer package,NA
+2016,Torben Tvedebrink,Lightning talk,Getting R into your bathroom,NA
+2016,Kenneth Buker,Lightning talk,Using R for Game Development Analysis,NA
+2016,Arlene Mari Zaima,Lightning talk,Scaling R for Business Analytics,NA
+2016,Jocelyn Sendecki,Lightning talk,A Shiny App is Worth 1000**3 Words: A Case Study in Displaying Three-Dimensional Dose Combination Response Data,NA
+2016,Alon Friedman,Lightning talk,Peirce--theory-of-signs in R,NA
+2016,Guoli Sun,Lightning talk,Introduce R package: Tree Branches Evaluated Statistically for Tightness (TBEST),NA
+2016,Konstantin Golyaev,Lightning talk,Forecasting Revenue for S&P 500 Companies  Using the baselineforecast Package,NA
+2016,Jeffrey Mark Gonzalez,Lightning talk,Clustering of Hierarchically-Linked Multivariate Datasets,NA
+2016,Dean Attali,Lightning talk,shinyjs: Easily improve UX in your Shiny apps without having to learn JavaScript,NA
+2016,Annie J Wang,Lightning talk,Two Cultures: From Stata to R,NA
+2016,Daniel David Leybzon,Lightning talk,The Best Time to Post on Reddit,NA
+2016,Carlos Leonardo Kulnig Cinelli,Lightning talk,"NetworkRiskMeasures:  risk measures for (financial) networks, such as DebtRank, Impact Susceptibility, Impact Diffusion and Impact Fluidity.",NA
+2016,Ian Cook,Lightning talk,Weather Alerts Data with R,NA
+2016,Olga Cecilia Usuga,Lightning talk,RelDists package for reliability analysis,NA
+2016,Florian Schwendinger,Lightning talk,Interact with Python from within R,NA
+2016,Soumya Kalra,Lightning talk,Thinking about Energy Markets with interactivity,NA
+2016,Hazaël Jones,Lightning talk,GeoFIS: an R-based open source software for analyzing and zoning spatial data,NA
+2016,Sandy Griffith,Lightning talk,Using R at a rapidly scaling healthcare technology startup,NA
+2016,Frederick Joseph Boehm,Lightning talk,Event Detection with Social Media Data,NA
+2016,Gergely Daroczi,Lightning talk,Let's meet on satRday!,NA
+2016,Ethan Christopher Brown,Lightning talk,Convenient educational & psychological test reporting with the QME package & a Shiny UI,NA
+2016,Giuseppe Bruno,Lightning talk,Text Mining and Sentiment Extraction in Central Bank Documents,NA
+2016,Stefan Feuerriegel,Lightning talk,Understanding human behavior for applications in finance and social sciences: Insights from content analysis with novel Bayesian learning in R,NA
+2016,Gene Leynes,Lightning talk,Optimizing Food Inspections with Analytics,NA
+2016,Nathan Pavlovic,Lightning talk,Interactive dashboards for visual quality control of air quality data,NA
+2016,Gert Janssenswillen,Contributed talk,edeaR: extracting knowledge from process data,R in business
+2016,Nick Elprin,Lightning talk,Building a High Availability REST API Engine for R,NA
+2016,Hao Zhu,Lightning talk,Automated clinical research tracking and assessment using R-Shiny,NA
+2016,Mario Deng,Lightning talk,FirebrowseR an 'API' Client for Broads 'Firehose' Pipeline,NA
+2016,Stephen R Piccolo,Lightning talk,Performance Above Random Expectation: A more intuitive and versatile metric for evaluating probabilistic classifiers,NA
+2016,Rajiv Shah,Lightning talk,Outlier Detection Methods,NA
+2016,Elaine Allen McVey,Lightning talk,gtfsr: A package to make transit system analysis easy,NA
+2016,Edwin de Jonge,Lightning talk,"Chunked, dplyr for large text files",NA
+2016,Jeff Mettel,Lightning talk,"R's Role in Healthcare Data: Exploration, Visualization and Presentation",NA
+2016,Yeng Bun,Contributed talk,Inside the Rent Zestimates,Analytics
+2016,Carson Sievert,Contributed talk,Practical tools for exploratory web graphics,Graphics
+2016,Ben S Baumer,Contributed talk,ETL for Medium Data,Database
+2016,Alice Daish,Contributed talk,Transforming a Museum to be data-driven using R,Kaleidoscope
+2016,Antonio Alberto Santos,Contributed talk,"Real-time analysis of the intraday financial volatility: Big data, simulations and stochastic volatility using R",Statistics & Big Data
+2016,Marvin N. Wright,Contributed talk,ranger: A fast implementation of random forests for high dimensional data,Statistics & Big Data
+2016,Pete Mohanty,Contributed talk,bigKRLS: optimizing non-parametric regression in R,Regression
+2016,Qiang Kou,Contributed talk,Deep Learning for R with MXNet,Machine Learning
+2016,Alexander Kowarik,Contributed talk,Simulation of Synthetic Complex Data: The R-Package simPop,Miscellaneous
+2016,Garrett Dancik,Contributed talk,"swirl-tbp: a package for interactively learning R programming and data science through the addition of template-based practice problems in swirl",Teaching
+2016,Andee Kaplan,Contributed talk,Introducing Statistics with intRo,Teaching
+2016,Tengfei Yin,Contributed talk,Wrapping Your R tools to Analyze National-Scale Cancer Genomics in the Cloud,Bioinformatics
+2016,Rebecca Louise Barter,Contributed talk,Superheat: Supervised heatmaps for visualizing complex data,Statistics & Big Data
+2016,Kellie Nicole Ottoboni,Contributed talk,permuter: An R Package for Randomization Inference,Statistical Methods & Application
+2016,Yves Croissant,Contributed talk,Multiple Hurdle Tobit models in R: the mhurdle package,Regression
+2016,Nicolas Städler,Contributed talk,Two-sample testing in high dimensions,Bioinformatics
+2016,Ian John Lyttle,Contributed talk,Using Shiny modules to build more-complex and more-manageable apps,Interactive
+2016,Przemyslaw Biecek,Contributed talk,How to use the archivist package to boost reproducibility of your research,Reproducible research
+2016,John David Fox,Contributed talk,"Visualizing Simultaneous Linear Equations, Geometric Vectors, and Least-Squares Regression with the matlib Package for R",Kaleidoscope
+2016,Becca Wilson,Contributed talk,DataSHIELD: Taking the analysis to the data,Kaleidoscope
+2016,Sofie Pødenphant Jensen,Contributed talk,mumm: An R-package for fitting multiplicative mixed models using the Template Model Builder (TMB),Generalized and mixed models
+2016,Rasmus Bååth,Contributed talk,bayesboot: An R package for easy Bayesian bootstrapping,Kaleidoscope
+2016,Hannes Mühleisen,Contributed talk,Efficient tabular data ingestion and manipulation with MonetDBLite,Database
+2016,Karl W Broman,Contributed talk,R/qtl: Just Barely Sustainable,Bioinformatics
+2016,Anqi Fu,Contributed talk,CVXR: An R Package for Modeling Convex Optimization Problems,Kaleidoscope
+2016,Xinwei Xue,Contributed talk,When will this machine fail?,Miscellaneous
+2016,Torsten Hothorn,Contributed talk,Most Likely Transformations,Kaleidoscope
+2016,Szilard Pafka,Contributed talk,Size of Datasets for Analytics and Implications for R,Performance
+2016,Mikkel Meyer Andersen,Contributed talk,Statistics and R in Forensic Genetics,Kaleidoscope
+2016,Jason C. Fisher,Contributed talk,"A Case Study in Reproducible Model Building: Simulating Groundwater Flow in the Wood River Valley Aquifer System, Idaho",Case study
+2016,Colin Stevenson Gillespie,Contributed talk,Crowd sourced benchmarks,Miscellaneous
+2016,Ryota Suzuki,Contributed talk,R AnalyticFlow 3: Interactive Data Analysis GUI for R,Interactive
+2016,John Lam,Contributed talk,A Lap Around R Tools for Visual Studio,Kaleidoscope
+2016,Hannah Frick,Contributed talk,trackeR: Infrastructure for Running and Cycling Data from GPS-Enabled Tracking Devices in R,Kaleidoscope
+2016,Mark van der Loo,Contributed talk,Data validation infrastructure: the validate package,Analytics
+2016,Heidi Seibold,Contributed talk,Predicting individual treatment effects,Bioinformatics
+2016,Johanna Hardin,Contributed talk,Dynamic Data in the Statistics Classroom,Teaching
+2016,Hana Sevcikova,Contributed talk,United Nations World Population Projections with R,Kaleidoscope
+2016,Peter John Baker,Contributed talk,GNU make for reproducible data analysis using R and other statistical software,Reproducible research
+2016,David Garrett Robinson,Contributed talk,broom: Converting statistical models to tidy data frames,Miscellaneous
+2016,Henrik Bengtsson,Contributed talk,A Future for R,Miscellaneous
+2016,Robin Hankin,Contributed talk,introducing the permutations package,Miscellaneous
+2016,Mine Cetinkaya-Rundel,Contributed talk,A first-year undergraduate data science course,Teaching
+2016,Davide Martinetti,Contributed talk,SpatialProbit for fast and accurate spatial probit estimations,Spatial
+2016,Elisabeth Eva britt Dahlqwist,Contributed talk,"AF a new package for estimating the attributable fraction",Kaleidoscope
+2016,Dirk Duellmann,Contributed talk,"Adding R, Jupyter and Spark to the toolset for understanding the complex computing systems at CERN's Large Hadron Collider",Kaleidoscope
+2016,Ali Abbas,Contributed talk,A spatial policy tool for cycling potential in England,Spatial
+2016,Oliver Bracht,Contributed talk,Implementing R in old economy companies: From proof-of-concept to production,R in business
+2016,Goknur Giner,Contributed talk,Fry:  A Fast Interactive Biological Pathway Miner,Bioinformatics
+2016,Per Bruun Brockhoff,Contributed talk,Visualizing multifactorial and multi-attribute effect sizes in linear mixed models with a view towards sensometrics.,Generalized and mixed models
+2016,Rachel Lynne Wilkerson,Contributed talk,Modeling Food Policy Decision Analysis with an Interactive Bayesian Network in Shiny,Case study
+2016,Roger Bivand,Contributed talk,"Revisiting the Boston data set (Harrison and Rubinfeld, 1978)",Spatial
+2016,Alessio Crippa,Contributed talk,Meta-Analysis of Epidemiological Dose-Response Studies with the dosresmeta R package,Bioinformatics
+2016,Ben Weber,Contributed talk,RServer: Operationalizing R at Electronic Arts,Analytics
+2016,Arun Srinivasan,Contributed talk,Efficient in-memory non-equi joins using data.table,Database
+2016,Andrew Williams Flowers,Contributed talk,FiveThirtyEight's Data Journalism Workflow With R,Kaleidoscope
+2016,Andrew M Redd,Contributed talk,Rethinking R Documentation: an extension of the lint package,Miscellaneous
+2016,Jacob Bien,Contributed talk,The simulator: An Engine for Streamlining Simulations,Reproducible research
+2016,David Mark Smith,Contributed talk,R at Microsoft,Sponsor
+2016,Erik Scott Wright,Contributed talk,Analysis of big biological sequence datasets using the DECIPHER package,Bioinformatics
+2016,Ramnath Vaidyanathan,Contributed talk,Htmlwidgets:  Power of Javascript in R,R & other languages
+2016,Daniel Stein Falster,Contributed talk,The challenge of combining 176 x #otherpeoplesdata to create the Biomass And Allometry Database (BAAD),Kaleidoscope
+2016,Jan Vitek,Contributed talk,What can R learn from Julia,R & other languages
+2016,Karl Millar,Contributed talk,Rho: High Performance R,Kaleidoscope
+2016,Christopher J. Paciorek,Contributed talk,Compiling parts of R using the NIMBLE system for programming algorithms,Bayesian
+2016,Gabriel Becker,Contributed talk,viztrackr: Tracking and discovering plots via automatic semantic annotations,Graphics
+2016,Thibaut Jombart,Contributed talk,On the emergence of R as a platform for emergency outbreak response,Kaleidoscope
+2016,John Kloke,Contributed talk,Big Data Algorithms for Rank-based Estimation,Statistics & Big Data
+2016,Jason M Bryer,Contributed talk,Using Shiny for Formative Assessments,Teaching
+2016,David A James,Contributed talk,An embedded domain-specific language for ODE-based drug-disease modeling and simulation,Bioinformatics
+2016,Nikola Kasprikova,Contributed talk,Calculation and economic evaluation of acceptance sampling plans,Statistical Methods & Application
+2016,Alberto Martin Zamora,Contributed talk,R: The last line of defense against bad debt.,R in business
+2016,Martyn Plummer,Contributed talk,Bayesian analysis of generalized linear mixed models with JAGS,Bayesian
+2016,George Gerald Vega Yon,Contributed talk,Network Diffusion of Innovations in R: Introducing netdiffuseR,Kaleidoscope
+2016,Finbarr Timbers,Contributed talk,Automating our work away: one consulting firm's experience with KnitR.,R in business
+2016,Brandon LeBeau,Contributed talk,Simulation and power analysis of generalized linear mixed models,Generalized and mixed models
+2016,Richard James Cotton,Contributed talk,Run-time Testing Using assertive,Packages and Development
+2016,Patricia Martinkova,Contributed talk,Detection of Differential Item Functioning with difNLR function,Regression
+2016,Giorgio Maria Di Nunzio,Contributed talk,"Interactive Naive Bayes using Shiny: Text Retrieval, Classification, Quantification",Machine Learning
+2016,Tong He,Contributed talk,xgboost: An R package for Fast and Accurate Gradient Boosting,Machine Learning
+2016,Helena Kotthaus,Contributed talk,Resource-Aware Scheduling Strategies for Parallel Machine Learning R Programs though RAMBO,Performance
+2016,Gábor Csárdi,Contributed talk,Tools for Robust R Packages,Packages and Development
+2016,Helen Elizabeth Ogden,Contributed talk,Approximate inference in R: a case study with GLMMs and glmmsr,Generalized and mixed models
+2016,Paul H Schuette,Contributed talk,Using R in a regulatory environment: FDA experiences.,Kaleidoscope
+2016,Benno Süselbeck,Contributed talk,How to do one's taxes with R,Kaleidoscope
+2016,Kate Ross-Smith,Contributed talk,How can I get everyone else in my organisation to love R as much as I do?,R in business
+2016,Filip Schouwenaars,Contributed talk,Revolutionize how you teach and blog: add interactivity,Teaching
+2016,Barret Schloerke,Contributed talk,ggduo: Pairs plot for two group data,Graphics
+2016,Michael Rustler,Contributed talk,Wrap your model in an R package!,Case study
+2016,Jorge Alberto Miranda,Contributed talk,Classifying Murderers in Imbalanced Data Using randomForest,Kaleidoscope
+2016,Tanya Tickel Schlusser,Contributed talk,Using Jupyter notebooks with R in the classroom,Teaching
+2016,Dirk Eddelbuettel,Contributed talk,Extending CRAN packages with binaries: x13binary,Packages and Development
+2016,Jenny Bryan,Contributed talk,"jailbreakr: Get out of Excel, free",Kaleidoscope
+2016,Klaus Peter Schliep,Contributed talk,The phangorn package: estimating and comparing phylogenetic trees,Bioinformatics
+2016,Michel Lang,Contributed talk,Checkmate: Fast and Versatile Argument Checks,Packages and Development
+2016,Eduardo Ariño de la Rubia,Contributed talk,Providing Digital Provenance: from Modeling through Production,Reproducible research
+2016,Tal Galili,Contributed talk,Heatmaps in R: Overview and Best Practices,Statistical Methods & Application
+2016,Virgilio Gómez-Rubio,Contributed talk,Fitting Complex Bayesian Models with R-INLA and MCMC,Bayesian
+2016,Gopi Kumar,Contributed talk,Exploring the R / SQL boundary,Database
+2016,Pooja Rajkumar,Contributed talk,Rectools: An Advanced Recommender System,Machine Learning
+2016,Bradley Russell Buchsbaum,Contributed talk,Multivoxel Pattern Analysis of fMRI Data,Bioinformatics
+2016,William K. Cornwell,Contributed talk,Colour schemes in data visualisation: Bias and Precision,Kaleidoscope
+2016,Hafen Paul Ryan,Contributed talk,"rbokeh: A Simple, Flexible, Declarative Framework for Interactive Graphics",Graphics
+2016,Julia Anne Fukuyama,Contributed talk,Phylogenetically informed analysis of microbiome data using adaptive gPCA in R,Statistical Methods & Application
+2016,Jonathan Adams,Contributed talk,Grid Computing in R with Easy Scalability,Performance
+2016,Da Zheng,Contributed talk,"FlashR: Enable Parallel, Scalable Data Analysis in R",Performance
+2016,Edzer Pebesma,Contributed talk,Spatial data in R: simple features and future perspectives,Spatial
+2016,Lukas Stadler,Contributed talk,"Zero-overhead integration of R, JS, Ruby and C/C++",R & other languages
+2016,Thomas Petzoldt,Contributed talk,Differential equation-based models in R: An approach to simplicity and performance,Miscellaneous
+2016,Ioannis Kosmidis,Contributed talk,brglm: Reduced-bias inference in generalized linear models,Generalized and mixed models
+2016,Latifa Bouabdillah,Contributed talk,"RosettaHUB-Sheets, a programmable, collaborative web-based spreadsheet for R, Python and Spark",R & other languages
+2016,Stuart Bailey,Contributed talk,Helping R Stay in the Lead by Deploying Models with PFA,Miscellaneous
+2016,Wei-Chen Chen,Contributed talk,Interactive Terabytes with pbdR,Performance
+2016,Michael Andrew Levy,Contributed talk,Teaching R to 200 people in a week,Teaching
+2016,Richard Becker,Keynote,Forty years of S,NA
+2016,Hadley Wickham,Keynote,Towards a grammar of interactive graphics,NA
+2016,Deborah Nolan,Keynote,Statistical Thinking in a Data Science Course,NA
+2016,Donald Knuth,Keynote,Literate Programming,NA
+2016,Daniela Witten,Keynote,Flexible and Interpretable Regression Using Convex Penalties,NA
+2016,Simon Urbanek,Keynote,RCloud - Collaborative Environment for Visualization and Big Data Analytics,NA
+2016,Virgilio Gómez-Rubio,Tutorial,Small Area Estimation with R,NA
+2016,Erin LeDell,Tutorial,Machine Learning Algorithmic Deep Dive,NA
+2016,Tess Calvez,Tutorial,Time-to-Event Modeling as the Foundation of Multi-Channel Revenue Attribution,NA
+2016,"Sanjiv Das, Karthik Mokashi",Tutorial,"MoRe than woRds, Text and Context: Language Analytics in Finance with R",NA
+2016,Yihui Xie,Tutorial,Dynamic Documents with R Markdown,NA
+2016,Edzer Pebesma,Tutorial,"Handling and analyzing spatial, spatiotemporal and movement data",NA
+2016,Max Kuhn,Tutorial,Never Tell Me the Odds! Machine Learning with Class Imbalances,NA
+2016,Jennifer Bryan,Tutorial,"Using Git and GitHub with R, Rstudio, and R Markdown",NA
+2016,Andrea S. Foulkes,Tutorial,Genome-wide association analysis and post-analytic interrogation with R,NA
+2016,Joe Cheng,Tutorial,Effective Shiny Programming,NA
+2016,"Karthik Ram, Garrett Grolemund, Scott Chamberlain",Tutorial,Extracting data from the web APIs and beyond,NA
+2016,"Julie Josse, Francois Husson",Tutorial,Missing Value Imputation with R,NA
+2016,Frank Harrell,Tutorial,Regression Modeling Strategies and the rms package,NA
+2016,"Toby Dylan Hocking, Claus Thorn Ekstrom",Tutorial,Understanding and creating interactive graphics,NA
+2016,"Andrie de Vries, Micheleen Harris",Tutorial,Using R with Jupyter notebooks for reproducible research,NA
+2016,Ben Goodrich,Tutorial,An Introduction to Bayesian Inference using R Interfaces to Stan,NA
+2016,"Shivaram Venkataraman, Hossein Falaki",Tutorial,Introduction to SparkR,NA
+2016,"Matt Dowle, Arunkumar Srinivasan",Tutorial,Ninja moves with data.table - learn by doing in a cookbook style workshop,NA
+2016,Joseph B. Rickert,R Initiatives,What's up with the R consortium?,NA
+2016,Heather Turner,R Initiatives,Presentation of the Women in R task force,NA
+2016,Gabriela de Queiroz,R Initiatives,R-Ladies Presentation 1,NA
+2016,"Hannah Frick, Alice Daish",R Initiatives,R-Ladies Presentation 2,NA
+2016,Tatjana Kecojevic,Contributed talk,Data Landscapes: a pragmatic and philosophical visualisation of the  sustainable urban landscape,Graphics
+2016,Lou Bajuk-Yorgan,Contributed talk,Applying R in Streaming and Business Intelligence Applications,Analytics
+2016,Lauren Ruth Samuels,Contributed talk,Visual Pruner: A Shiny app for cohort selection in observational studies,Interactive
+2016,Brenda Betancourt,Poster,Community detection in multiplex networks : An application to the C. elegans neural network,Group 1
+2016,Kevin Wayne Byron,Poster,Making Shiny Seaworthy: A weighted smoothing model for validating oceanographic data at sea.,Group 1
+2016,Ali Mehdi Zaidi,Poster,DiLeMMa - Distributed Learning with Markov Chain Monte Carlo Algorithms with the ROAR Package,Group 1
+2016,Kris Sankaran,Poster,mvarVis: An R package for Visualization of Multivariate Analysis Results,Group 1
+2016,Douglas Friedman,Poster,Integrating R & Tableau,Group 1
+2016,Brian Kreeger,Poster,A Large Scale Regression Model Incorporating Networks using Aster and R,Group 1
+2016,Ganesh K Subramaniam,Poster,RCAP Designer: An RCloud Package to create Analytical Dashboards,Group 1
+2016,Olga Scrivner,Poster,Bridging the Data Visualization to Digital Humanities gap: Introducing the Interactive Text Mining Suite,Group 1
+2016,Amos Mbugua Thairu,Poster,Visualization of health and population indicators within urban African populations using R,Group 1
+2016,Daniel Emaasit,Poster,Urban Mobility Modeling using R and Big Data from Mobile Phones,Group 1
+2016,Simon Gajzler,Poster,Curde: Analytical curves detection,Group 1
+2016,Ting-Wei Lin,Poster,Using R with Taiwan Government Open Data to create a tool for monitor the city's age-friendliness,Group 1
+2016,Sarah Reehl,Poster,Visualizations and Machine Learning in R with Tessera and Shiny,Group 1
+2016,Theophile Bigirumurame,Poster,R Shiny Application  for the Evaluation of Surrogacy in Clinical Trials,Group 1
+2016,Rudolf Debelak,Poster,Using R in the evaluation of psychological tests,Group 1
+2016,Richard M Heiberger,Poster,R Microplots in Tables with the latex() Function,Group 1
+2016,Ewoud De Troyer,Poster,Applied Biclustering Using the BiclustGUI R Package,Group 1
+2016,Thomas Edward Burk,Poster,Video Tutorials in Introductory Statistics Instruction,Group 1
+2016,Soma Datta,Poster,MULTI-STAGE DECISION METHOD TO GENERATE RULES FOR STUDENT RETENTION,Group 1
+2016,Adam Welc,Poster,High-performance R with FastR,Group 1
+2016,Safe AOUINTI,Poster,IMGTStatClonotype: An R package with integrated web tool for pairwise evaluation and visualization of IMGT clonotype diversity and expression from IMGT/HighV-QUEST output,Group 1
+2016,Hong Ooi,Poster,Writing a dplyr backend to support out-of-memory data for Microsoft R Server,Group 1
+2016,Weizhuang Zhou,Poster,Imputing Gene Expression to Maximise Platform Compatibility,Group 1
+2016,Ariel Shin,Poster,Statistics and R for Analysis of Elimination Tournaments,Group 1
+2016,Jasmine Dumas,Poster,shinyGEO: a web application for analyzing Gene Expression Omnibus (GEO) datasets using shiny,Group 1
+2016,Teck Kiang Tan,Poster,Sequence Analysis with Package TraMineR,Group 1
+2016,Edwin de Jonge,Poster,"Daff: diff, patch and merge for data.frames",Group 1
+2016,Theresa Scharl,Poster,Prediction of key parameters in the production of biopharmaceuticals using R,Group 1
+2016,Rachel Lynne Wilkerson,Poster,Evaluating Food Insecurity Interventions with Bayesian Decision Analysis,Group 1
+2016,Eina Ooka,Poster,All-inclusive but Practical Multivariate Stochastic Forecasting for Electric Utility Portfolio,Group 1
+2016,Jörn Pons-Kühnemann,Poster,Teaching statistics to medical students with R and OpenCPU,Group 1
+2016,Robert Anthony Muenchen,Poster,Helping Non-programmers Use R,Group 2
+2016,Ruby Chiu-Hsing Weng,Poster,Bayesian inference for Internet ratings data using R,Group 2
+2016,Ye Li,Poster,Partition-Assisted Clustering: Application to High-Dimensional Multi-Sample Single-Cell Data Analysis,Group 2
+2016,Michael Anthony Wise,Poster,Energy prediction and load shaping for buildings,Group 2
+2016,Giorgio Alfredo Spedicato,Poster,The markovchain R package,Group 2
+2016,Longyi Bi,Poster,Time Flies - Use R to Analyze the Changing Airline Industry,Group 2
+2016,Hannes Gislason,Poster,Logistic modelling of increased antibacterial resistance with sales,Group 2
+2016,Alison Agnew Whipple,Poster,Analyzing and visualizing spatially and temporally variable floodplain inundation,Group 2
+2016,Jim Porzak,Poster,Data Quality Profiling - The First Step with New Data,Group 2
+2016,Jim Porzak,Poster,Plotting for Marketers - Seeing the Story,Group 2
+2016,Toby Dylan Hocking,Poster,Reproducible research works_with_R,Group 2
+2016,Stefan  Reuscher,Poster,Rapid development of shiny apps for in-house data mining in biological data,Group 2
+2016,Myfanwy E. Johnston,Poster,Encounters of the Chinook kind: visualizing fish movement with R,Group 2
+2016,Christopher David Desjardins,Poster,Profile Analysis of Multivariate Data Using the  profileR Package,Group 2
+2016,Martin Sill,Poster,Data Analysis Pipeline for the Molecular Diagnosis of Brain Tumors,Group 2
+2016,Matthew David Poti,Poster,Giving a boost to renewable energy development: predicting reef fish community distributions in the Main Hawaiian Islands using boosted regression trees,Group 2
+2016,Kara Downey,Poster,Developing R Tools for Energy Data Analysis,Group 2
+2016,Jefferson Davis,Poster,Presidential Rankings: Visualization and Comparisons,Group 2
+2016,Pravin Ravishanker,Poster,"ALZCan: Predicting Future Onset of Alzheimer's Using Gender, Genetics, Cognitive Tests, CSF Biomarkers, and Resting State fMRI Brain Imaging",Group 2
+2016,Davor Cubranic,Poster,Web-based automated personalized homework with WebWork and R,Group 2
+2016,Karim Chine,Poster,"ROSETTAHUB, the next generation data science platform",Group 2
+2016,Earvin Balderama,Poster,hurdlr: An R package for zero-inflated and over-dispersed count data,Group 2
+2016,Rebecca Zabel Krouse,Poster,The Use of Ensemble Learning Methods in Open Source Data Challenges,Group 2
+2016,Marcos Miguel Prunello,Poster,MethylMix 2.0: a bivariate Gaussian mixture model for identifying methylation driven genes,Group 2
+2016,Scott Alan Chamberlain,Poster,request: A DSL for http requests,Group 2
+2016,Pavel Bo?ek,Poster,Multiple-Output Quantile Regression in R,Group 2
+2016,Emilio L. Cano,Poster,Monitoring nonlinear profiles with R: an application to Quality Control,Group 2
+2016,Michael A Carson,Poster,Approaches to R education in Canadian universities,Group 2
+2016,Ram Barankin,Poster,Social Vulnerability to Climate Change: Automation and Validation of Indices,Group 2
+2016,Andreea Loredana Moldovan,Poster,"Educational Disparities, Biomedical Efficacy and Science Knowledge Gaps: can the Internet help us reduce these inequalities?",Group 2
